@@ -27,9 +27,11 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         ThomasBauwens_
+    linkedin:        thomas-bauwens-064342198
     github:          GitMew
+    stackoverflow:   9352077/mew
     email:           thomas.bauwens@student.kuleuven.be
+    twitter:         ThomasBauwens_
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -54,11 +56,9 @@ author1:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    stackoverflow:   9352077/mew
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:        thomas-bauwens-064342198
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
