@@ -13,7 +13,7 @@ layout: page
 
 {% for category in featured_categories %}
   <h2 id="{{ category.slug }}" class="hr">
-    <a href="{{ category.url | relative_url }}">{{ category.title }}</a>
+    <a href="{{ category.url | relative_url }}" class="flip-title">{{ category.title }}</a>
     {% for site_category in categories %}
       {% if site_category[0] == category.slug %}
         <span class="faded fine">{{ site_category | last | size }}</span>
@@ -24,7 +24,7 @@ layout: page
     {% for tag in featured_tags %}
       {% if tag.category == category.slug %}
         <li class="h6">
-          <a href="{{ tag.url | relative_url }}">{{ tag.title }}</a>
+          <a href="{{ tag.url | relative_url }}" class="flip-title">{{ tag.title }}</a>
           {% for site_tag in tags %}
             {% if site_tag[0] == tag.slug %}
               <span class="faded fine">{{ site_tag | last | size }}</span>

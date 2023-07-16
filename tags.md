@@ -1,9 +1,10 @@
 ---
+# Copied from https://github.com/LazyRen/LazyRen.github.io/blob/master/tags.md
 permalink: /tags/
 title: Tags
 layout: list-of-tags
 order: 6
 description: >
-  List of all categories & tags on the website.
+  List of all categories and tags on the website.
 sidebar: true
 ---

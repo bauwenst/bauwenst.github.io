@@ -3,9 +3,10 @@ title: NLP
 description: >
    Posts about natural language processing.
 
-layout: list-of-tag-posts
 type: tag
+category: papers
 slug: NLP
 
+layout: list-of-tag-posts
 sidebar: false
 ---
