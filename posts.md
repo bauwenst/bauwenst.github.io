@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: list
 title: Posts
 description: >
   Everything I have ever posted on this website, in reverse chronological order.
