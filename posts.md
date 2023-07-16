@@ -1,8 +1,7 @@
 ---
-layout: list
+layout: blog
 title: Posts
 description: >
-  This is the `list` layout for showing blog posts, which shows just the title and groups them by year of publication.
-  Check out the `blog` layout for comparison.
+  Everything I have ever posted on this website, in reverse chronological order.
 grouped: true
 ---
