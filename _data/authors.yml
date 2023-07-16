@@ -8,11 +8,12 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I graduated in 2023 from the KU Leuven with a BSc and MSc in Engineering Science,
-    specialised in Computer Science with a focus on Artificial Intelligence. My master's 
-    thesis discussed fundamental problems with subword tokenisation in today's NLP.
+    Welcome to my website! I'm Thomas. I graduated in 2023 from the KU Leuven (Belgium) 
+    with a BSc and MSc in Engineering Science, specialised in Computer Science with 
+    a focus on Artificial Intelligence. My master's thesis discussed fundamental problems 
+    with subword tokenisation in the era of transformer-based natural language processing.
     
-    Big fan of \LaTeX\ and -- in the case of this website -- Markdown.
+    Big fan of LaTeX typesetting, although nothing beats Markdown's simplicity for webpages.
     
   # This photo will be used in the about section
   picture:
