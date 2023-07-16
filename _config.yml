@@ -39,6 +39,10 @@ keywords:              [engineering, computer science, essays, writing]
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/img/logo.png
 
+# Favicon
+favicon:          /assets/icons/favicomatic/favicon.ico
+apple_touch_icon: /assets/icons/favicomatic/favicon-196x196.png
+
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
@@ -53,8 +57,10 @@ menu:
 #    url:               /docs/
   - title:             Posts
     url:               /posts/
-  - title:             Example
-    url:               /example/
+#  - title:             Example
+#    url:               /example/
+  - title:             Tags
+    url:               /tags/
   - title:             About
     url:               /about/
 
