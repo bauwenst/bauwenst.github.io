@@ -25,7 +25,7 @@ title:                 Thomas Bauwens
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Official Github Pages website for ir. Thomas Bauwens.
+  Official GitHub Pages website for ir. Thomas Bauwens.
   Website created with Hydejack.
 
 # A shorter description for the sidebar.
@@ -299,11 +299,11 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    permalink:         /category/:name/
     output:            true
 
   featured_tags:
-    permalink:         /tag-:name/
+    permalink:         /tag/:name/
     output:            true
 
   projects:
