@@ -7,7 +7,7 @@ layout: page
 
 {{ content }}
 
-<!-- {% assign categories = page.categories} -->
+<!-- assign categories = page.categories -->
 {% assign categories = page.url | split: "/" | shift %}
 
 {% assign pagecat = categories | join: ' ' | append: ' ' %}
