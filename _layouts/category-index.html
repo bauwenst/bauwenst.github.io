@@ -16,7 +16,9 @@ layout: page
 <ul>
     {% for post in site.posts %}
         {% assign postcat = '' %}
-        {% for thispostcat in categories limit: pagecatlen %}
+        <!-- assign thispostcats = post.categories -->
+        {% assign thispostcats = post.url | split: "/" | shift %}
+        {% for thispostcat in thispostcats  limit: pagecatlen %}
             {% assign postcat = postcat | append: thispostcat %}
             {% assign postcat = postcat | append: ' ' %}
         {% endfor %}
