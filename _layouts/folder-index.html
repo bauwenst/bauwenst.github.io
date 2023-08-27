@@ -6,16 +6,15 @@
 layout: page
 ---
 
-{{ content }}
-
 <!-- assign categories = page.categories -->
 {% assign categories = page.url | split: "/" | shift %}
 
 {% assign pagecat = categories | join: ' ' | append: ' ' %}
 {% assign pagecatlen = categories.size %}
-<h1>{{ cat }}</h1>
+<h1>{{ pagecat }}</h1>
 <ul>
     {% for post in site.posts %}
+        <!-- This entire body is basically just a .startswith() function to check whether the index page's path prefixes the post's path. -->
         {% assign postcat = '' %}
         <!-- assign thispostcats = post.categories -->
         {% assign thispostcats = post.url | split: "/" | shift %}
@@ -29,3 +28,5 @@ layout: page
         {% endif %}
     {% endfor %}
 </ul>
+
+{{ content }}
