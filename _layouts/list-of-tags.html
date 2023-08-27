@@ -12,27 +12,27 @@ layout: page
 {% assign tags = site.tags | sort %}
 
 {% for category in featured_categories %}
-  <h2 id="{{ category.slug }}" class="hr">
-    <a href="{{ category.url | relative_url }}" class="flip-title">{{ category.title }}</a>
-    {% for site_category in categories %}
-      {% if site_category[0] == category.slug %}
-        <span class="faded fine">{{ site_category | last | size }}</span>
-      {% endif %}
-    {% endfor %}
-  </h2>
-  <ul class="related-posts">
-    {% for tag in featured_tags %}
-      {% if tag.category == category.slug %}
-        <li class="h6">
-          <a href="{{ tag.url | relative_url }}" class="flip-title">{{ tag.title }}</a>
-          {% for site_tag in tags %}
-            {% if site_tag[0] == tag.slug %}
-              <span class="faded fine">{{ site_tag | last | size }}</span>
-              {% break %}
+    <h2 id="{{ category.slug }}" class="hr">
+        <a href="{{ category.url | relative_url }}" class="flip-title">{{ category.title }}</a>
+        {% for site_category in categories %}
+            {% if site_category[0] == category.slug %}
+                <span class="faded fine">{{ site_category | last | size }}</span>
             {% endif %}
-          {% endfor %}
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+        {% endfor %}
+    </h2>
+    <ul class="related-posts">
+        {% for tag in featured_tags %}
+            {% if tag.category == category.slug %}
+                <li class="h6">
+                    <a href="{{ tag.url | relative_url }}" class="flip-title">{{ tag.title }}</a>
+                    {% for site_tag in tags %}
+                        {% if site_tag[0] == tag.slug %}
+                            <span class="faded fine">{{ site_tag | last | size }}</span>
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
 {% endfor %}
