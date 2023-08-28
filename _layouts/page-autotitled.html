@@ -1,0 +1,37 @@
+---
+# Based on the 'page' layout, except the title is generated from the URL rather than taken from frontmatter.
+# This way, you can move around pages whose title depends on their location without needing to change the titles.
+# The include of 'message' still allows a description of the page.
+
+layout: base
+---
+
+<!-- To build the title, split the relative URL (which starts with a /), drop the empty first part, 
+     reverse the part order, capitalize each part, and join them. What sucks is that there is no
+     elementwise operator in Liquid (at least not that I can see), so 
+        page.url | split: "/" | shift | capitalize | join: " ⊂ "
+     sadly doesn't work and you need to use a for loop. -->
+{% assign title = "" %}
+
+{% assign categories = page.url | split: "/" | shift %}
+{% for cat in categories reversed %}
+    {% assign Cat = cat | capitalize %}
+    {% assign title = title | append: cat %}
+    {% unless forloop.last %}
+        {% assign title = title | append: " ⊂ " %}
+    {% endunless %}
+{% endfor %}
+
+<h1>{{ title }}</h1>
+<article class="page mb6" role="article">
+  <header>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
+
+  {{ content }}
+
+</article>
+
+{% include components/dingbat.html %}
+{% include body/comments.html %}
