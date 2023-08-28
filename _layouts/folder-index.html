@@ -14,7 +14,7 @@ layout: page-autotitled
 
 {% assign pagecat = categories | join: ' ' | append: ' ' %}
 {% assign pagecatlen = categories.size %}
-<ul>
+<ul class="related-posts">
     {% for post in site.posts %}
         <!-- This entire body is basically just a .startswith() function to check whether the index page's path prefixes the post's path. -->
         {% assign postcat = '' %}
