@@ -11,7 +11,7 @@ layout: page
 
 {% assign pagecat = categories | join: ' ' | append: ' ' %}
 {% assign pagecatlen = categories.size %}
-<h1>{{ categories | reverse | capitalize | join: ' ⊂ ' }}</h1>
+<h1>{{ categories | reverse | join: ' ⊂ ' }}</h1>
 <ul>
     {% for post in site.posts %}
         <!-- This entire body is basically just a .startswith() function to check whether the index page's path prefixes the post's path. -->
