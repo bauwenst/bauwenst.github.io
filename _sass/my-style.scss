@@ -16,18 +16,21 @@
 
 // Prefix links with icons depending on the link, and pull those from the CDNs of big companies.
 //     http://xahlee.info/js/css_add_icon_to_link.html
-a[href*="twitter.com/"] {
-  background:url(https://twitter.com/favicon.ico) no-repeat left center;
-  padding-left:19px;
-}
+// Don't do it for sidebar elements, which have class "no-mark-external" exactly for this purpose.
+a:not(.no-mark-external) {
+  [href*="twitter.com/"] {
+    background:url(https://twitter.com/favicon.ico) no-repeat left center;
+    padding-left:19px;
+  }
   
-a[href*="facebook.com/"] {
-  background:url(https://www.facebook.com/favicon.ico) no-repeat left center;
-  padding-left:19px;
-}
+  [href*="facebook.com/"] {
+    background:url(https://www.facebook.com/favicon.ico) no-repeat left center;
+    padding-left:19px;
+  }
 
-a[href*="youtube.com/"] {
-  background:url(https://youtube.com/favicon.ico) no-repeat left center;
-  padding-left:19px;
-  color: tomato;
+  [href*="youtube.com/"] {
+    background:url(https://youtube.com/favicon.ico) no-repeat left center;
+    padding-left:19px;
+    color: tomato;
+  }
 }
