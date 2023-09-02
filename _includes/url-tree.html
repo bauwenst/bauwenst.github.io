@@ -5,10 +5,10 @@
 {% assign old_cwd = "" %}
 
 {% for post in sorted_posts %}    
-    <li>post.url</li>
-
     {% assign url = post.url %}
-    {% assign new_cwd = url | split: "/" | pop | join: "/" %}
+    {% assign new_cwd = url | split: "/" | shift | pop | join: "/" %}
+
+    <li>{{ new_cwd }}</li>
 
     <!-- Need to print one or more folders, from shallow to deep. -->
     {% if old_cwd != new_cwd %}

@@ -41,3 +41,9 @@
             - The one question I have is whether we have access to an md's ancestor list. I think we do.
 
 - On mobile, the path cuts off at the end, not the start. Should either scroll or cut off at the start.
+
+- Remove "featured categories".
+
+- Add a Hydejack table class (like .scroll-table) for centering a table, which seems impossible.
+
+- The site tree in /posts doesn't work. Could be many things...
