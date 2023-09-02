@@ -5,6 +5,7 @@
 -->
 {% assign pages = include.pages %}
 
+<div class="foldertree">
 <ul>
 {% assign sorted_posts = pages | sort: "url" %}
 {% assign old_cwd = "" %}
@@ -68,3 +69,4 @@
 {% endfor %}
 
 </ul>
+</div>

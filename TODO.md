@@ -50,4 +50,4 @@
 
 - The folder tree:
   - Should be restyled with some existing CSS class to turn nested ULs into file trees.
-  - Needs nesting logic (first prototype in Python).
+  - Needs hyperlinks.
