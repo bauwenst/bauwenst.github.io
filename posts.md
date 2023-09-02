@@ -7,4 +7,4 @@ grouped: true
 ---
 
 ## Site map:
-{% include url-tree.html pages=site.posts %}
+{% include url-tree.liquid pages=site.posts %}
