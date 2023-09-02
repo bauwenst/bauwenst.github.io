@@ -1,10 +1,16 @@
+<!-- 
+    Liquid code to generate a file tree based on the list of
+    URLs of a given list of objects.
+    Prototyped in Python because I'm not a psychopath. 
+-->
 {% assign pages = include.pages %}
 
 <ul>
 {% assign sorted_posts = pages | sort: "url" %}
 {% assign old_cwd = "" %}
+{% assign depth = -1 %}
 
-{% for post in sorted_posts %}    
+{% for post in sorted_posts %}
     {% assign url = post.url %}
     {% assign new_cwd = url | split: "/" | shift | pop | join: "/" %}
 
@@ -13,7 +19,7 @@
         {% assign old_parts = old_cwd | split: "/" %}
         {% assign new_parts = new_cwd | split: "/" %}
         {% assign first_unequal_idx = old_parts | size %}
-        
+
         {% assign old_parts_len = old_parts | size %}
         {% assign new_parts_len = new_parts | size %}
 
@@ -27,14 +33,25 @@
                 {% assign first_unequal_idx = i %}
                 {% break %}
             {% endif %}
+            <!-- In case that last "if" never triggered, the new path is an extension of the old path, and you should
+            start printing from the new parts onward. This is what the initial condition ensures. -->
         {% endfor %}
-        <!-- In case the "if" never triggered, the new path is an extension of the old path, and you should
-                start printing from the new parts onward. This is what the initial condition ensures. -->
 
+        <!-- Close all open lists -->
+        {% assign old_depth = depth %}
+        {% assign depth = first_unequal_idx | minus: 1 %}
+        {% assign loop_end = old_depth | minus: depth | minus: 1 %}
+        {% for _ in (0..loop_end) %}  <!-- Immediately quits when loop_end < 0. -->
+            </ul></li>
+        {% endfor %}
+
+        <!-- Print new nodes -->
         {% assign loop_end = new_parts_len | minus: first_unequal_idx | minus: 1 %}
         {% for i in (0..loop_end) %}
             {% assign offset_idx = first_unequal_idx | plus: i %}
-            <li>{{ new_parts[offset_idx] }}</li>
+            {% assign depth = depth | plus: 1 %}
+            <li>{{ new_parts[offset_idx] }}
+            <ul>
         {% endfor %}
     {% endif %}
 
@@ -44,4 +61,10 @@
     <!-- url | split: "/" | last      or alternatively     post.title. -->
     {% assign old_cwd = new_cwd %}
 {% endfor %}
+
+<!-- Close everything else. -->
+{% for _ in (0..depth) %}
+    </ul></li>
+{% endfor %}
+
 </ul>
