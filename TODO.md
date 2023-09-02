@@ -46,4 +46,8 @@
 
 - Add a Hydejack table class (like .scroll-table) for centering a table, which seems impossible.
 
-- The site tree in /posts doesn't work. Could be many things...
+- Icons next to URLs somehow not working. Might be completely bricked up now that I have the not().
+
+- The folder tree:
+  - Should be restyled with some existing CSS class to turn nested ULs into file trees.
+  - Needs nesting logic (first prototype in Python).

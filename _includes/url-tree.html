@@ -8,8 +8,6 @@
     {% assign url = post.url %}
     {% assign new_cwd = url | split: "/" | shift | pop | join: "/" %}
 
-    <li>{{ new_cwd }}</li>
-
     <!-- Need to print one or more folders, from shallow to deep. -->
     {% if old_cwd != new_cwd %}
         {% assign old_parts = old_cwd | split: "/" %}
@@ -27,6 +25,7 @@
 
             {% if old_parts[i] != new_parts[i] %}
                 {% assign first_unequal_idx = i %}
+                {% break %}
             {% endif %}
         {% endfor %}
         <!-- In case the "if" never triggered, the new path is an extension of the old path, and you should
