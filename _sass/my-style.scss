@@ -14,103 +14,81 @@
 }
 
 
-// Prefix links with icons depending on the link, and pull those from the CDNs of big companies.
-//     http://xahlee.info/js/css_add_icon_to_link.html
-// Don't do it for sidebar elements, which have class "no-mark-external" exactly for this purpose.
-a:not(.no-mark-external) {
-  [href*="twitter.com/"] {
-    background:url(https://twitter.com/favicon.ico) no-repeat left center;
-    padding-left:19px;
-  }
-  
-  [href*="facebook.com/"] {
-    background:url(https://www.facebook.com/favicon.ico) no-repeat left center;
-    padding-left:19px;
-  }
+// Suffix links with icons depending on the link. Don't do it for sidebar elements, which have class "no-mark-external" exactly for this purpose.
+//
+// Can be done in two ways:
+//  - Using CSS's "background" property for the a-tag (like http://xahlee.info/js/css_add_icon_to_link.html);
+//  - Using CSS's "content" property for the ::after tag (like Hydejack does by default);
+// For the icons, you can either:
+//  - Use a font that has them (Hydejack's default, using the icomoon font);
+//  - Pull them from the CDNs of big companies;
+//  - Upload them yourself;
+a[href*="twitter.com/"]:not(.no-mark-external)::after {
+    content: "\f099";
+    color: #26a7de;
 
-  [href*="youtube.com/"] {
-    background:url(https://youtube.com/favicon.ico) no-repeat left center;
-    padding-left:19px;
-    color: tomato;
-  }
+    font-family: "FontAwesome";
+    font-weight: normal;
+
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-bottom: 3px;
+
+    padding-right: 3px;
+}
+
+a[href*="facebook.com/"]:not(.no-mark-external)::after {
+    content: "\f082";
+    color: #1877F2;
+
+    font-family: "FontAwesome";
+    font-weight: normal;
+
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-bottom: 3px;
+
+    padding-right: 3px;
+}
+
+a[href*="youtube.com/"]:not(.no-mark-external)::after {
+    content: "\f16a";
+    color: red;
+
+    font-family: "FontAwesome";
+    font-weight: normal;
+
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-bottom: 3px;
+
+    padding-right: 3px;
 }
 
 
-
 // Folder tree for nested ul's, surrounded by a div. 
-// https://codepen.io/sazzad/pen/gEEKQb
-.foldertree {
-    position: relative;
-    background: white;
-    margin-top: 20px;
-    padding: 30px;
-    font-family: 'Roboto Mono', monospace;
-    font-size: .85rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-
-    span {
-        font-size: 13px;
-        font-style: italic;
-        letter-spacing: .4px;
-        color: #a8a8a8;
-    }
-
-    .fa-folder-open, .fa-folder {
-        color: #007bff;
-    }
-
-    .fa-html5 {
-        color: #f21f10;
-    }
-
-    ul {
-        padding-left: 5px;
-        list-style: none;
-        
-        li {
-        position: relative;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 15px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        
-        &:before {
-            position: absolute;
-            top: 15px;
-            left: 0;
-            width: 10px;
-            height: 1px;
-            margin: auto;
-            content: '';
-            background-color: #666;
-        }
-        
-        &:after {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            width: 1px;
-            height: 100%;
-            content: '';
-            background-color: #666;
-        }
-        
-        &:last-child:after {
-            height: 15px;
-        }
-        }
-        
-        a {
-        cursor: pointer;
-        
-        &:hover {
-            text-decoration: none;
-        }
-        }
-    }
+// Used to be based on https://codepen.io/sazzad/pen/gEEKQb
+// But now based on    https://codepen.io/asraven/pen/qbrQMX
+.foldertree {    
+  ul {
+    margin-left: 10px;
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+  }
+  
+  li {
+    list-style: none;
+    color: #888;
+    font-size: 17px;
+    font-weight: normal;
+  }
+    
+  li.folder::before {
+    font-family: FontAwesome;
+    content: "\f07b";
+    padding-right: 3px;  
+  }
 }

@@ -51,3 +51,5 @@
 - The folder tree:
   - Should be restyled with some existing CSS class to turn nested ULs into file trees.
   - Needs hyperlinks.
+
+- ":note" blocks should clearly have a light gray background. They look like any other paragraph right now.
