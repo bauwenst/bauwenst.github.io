@@ -1,0 +1,45 @@
+{% assign pages = include.pages %}
+
+{% assign sorted_posts = site.posts | sort: "url" %}
+{% assign old_cwd = "" %}
+{% for post in sorted_posts %}
+    {% assign url = post.url %}
+    {% assign new_cwd = url | split: "/" | pop | join: "/" %}
+
+    <!-- Need to print one or more folders, from shallow to deep. -->
+    {% if old_cwd != new_cwd %}
+        {% assign old_parts = old_cwd | split: "/" %}
+        {% assign new_parts = new_cwd | split: "/" %}
+        {% assign first_unequal_idx = old_parts | size %}
+        
+        {% assign old_parts_len = old_parts | size %}
+        {% assign new_parts_len = new_parts | size %}
+
+
+        {% assign loop_end = new_parts_len | minus: 1 %}
+        {% for i in 0..loop_end %}
+            {% if i == old_parts_len %}
+                {% break %}
+            {% endif %}
+
+            {% if old_parts[i] != new_parts[i] %}
+                {% assign first_unequal_idx = i %}
+            {% endif %}
+        {% endfor %}
+        <!-- In case the "if" never triggered, the new path is an extension of the old path, and you should
+                start printing from the new parts onward. This is what the initial condition ensures. -->
+
+        {% assign loop_end = new_parts_len | minus: first_unequal_idx | minus: 1 %}
+        {% for i in 0..loop_end %}
+            {% assign offset_idx = first_unequal_idx | plus: i %}
+            {{ "\t" | times: offset_idx }}
+            {{ new_parts[offset_idx] }}
+        {% endfor %}
+    {% endif %}
+
+    <!-- Print file -->
+    {% assign indent_level = new_cwd | split: "/" | size %}
+    <!-- "\t" | times: indent_level -->
+    <!-- url | split: "/" | last      or alternatively     post.title. -->
+    {% assign old_cwd = new_cwd %}
+{% endfor %}
