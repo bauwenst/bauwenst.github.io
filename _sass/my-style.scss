@@ -88,7 +88,6 @@ a[href*="wikipedia.org/"]:not(.no-mark-external):not(.no-mark)::after {
 }
 
 
-
 // Removes unnecessary vertical scrollbar next to equation blocks
 // described at https://github.com/squidfunk/mkdocs-material/issues/2142
 // and fixed at https://github.com/mathjax/MathJax/issues/2521#issuecomment-687217519
@@ -107,4 +106,16 @@ table.center-table {
     display: table;  // "display: block" cancels the effect of auto-margins, so you must override it.
     margin-left: auto;
     margin-right: auto;
+}
+
+
+// Filled note box.
+.note.filled {
+    background: var(--gray-bg);  // Nice light-gray. Using a variable so it supports night mode.
+    padding: 14px;
+    padding-top: 22px;
+}
+
+.note.filled::before {
+    top: 4px;
 }
