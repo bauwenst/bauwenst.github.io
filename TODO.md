@@ -40,7 +40,10 @@
         - Adding an `index.html` file per subfolder seems like a good idea, as suggested here: https://stackoverflow.com/a/38860537/9352077.
             - The one question I have is whether we have access to an md's ancestor list. I think we do.
 
-- On mobile, the path cuts off at the end, not the start. Should either scroll or cut off at the start.
+
+
+
+- On mobile, a post's path cuts off at the end, not the start. Should either scroll or cut off at the start.
 
 - Remove "featured categories".
 
@@ -53,3 +56,5 @@
   - Needs hyperlinks.
 
 - ":note" blocks should clearly have a light gray background. They look like any other paragraph right now.
+
+- Allow users to click on an `<img>` to enlarge it.

@@ -23,51 +23,45 @@
 //  - Use a font that has them (Hydejack's default, using the icomoon font);
 //  - Pull them from the CDNs of big companies;
 //  - Upload them yourself;
-a[href*="twitter.com/"]:not(.no-mark-external)::after {
-    content: "\f099";
+a[href*="twitter.com/"]:not(.no-mark-external):not(.no-mark)::after {
+    content: "\00a0\f099";
     color: #26a7de;
 
-    font-family: "FontAwesome";
+    font-family: "FontAwesome" !important;
     font-weight: normal;
 
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 12px;
-    margin-bottom: 3px;
-
-    padding-right: 3px;
+    padding-right: 2px;
 }
 
-a[href*="facebook.com/"]:not(.no-mark-external)::after {
-    content: "\f082";
-    color: #1877F2;
+a[href*="facebook.com/"]:not(.no-mark-external):not(.no-mark)::after {
+    content: "\00a0\f082" !important;
+    color: #1877F2 !important;
 
-    font-family: "FontAwesome";
+    font-family: "FontAwesome" !important;
     font-weight: normal;
 
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 12px;
-    margin-bottom: 3px;
-
-    padding-right: 3px;
+    padding-right: 2px;
 }
 
-a[href*="youtube.com/"]:not(.no-mark-external)::after {
-    content: "\f16a";
-    color: red;
+a[href*="youtube.com/"]:not(.no-mark-external):not(.no-mark)::after {
+    content: "\00a0\f16a" !important;
+    color: red !important;
 
-    font-family: "FontAwesome";
+    font-family: "FontAwesome" !important;
     font-weight: normal;
 
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 12px;
-    margin-bottom: 3px;
-
-    padding-right: 3px;
+    padding-right: 2px;
 }
 
+a[href*="wikipedia.org/"]:not(.no-mark-external):not(.no-mark)::after {
+    content: "\00a0\f266" !important;
+    color: darkblue !important;
+
+    font-family: "FontAwesome" !important;
+    font-weight: normal;
+
+    padding-right: 2px;
+}
 
 // Folder tree for nested ul's, surrounded by a div. 
 // Used to be based on https://codepen.io/sazzad/pen/gEEKQb
