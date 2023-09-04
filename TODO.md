@@ -58,3 +58,13 @@
 - ":note" blocks should clearly have a light gray background. They look like any other paragraph right now.
 
 - Allow users to click on an `<img>` to enlarge it.
+    - Pure CSS, extra HTML, nice animation, difficult close: https://codepen.io/ongtiffany/pen/BoOeQV
+    - Pure CSS, no extra HTML, no animation, easy close: https://codepen.io/gschier/pen/kyRXVx
+    - Plugin for galleries: https://www.lightgalleryjs.com/
+    - JS, extra HTML, nice animation, difficult close: https://www.codingnepalweb.com/responsive-image-lightbox-javascript/
+    - Pure CSS, extra HTML, nice animation, difficult close: http://sylviavanos.nl/CSSBox/
+    - Many styles: https://freshdesignweb.com/image-lightbox/
+        - jQuery showcase from simple to complex: https://v3.osvaldas.info/examples/image-lightbox-responsive-touch-friendly/
+        - jQuery: https://codepen.io/nsom/pen/VbqLew
+        - **Pure CSS: https://codepen.io/nebo/pen/ONXejO .**
+        - **Pure CSS: https://tympanus.net/Tutorials/CSS3Lightbox/index3.html .**

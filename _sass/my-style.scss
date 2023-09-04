@@ -86,3 +86,25 @@ a[href*="wikipedia.org/"]:not(.no-mark-external):not(.no-mark)::after {
     padding-right: 3px;  
   }
 }
+
+
+
+// Removes unnecessary vertical scrollbar next to equation blocks
+// described at https://github.com/squidfunk/mkdocs-material/issues/2142
+// and fixed at https://github.com/mathjax/MathJax/issues/2521#issuecomment-687217519
+mjx-container {
+    display: inline-block;
+}
+mjx-assistive-mml {
+    right: 0px;
+    bottom: 0px;
+}
+
+
+// Centered table class.
+// https://www.w3schools.com/howto/howto_css_table_center.asp
+table.center-table {
+    display: table;  // "display: block" cancels the effect of auto-margins, so you must override it.
+    margin-left: auto;
+    margin-right: auto;
+}
