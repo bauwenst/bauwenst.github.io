@@ -9,11 +9,12 @@ author1:
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     Welcome to my website! I'm Thomas. I graduated in 2023 from the KU Leuven (Belgium) 
-    with a BSc and MSc in Engineering Science, specialised in Computer Science with 
-    a focus on Artificial Intelligence. My master's thesis discussed fundamental problems 
-    with subword tokenisation in the era of transformer-based natural language processing.
+    with a BSc and MSc in Engineering Science from the department of Computer Science, specialised 
+    in Artificial Intelligence. My master's thesis was on the topic of fundamental problems 
+    with subword tokenisation in transformer-based natural language processing.
     
-    Big fan of LaTeX typesetting, although nothing beats Markdown's simplicity for webpages.
+    Big fan of LaTeX typesetting, although this website is entirely powered by Markdown (and CSS magic behind the scenes).
+    I've also been into amateur photography for a decade, and am currently shooting mirrorless (Panasonic Lumix G7).
     
   # This photo will be used in the about section
   picture:
@@ -24,7 +25,7 @@ author1:
     #  2x:            https://via.placeholder.com/256x256
 
   # Social media icons in sidebar
-  # Comment/uncommet to show/hide
+  # Comment/uncomment to show/hide
   # Rearrange to change the order in which they appear
   social:
     linkedin:        thomas-bauwens-064342198
