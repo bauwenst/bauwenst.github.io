@@ -1,5 +1,5 @@
 # Website
-This repo is used by GitHub Pages to deploy my personal website at [GitMew.GitHub.io](gitmew.github.io).
+This repo is used by GitHub Pages to deploy my personal website at [BauwensT.GitHub.io](bauwenst.github.io).
 
 ## Hat-tips
 - qwtel for his [Hydejack](https://hydejack.com/) Jekyll theme, which is the framework around which the entire website is built. It allows you to only use Markdown for adding content, which is formatted using Liquid templates internally. If you're interested yourself, see the [starter kit](https://github.com/hydecorp/hydejack-starter-kit).
