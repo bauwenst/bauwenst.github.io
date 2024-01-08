@@ -1,15 +1,10 @@
 ---
 layout: post
-title: This is deep
-image: 
-  path: /assets/img/blog/jeremy-bishop@0,5x.jpg
+title: Ignore this page.
 description: >
-    So deep bro.
-tags: one
+    This post is nested deep!
+tags: wip
 sitemap: false
 ---
 
-This post is nested deep!
-{:.lead}
-
-Anyway, that's it.
+I have put it here for testing my new website. Nothing to see here.
