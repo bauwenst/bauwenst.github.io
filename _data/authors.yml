@@ -11,10 +11,11 @@ author1:
     Welcome to my website! I'm Thomas. I graduated in 2023 from the KU Leuven (Belgium) 
     with a BSc and MSc in Engineering Science from the department of Computer Science, specialised 
     in Artificial Intelligence. My master's thesis was on the topic of fundamental problems 
-    with subword tokenisation in transformer-based natural language processing.
+    with popular subword tokenisers in language modelling.
     
     Big fan of LaTeX typesetting, although this website is entirely powered by Markdown (and CSS magic behind the scenes).
-    I've also been into amateur photography for a decade, and am currently shooting mirrorless (Panasonic Lumix G7).
+    I've also been into amateur photography for a decade, and am currently shooting mirrorless (long history with my trusty 
+    Panasonic Lumix G7, now learning to master the Sony Alpha 7CII).
     
   # This photo will be used in the about section
   picture:
