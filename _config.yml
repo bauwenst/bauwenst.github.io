@@ -25,11 +25,13 @@ title:                 Thomas Bauwens
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Official GitHub Pages website for ir. Thomas Bauwens.
-  Website created with Hydejack.
+  Official website of drs. ir. Thomas Bauwens.
 
 # A shorter description for the sidebar.
-tagline:               Essays about engineering, mostly.
+tagline:               > 
+  Reasons like an engineer.
+  Sees like a photographer.
+  Writes like a classicist.
 
 # A list of keywords for your blog
 keywords:              [engineering, computer science, essays, writing]
