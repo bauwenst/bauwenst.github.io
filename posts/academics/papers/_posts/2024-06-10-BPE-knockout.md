@@ -2,14 +2,16 @@
 layout: post
 
 title: "BPE-knockout: Pruning Pre-existing BPE Tokenisers with Backwards-compatible Morphological Semi-supervision"
-description: My first published paper!
+description: My first ever published paper, in one of the top conferences in NLP.
 ---
-After a harrowing round of peer review, I'm pleased to say that I am officially a published author. This article gives a short overview of that first paper. For a more detailed and slightly more technical overview, watch the 13-minute video explainer [here](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-05-19/9123qlr/NAACL2024_BPE-knockout.mp4).
+After a harrowing round of peer review earlier this year (story for another day), I'm pleased to say that I am officially a published author. This article gives a short overview of my first paper, [*BPE-knockout: Pruning Pre-existing BPE Tokenisers with Backwards-compatible Morphological Semi-supervision*](https://aclanthology.org/2024.naacl-long.324/). For a more detailed and slightly more technical overview, watch the 13-minute video explainer [here](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-05-19/9123qlr/NAACL2024_BPE-knockout.mp4).
 
 1. dummy
 {:toc}
 
 *This blog post was also posted to my co-author Pieter's website: [https://pieter.ai/bpe-knockout](https://pieter.ai/bpe-knockout).*
+
+---
 
 Almost a decade ago, [it was incontrovertibly shown](https://aclanthology.org/P16-1162/) that NLP systems could process language as a sequence of sub-word units just as well as (and often better than) processing full words instead. With that, the field of sub-word tokenisation was born, tasked with splitting words into such sub-word units. Riding on the success of [attention in LSTMs](https://arxiv.org/abs/1409.0473) and later [in transformers](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf), the *byte-pair encoding (BPE)* tokeniser has become the default sub-word tokeniser: it is used in popular models such as LLaMA, the family of GPTs, Mistral etc... and requires no hand-crafted linguistic resources, like the models we train. 
 
@@ -36,3 +38,20 @@ Disabling a merge $$(x,y)\to xy$$ means that the token $$xy$$ can never be forme
 
 By knocking holes into the BPE merge graph informed by desirable segmentations, we effectively inject linguistic knowledge into the otherwise unsupervised BPE tokeniser, in such a way that it remembers it in future segmentations. This is in contrast to [training BPE on a pre-segmented corpus](https://aclanthology.org/W17-4706/), which still crosses desirable boundaries at inference time despite never having done so at training time.
 
+# Software and citation
+You can find the code for the paper [on GitHub](https://github.com/bauwenst/BPE-knockout), with an easy-to-use wrapper class found in my tokeniser library [TkTkT](https://github.com/bauwenst/TkTkT).
+
+If you use our paper for your own work, please cite:
+```bibtex
+@inproceedings{bauwens-delobelle-2024-bpe,
+    title = "{BPE}-knockout: Pruning Pre-existing {BPE} Tokenisers with Backwards-compatible Morphological Semi-supervision",
+    author = "Bauwens, Thomas  and  Delobelle, Pieter",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.324",
+    pages = "5810--5832"
+}
+```
