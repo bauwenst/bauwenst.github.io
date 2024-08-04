@@ -63,6 +63,27 @@ a[href*="wikipedia.org/"]:not(.no-mark-external):not(.no-mark)::after {
     padding-right: 2px;
 }
 
+a[href*="wiktionary.org/"]:not(.no-mark-external):not(.no-mark)::after {
+  content: "\00a0\f266" !important;
+  color: darkblue !important;
+
+  font-family: "FontAwesome" !important;
+  font-weight: normal;
+
+  padding-right: 2px;
+}
+
+a[href*="github.com/"]:not(.no-mark-external):not(.no-mark)::after {
+  content: "\00a0\f09b" !important;
+  color: rgb(0, 0, 0) !important;
+
+  font-family: "FontAwesome" !important;
+  font-weight: normal;
+
+  padding-right: 2px;
+}
+
+
 // Folder tree for nested ul's, surrounded by a div. 
 // Used to be based on https://codepen.io/sazzad/pen/gEEKQb
 // But now based on    https://codepen.io/asraven/pen/qbrQMX

@@ -100,7 +100,14 @@ the-TkTkT-repository/
                 splitters.py
     tst/
 ```
-Once we will have installed the package, we can access code in e.g. `dropout.py` from anywhere on our machine using `import tktkt.models.bpe.dropout as dp` or, if there is a particular class we want to import (say, `BPEDropout`), like `from tktkt.models.bpe.dropout import BPEDropout`.
+Once we will have installed the package (we'll get to that!), we can access code in e.g. `dropout.py` from anywhere on our machine using 
+```python
+import tktkt.models.bpe.dropout as dp
+```
+or, if there is a particular class we want to import (say, `BPEDropout`), like
+```python
+from tktkt.models.bpe.dropout import BPEDropout`
+```
 
 ## Local imports
 But what if we want to import code from somewhere in the package *before* it is installed, because we are still in the early stages of developing the package? That's where *relative imports* come in.
@@ -112,12 +119,12 @@ from tktkt.preparation.boundaries import BoundaryMarker
 ```
 ... because `tktkt` hasn't been installed as a package yet. The IDE and interpreter don't know what `tktkt` is. All they know about our project at the moment is that we are currently inside a Python file, and hence we can use that information to specify other files in the package relative to the current file:
 ```python
-from .bpe.base import ClassicBPE
+from .base import ClassicBPE
 from ...preparation.boundaries import BoundaryMarker
 ```
-Note that `.` is the submodule in which we find the current file (`bpe`), `..` is the submodule you find that submodule in (`models`) and the same for `...` (`tktkt`).
+In this, `.` is the submodule in which we find the current file (`bpe`), `..` is the submodule you find that submodule in (`models`) and the same for `...` (`tktkt`).
 
-Do keep in mind that *you cannot execute files with relative imports*. Even if you have an `if __name__ == "__main__"` in that file, the relative import will cause the obscure error `ImportError: attempted relative import with no known parent package`, which keeps happening even after you have installed your package. This is trivial to solve, though: if we want to run `dropout.py`, we can just create a new Python script outside the package where we `import tktkt.models.bpe.dropout` once we have it installed. (The whole point of a package is that it contains subroutines for use in executables, *not* that it contains standalone executables, anyway.)
+Do keep in mind that *you cannot execute files with relative imports*. Even if you have an `if __name__ == "__main__"` in that file, the relative import will cause the obscure error `ImportError: attempted relative import with no known parent package`, which still occurs even after you have installed your package. This is trivial to solve, though: if we want to run `dropout.py`, we can just create a new Python script outside the package where we `import tktkt.models.bpe.dropout` once we have it installed. (The whole point of a package is that it contains subroutines for use in executables, *not* that it contains standalone executables, anyway.)
 
 ## Importing `from` non-file modules
 It makes sense to import `from` a `.py` file. Yet, any module can be imported from, and folders can be modules too. How does that work? The `__init__.py` file serves as a stand-in for the folder in that case. 
@@ -126,10 +133,10 @@ Let's say our package has some absolutely essential classes that are relevant fo
 ```python
 from .models.bpe.base import ClassicBPE
 ```
-in `src/tktkt/__init__.py`, users can `from tktkt import ClassicBPE` without having to know exactly where it is implemented inside the package code. *Do not go overboard with this,* or you end up like HuggingFace `transformers` which has *every class* available at the top level, exposing way too many niche classes to every user. In technical jargon, we call such design a [goat rope](https://en.wiktionary.org/wiki/goat_rope).
+in `src/tktkt/__init__.py`, users can write `from tktkt import ClassicBPE` without having to know exactly where it is implemented inside the package code. *Do not go overboard with this,* or you end up like HuggingFace `transformers` which has *every class* available at the top level, exposing way too many niche classes to every user. In technical jargon, we call such design a [goat rope](https://en.wiktionary.org/wiki/goat_rope).
 
 ## `*` imports
-The statement `from X import *` doesn't quite mean "import everything there is to import from module `X`". What it actually means is "import everything there is to import *with a name declared in the variable* `__all__` *of module* `X`". This means you can give users the choice to either import arbitrary lists of objects they want to import, or, by defining `__all__`, a list of predefined names. 
+The statement `from X import *` doesn't quite mean "import everything there is to import from module `X`". What it actually means is "import everything there is to import from module `X` *with a name declared in the variable `__all__` of that module*". Indeed, you can heavily restrict what `*` imports, meaning you can give users the choice to either import a pre-made set of variables which you think most of them will need, whilst still allowing them (when they don't use `*`) to import variables that fall outside of that as long as they exist in `X`.
 
 One very practical reason you'd want to use this is to prevent importing everything being imported by the file you are importing everything from. For example: we saw that `dropout.py` itself imports `BoundaryMarker` and `ClassicBPE`. If we now run `from tktkt.models.bpe.dropout import *`, we will import everything declared in `dropout.py` *and* everything imported, hence making `ClassicBPE` available to the user even though it was only meant as an auxiliary class for the implementation, not for the end user. To solve this, we put `__all__ = ["BPEDropout"]` at the bottom of the file. Users can now either import just the class we want to expose with `from tktkt.models.bpe.dropout import *`, or they can still specify they actually want `from tktkt.models.bpe.dropout import BPEDropout, ClassicBPE`.
 
