@@ -73,6 +73,6 @@ $$
     \exp\left(\frac{N\ln(\text{PPL})}{T}\right)
 $$
 
-which, as you might now notice, is just $$\exp(\ln 2\cdot\text{BPC})$$, and since $\ln 2 > 0$ and $e > 1$, the latter transformation is order-preserving (any ordered sequence of BPC values stays ordered after applying said transformation).
+which, as you might now notice, is just $$\exp(\ln 2\cdot\text{BPC})$$, and since $$\ln 2 > 0$$ and $$e > 1$$, the latter transformation is order-preserving (any ordered sequence of BPC values stays ordered after applying said transformation).
 
 You can find [an implementation of PPL-based BPC](https://github.com/bauwenst/LaMoTO/blob/master/src/lamoto/measuring/bpc.py) in my language modelling package [LaMoTO](https://github.com/bauwenst/LaMoTO).
