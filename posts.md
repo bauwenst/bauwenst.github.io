@@ -6,5 +6,7 @@ description: >
 grouped: true
 ---
 
+<!-- I want the site map BELOW the list of posts and WITH links...
 ## Site map:
-{% include url-tree.liquid pages=site.posts %}
+{% include url-tree.liquid pages=site.posts %} 
+-->
