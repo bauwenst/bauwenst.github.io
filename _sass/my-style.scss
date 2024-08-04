@@ -95,7 +95,7 @@ a[href*="aclanthology.org/"]:not(.no-mark-external):not(.no-mark)::after {
 
 a[href*="aclanthology.org/"]:not(.no-mark-external):not(.no-mark)::after {
   content: ".......";  // Terrific spacing bruh
-  color: rgb(0, 0, 0, 0) !important;
+  color: rgba(0, 0, 0, 0) !important;
   background: url(https://aclanthology.org/images/acl-logo.svg) no-repeat right center;
   background-size: contain;
 }

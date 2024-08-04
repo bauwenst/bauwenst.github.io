@@ -3,6 +3,8 @@ layout: post
 
 title: "BPE-knockout: Pruning Pre-existing BPE Tokenisers with Backwards-compatible Morphological Semi-supervision"
 description: My first ever published paper, in one of the top conferences in NLP.
+
+tags: NLP
 ---
 After a harrowing round of peer review earlier this year (story for another day), I'm pleased to say that I am officially a published author. This article gives a short overview of my first paper, [*BPE-knockout: Pruning Pre-existing BPE Tokenisers with Backwards-compatible Morphological Semi-supervision*](https://aclanthology.org/2024.naacl-long.324/). For a more detailed and slightly more technical overview, watch the 13-minute video explainer [here](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2024-05-19/9123qlr/NAACL2024_BPE-knockout.mp4).
 

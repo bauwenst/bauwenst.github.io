@@ -1,7 +1,7 @@
 ---
 title: NLP
 description: >
-   Posts about natural language processing.
+   Posts about my research discipline, natural language processing.
 
 type: tag
 category: papers
