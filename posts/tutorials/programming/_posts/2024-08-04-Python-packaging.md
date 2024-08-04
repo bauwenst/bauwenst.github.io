@@ -185,12 +185,12 @@ github = [
     "clavier              @ git+https://github.com/MaxHalford/clavier"
 ]
 ```
-Whenever I create a new package, I just copy this file from an existing package and change the first five fields under `[project]`, as well as the dependencies. I will now go into further detail about how to deal with such dependencies.
+Whenever I create a new package, I just copy this file from an existing package and change the first five fields under `[project]`, as well as the dependencies, which is what the majority of the rest of this article is about.
 
 ## Dependencies
 Long ago, dependencies where specified in a file called `requirements.txt`. Nowadays, they all go inside the `pyproject.toml` (although there [is some disagreement](https://stackoverflow.com/a/76548420/9352077) whether you should also still have a `requirements.txt`).
 
-All (direct) dependencies for `tktkt` are listed above as lists of strings. The syntax for those strings is exactly the same as for strings you would put after `pip install`, e.g. `pip install "transformers >= 4.39.3`. As usual, you can install packages from different repositories:
+All (direct) dependencies for `tktkt` are given at the end of the above file, in the form of two lists of strings. The syntax for those strings is exactly the same as for strings you would put after `pip install`, e.g. `pip install "transformers >= 4.39.3"`. As usual, you can install packages from different repositories:
 - By default, running `pip install transformers` via the command line will make a request to the [*Python Package Index (PyPI)*](https://pypi.org/) to retrieve the latest version of the desired package, analogous to `npm` for *node.js*. When you specify a dependency with only a name, the assumption is that it exists on PyPI.
 - If a package was never uploaded to PyPI, or is way out of date there (one example being `supar`, whose [latest PyPI version](https://pypi.org/project/supar/#history) is from 2021 whereas its [GitHub source](https://github.com/yzhangcs/parser) is two years ahead), you'll probably want to install it from GitHub instead of PyPI. In that case, you don't just specify the name of the package, but also `@ git+` and the URL.
 
