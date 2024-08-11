@@ -251,7 +251,7 @@ dependencies = [
     ...
 ]
 ```
-to TkTkT's `pyproject.toml`, *an editable install of TkTkT would clone the GitHub version create a copy of `bpe_knockout` to `site-packages`* and silently make my original editable install obsolete.
+to TkTkT's `pyproject.toml`, *an editable install of TkTkT would download a copy of the GitHub version of `bpe_knockout` to `site-packages`* and silently make my original editable install obsolete.
 
 ## The solution: optional dependencies
 Since the `pyproject.toml` summarises not just your package code but also the rest of the repo (like where your `README.md` and `LICENSE` file are), it is supposed to capture both the dependencies for the package as well as any extra dependencies you need to run the tests. Obviously, it's useless to install the latter if you are not developing the package, so the `pyproject.toml` allows specifying groups of *optional dependencies* that the user can opt to install alongside the package. The way you do this is by declaring one or more lists under the `[project.optional-dependencies]` header. The way you install the package *with* those optional dependencies, *manually with `pip` or automatically with a dependency string*, is by modifying the package name with the name of the list to install. 
