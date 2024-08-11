@@ -2,7 +2,7 @@
 layout: post
 
 title: "BPE-knockout: Pruning Pre-existing BPE Tokenisers with Backwards-compatible Morphological Semi-supervision"
-description: My first ever published paper, in one of the top conferences in NLP.
+description: Quick overview of my first-ever published paper, presented as a poster at NAACL 2024, one of the leading conferences in NLP.
 
 tags: NLP
 ---
@@ -11,7 +11,7 @@ After a harrowing round of peer review earlier this year (story for another day)
 1. dummy
 {:toc}
 
-*This blog post was also posted to my co-author Pieter's website: [https://pieter.ai/bpe-knockout](https://pieter.ai/bpe-knockout).*
+*This blog post was cross-posted to my co-author Pieter's website: [https://pieter.ai/bpe-knockout](https://pieter.ai/bpe-knockout).*
 
 ---
 
