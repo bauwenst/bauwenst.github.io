@@ -13,10 +13,10 @@ layout: page
 {% assign categories = site.categories | sort %}
 {% assign tags = site.tags | sort %}
 
-<h2 id="all">
+<h1 id="all">
     <a href="/posts/" class="flip-title">All posts</a>
     <span class="faded fine">{{ site.posts | size }}</span>
-</h2>
+</h1>
 
 {% for category in featured_categories %}
     <h2 id="{{ category.slug }}" class="hr">
