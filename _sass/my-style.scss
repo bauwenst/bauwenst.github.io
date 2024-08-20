@@ -14,6 +14,12 @@
 }
 
 
+// Justify article text
+main p, main li {
+  text-align: justify;
+}
+
+
 // Suffix links with icons depending on the link. Don't do it for sidebar elements, which have class "no-mark-external" exactly for this purpose.
 //
 // Can be done in two ways:
@@ -84,8 +90,15 @@ a[href*="github.com/"]:not(.no-mark-external):not(.no-mark)::after {
 }
 
 a[href*="aclanthology.org/"]:not(.no-mark-external):not(.no-mark)::after {
-  content: "\00a0\f09b" !important;
-  color: rgb(0, 0, 0) !important;
+  content: "......." !important;  // Terrific spacing bruh
+  color: rgba(0, 0, 0, 0) !important;
+  background: url(https://aclanthology.org/images/acl-logo.svg) no-repeat right center;
+  background-size: contain;
+}
+
+a[href*="stackoverflow.com/"]:not(.no-mark-external):not(.no-mark)::after {
+  content: "\00a0\f16c" !important;
+  color: #F48024 !important;
 
   font-family: "FontAwesome" !important;
   font-weight: normal;
@@ -93,11 +106,14 @@ a[href*="aclanthology.org/"]:not(.no-mark-external):not(.no-mark)::after {
   padding-right: 2px;
 }
 
-a[href*="aclanthology.org/"]:not(.no-mark-external):not(.no-mark)::after {
-  content: "......." !important;  // Terrific spacing bruh
-  color: rgba(0, 0, 0, 0) !important;
-  background: url(https://aclanthology.org/images/acl-logo.svg) no-repeat right center;
-  background-size: contain;
+a[href*="stackexchange.com/"]:not(.no-mark-external):not(.no-mark)::after {
+  content: "\00a0\f18d" !important;
+  color: #155397 !important;
+
+  font-family: "FontAwesome" !important;
+  font-weight: normal;
+
+  padding-right: 2px;
 }
 
 
