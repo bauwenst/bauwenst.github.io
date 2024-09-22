@@ -13,9 +13,10 @@ The promise of [DeBERTa](https://arxiv.org/abs/2006.03654) is that it does away 
 ## Relative distance
 The disentangled attention mechanism of DeBERTa uses relative positional embeddings. The exact mechanism does not matter here; all you should know is that if you take any pair of token positions $$(i_1,j_1)$$ and any other pair of token positions $$(i_2,j_2)$$, the relative positional embedding involved when doing attention within such a pair is the *same* in both pairs if $$i_1 - j_1 = i_2 - j_2$$. Indeed, you can identify that relative positional embedding by this number $$\Delta = i-j$$. The same positional embedding is used any number of times that a token $$i-j$$ removed from another token attends to the latter.
 
-This is in contrast to absolute positional embeddings, where each position $$\{i_1,j_1,i_2,_j_2\}$$ contributes its own positional embedding. Here, the positional information involved in attention from position $$i$$ to position $$j$$ is the same as that in attention from position $$j$$ to position $$i$$, namely the $$i$$th and $$j$$th positional embeddings (or at least, what has become of them since they were added to the token embeddings all the way before the first layer of the transformer). We hence also have to limit the possible positions to the $$L$$ indices $$0 \dots L-1$$ and hence a context length of $$L$$.
+This is in contrast to absolute positional embeddings, where each position $$\{i_1,j_1,i_2,j_2\}$$ contributes its own positional embedding. Here, the positional information involved in attention from position $$i$$ to position $$j$$ is the same as that in attention from position $$j$$ to position $$i$$, namely the $$i$$th and $$j$$th positional embeddings (or at least, what has become of them since they were added to the token embeddings all the way before the first layer of the transformer). We hence also have to limit the possible positions to the $$L$$ indices $$0 \dots L-1$$ and hence a context length of $$L$$.
 
 The same kind of limit obviously has to hold for $$\Delta$$, because we can't store infinitely many relative embeddings either. Here's the twist: instead of limiting the attention distance to a window of $$L$$ acceptable $$\Delta$$ values, DeBERTa clips the $$\Delta$$ values at some point such that past a certain point in both directions, all tokens seem to effectively be equally far away. It remains to have a transformation from $$\Delta$$ to a 0-based indexing system to look up these embeddings. The DeBERTa paper assumes that there are $$L = 2k$$ valid $$\Delta$$ values where they choose $$k = 512$$, and defines the indexing function as
+
 $$
 \delta(i, j) = \begin{cases}
     0 & \text{if } i-j \leq -k \\
@@ -23,9 +24,11 @@ $$
     i-j+k & \text{otherwise}
 \end{cases} 
 $$
+
 At first glance, this *looks* like how you would parameterise a symmetric window: $$k$$ positions to the left and $$k$$ to the right... right? Look closer. I told you there are $$2k$$ valid $$\Delta$$ values. A token can also attend to itself, the centre of the window. So, if a window has a centre and then $$k$$ positions to its left and $$k$$ to its right, wouldn't there be $$k+k+1 = 2k+1$$ valid $$\Delta$$ values? 
 
 The bodies are buried in the $$\leq$$ sign above: notice how the "otherwise" case, which you would expect contains all valid $$\Delta$$ values, actually cannot produce the value $$0$$ because it automatically lands in the "too far left" case at the top. Here is a clearer definition:
+
 $$
 \delta(i, j) = \begin{cases}
     0               & \text{if } \Delta(i,j) < -k \\
@@ -33,6 +36,7 @@ $$
     2k-1            & \text{if } +k \leq \Delta(i,j)
 \end{cases}
 $$
+
 where it is now clear that the non-overflowing case in the middle range from $$-k$$ tokens to the left of the centre of the window to $$k-1$$ tokens to the right. In other words: the amount of relative positional embeddings is an even number ($$2k$$) because there is one missing to the right of the current token $$i$$.
 
 ## Receptive field
@@ -45,7 +49,9 @@ In total, that gives a [*receptive field*](https://theaisummer.com/receptive-fie
 
 # Practice
 ## Why you need a finite context length
-It should go without saying that just because you *can* process an unlimited amount of tokens, that doesn't mean you *should*.
+It should go without saying that just because you *can* process an unlimited amount of tokens, that doesn't mean you *should*. There is no standard limit on how many characters can appear in one example of a text corpus. Thus, you should anticipate the case where a dataset accidentally contains an example of millions of characters, resulting in tens of thousands of tokens; either that input tensor makes you run out of memory, and if it doesn't, chances are that it does once you try performing quadratic attention across it. 
+
+Thus, you need some kind of truncation of the input in practice. What to limit it to? One idea would be to demand that the very middle token of this maximal context length should eventually have received unambiguous positional information from the entire context. In other words: set the context length to the receptive field size of that token, which is $$1 + n (2k-1)$$ for an $$n$$-layer model.
 
 ## On the other hand, beware of HuggingFace's baked-in context length
 DeBERTa has a theoretically infinite context length. So, does HuggingFace's `DebertaTokenizerFast` loaded from a checkpoint with `AutoTokenizer.from_pretrained("microsoft/deberta-base")` have no limit set on the amount of tokens it can produce? Think again. For some reason, it has a context length of 512 built in.
@@ -71,7 +77,7 @@ The original paper claims twice that DeBERTa adds absolute positional embeddings
 
 and again on page 5
 
-> There are two methods of incorporating absolute positions. The BERT model incorporates absolute positions in the input layer. In DeBERTa, we incorporate them right after all the Transformer layers but before the softmax layer for masked token prediction, as shown in Figure 2. In this way, DeBERTa captures the relative positions in all the Transformer layers and only uses absolute positions as complementary information when decoding the masked words. Thus, we call DeBERTa’s decoding component an Enhanced Mask Decoder (EMD). In the empirical study, we compare these two methods of incorporating absolute positions and observe that EMD works much better. 
+> There are two methods of incorporating absolute positions. The BERT model incorporates absolute positions in the input layer. **In DeBERTa, we incorporate them right after all the Transformer layers but before the softmax layer for masked token prediction,** as shown in Figure 2. In this way, DeBERTa captures the relative positions in all the Transformer layers and only uses absolute positions as complementary information when decoding the masked words. Thus, we call DeBERTa’s decoding component an Enhanced Mask Decoder (EMD). In the empirical study, we compare these two methods of incorporating absolute positions and observe that EMD works much better. 
 
 And yet, there are [no absolute positional embedding weights to be found](https://github.com/microsoft/DeBERTa/issues/52) in the DeBERTa decoder.
 
@@ -85,26 +91,26 @@ The HuggingFace implementation has the inverse of these problems: it *does not* 
 HuggingFace's implementation is plagued by one additional issue, which is that [the MLM head architecture doesn't match that in Microsoft's checkpoints](https://github.com/huggingface/transformers/issues/27586#issuecomment-1817882943). Here's what HuggingFace's MLM head looks like for DeBERTa:
 ```
 (cls): DebertaOnlyMLMHead(
-:   (predictions): DebertaLMPredictionHead(
-:   :   (transform): DebertaPredictionHeadTransform(
-:   :   :   (dense): Linear(in_features=768, out_features=768, bias=True)
-:   :   :   (transform_act_fn): GELUActivation()
-:   :   :   (LayerNorm): LayerNorm((768,), eps=1e-07, elementwise_affine=True)
-:   :   )
-:   :   (decoder): Linear(in_features=768, out_features=50265, bias=True)
-:   )
+|   (predictions): DebertaLMPredictionHead(
+|   |   (transform): DebertaPredictionHeadTransform(
+|   |   |   (dense): Linear(in_features=768, out_features=768, bias=True)
+|   |   |   (transform_act_fn): GELUActivation()
+|   |   |   (LayerNorm): LayerNorm((768,), eps=1e-07, elementwise_affine=True)
+|   |   )
+|   |   (decoder): Linear(in_features=768, out_features=50265, bias=True)
+|   )
 )
 ```
 and here's what Microsoft's MLM head looks like:
 ```
 (lm_predictions): EnhancedMaskDecoder(
-:   (lm_head): BertLMPredictionHead(
-:   :   (dense): Linear(in_features=768, out_features=768, bias=True)
-:   :   (LayerNorm): LayerNorm((768,), eps=1e-07, elementwise_affine=True)
-:   )
+|   (lm_head): BertLMPredictionHead(
+|   |   (dense): Linear(in_features=768, out_features=768, bias=True)
+|   |   (LayerNorm): LayerNorm((768,), eps=1e-07, elementwise_affine=True)
+|   )
 )
 ```
-Note: do not mind that HuggingFace has an extra `decoder` layer, because it is there implicitly for Microsoft as well. Microsoft hardcoded weight tying in their implementation, so you will [see the `EnhancedMaskDecoder` access](https://github.com/microsoft/DeBERTa/blob/4d7fe0bd4fb3c7d4f4005a7cafabde9800372098/DeBERTa/apps/models/masked_language_model.py#L117) `self.deberta.embeddings.word_embeddings.weight` which [the `BertLMPredictionHead then multiplies](https://github.com/microsoft/DeBERTa/blob/4d7fe0bd4fb3c7d4f4005a7cafabde9800372098/DeBERTa/deberta/bert.py#L283) by the result of the `LayerNorm`. The gist of both is the same: take the encoder's $$H$$-dimensional predictions, multiply them by an $$H \times H$$ matrix, apply a layer norm, and then predict the vocabulary with the $$H \times |V|$$ transpose of the embedding matrix.
+Note: do not mind that HuggingFace has an extra `decoder` layer, because it is there implicitly for Microsoft as well. Microsoft hardcoded weight tying in their implementation, so you will [see the `EnhancedMaskDecoder` access](https://github.com/microsoft/DeBERTa/blob/4d7fe0bd4fb3c7d4f4005a7cafabde9800372098/DeBERTa/apps/models/masked_language_model.py#L117) `self.deberta.embeddings.word_embeddings.weight` which [the `BertLMPredictionHead` then multiplies](https://github.com/microsoft/DeBERTa/blob/4d7fe0bd4fb3c7d4f4005a7cafabde9800372098/DeBERTa/deberta/bert.py#L283) by the result of the `LayerNorm`. The gist of both is the same: take the encoder's $$H$$-dimensional predictions, multiply them by an $$H \times H$$ matrix, apply a layer norm, and then predict the vocabulary with the $$H \times |V|$$ transpose of the embedding matrix.
 
 The problematic mismatch is that a checkpoint from Microsoft contains $$H \times H$$ dense weights named `lm_predictions.lm_head.dense` whereas HuggingFace expects to find those same $$H \times H$$ dense weights under the name `cls.predictions.transform.dense`. It does not find these in Microsoft's checkpoints and hence when you load `DebertaForMaskedLM.from_pretrained("deberta-base")`, you can't actually use it for doing MLM because the $$H \times H$$ matrix between the encoder and the final projection is randomly re-initialised.
 
