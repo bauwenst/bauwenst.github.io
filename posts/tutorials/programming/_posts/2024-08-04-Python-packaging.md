@@ -3,6 +3,8 @@ layout: post
 
 title: "How to create your own Python packages and dependencies"
 description: A short tutorial on how to lay out a repo, declare metadata, installing editable code, and doing it recursively.
+
+tags: Python
 ---
 
 At the time of writing, I've publicly released a handful of Python packages (five, to be precise: [Fiject](https://github.com/bauwenst/Fiject), [BPE-knockout](https://github.com/bauwenst/BPE-knockout), [TkTkT](https://github.com/bauwenst/TkTkT), [LaMoTO](https://github.com/bauwenst/LaMoTO), and [MoDeST](https://github.com/bauwenst/MoDeST)) covering various parts of the NLP research workflow, with more on the way. It took me a bit to learn how to set up Python code as a package (also inaccurately called "library" or more accurately called a "module"), and as I later discovered, it's not so trivial to have one custom package be installed automatically upon installing another custom package, especially when you are the author of both and are already using a working version. Let's dive straight in!

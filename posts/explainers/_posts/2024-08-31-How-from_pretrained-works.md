@@ -1,10 +1,12 @@
 ---
 layout: post
 
-title: "How does HuggingFace's `from_pretrained()` know which weights in a checkpoint go where?"
+title: How does HuggingFace's from_pretrained() know which weights in a checkpoint go where?
 description: I dove deep so you don't have to.
+
+tags: HuggingFace
 ---
-The famous `roberta-base` HuggingFace checkpoint is a serialised version of a `RobertaForMaskedLM` checkpoint consisting of a `roberta` field and an `lm_head` field. Yet, despite this, you can still call `RobertaForTokenClassification.from_pretrained("roberta-base")` and get an object that has a `roberta` field with exactly the checkpoint's weights but a head with a different architecture and randomly initialised weights. Even more strikingly is that you can call `RobertaModel.from_pretrained("roberta-base")`, which is what normally sits *inside* that `roberta` field and consists of the fields `embeddings` and `encoder`, it can somehow *still* match up all the relevant checkpoint weights to the correct fields. Ever wondered how that's done? Here's how.
+The famous `roberta-base` HuggingFace checkpoint is a serialised version of a `RobertaForMaskedLM` model, consisting of a `roberta` field and an `lm_head` field. Yet, despite this, you can still call `.from_pretrained("roberta-base")` on `RobertaForTokenClassification` and get an object that has a `roberta` field with exactly the checkpoint's `roberta` weights, but a head with a different architecture and randomly initialised weights. Even more strikingly, you can call `.from_pretrained("roberta-base")` on `RobertaModel`, which is what normally sits *inside* that `roberta` field and consists of the fields `embeddings` and `encoder`, and somehow it can *still* match all the relevant checkpoint weights to the correct fields. Ever wondered how that's done? Here's how.
 
 1. dummy
 {:toc}
