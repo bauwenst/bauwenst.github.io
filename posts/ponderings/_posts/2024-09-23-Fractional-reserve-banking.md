@@ -14,7 +14,7 @@ There are (at least) two claims that have never made sense to me ever since I he
 # Claim
 The argument goes like this: we have a bank that starts with zero capital. Alice goes to the bank and deposits €1. Now, whenever she opens her mobile banking app or goes to an ATM, she sees €1 in her bank account. Bob now goes to the bank and takes out a loan of €1, which the bank can provide since there is indeed €1 at the bank (see Alice's bank account).
 
-Now Bob uses this loan to buy a good from Alice for €1. Alice now goes to the bank. She opens her account and of course, there is still the original €1 in there. She now deposits the €1 she received from Bob, and her bank account now shows €2. Thus, the claim goes, the cycle restarts, and Alice's bank account grows exponentially even though only one real €1 in capital was ever entered into the system.
+Now Bob uses this loan to buy a good from Alice for €1. Alice now goes to the bank. She opens her account and of course, there is still the original €1 in there. She now deposits the €1 she received from Bob, and her bank account now shows €2. Thus, [the claim goes](https://youtube.com/shorts/wpwwvk8tq9c), the cycle restarts, and Alice's bank account grows exponentially even though only one real €1 in capital was ever entered into the system.
 
 # What *is* a bank account?
 A bank is an institution that wants to manage large amounts of capital such that it generates more capital. For this, they obviously need a large amount of capital. One way a bank gets its hands on capital is with people *lending* it theirs.
