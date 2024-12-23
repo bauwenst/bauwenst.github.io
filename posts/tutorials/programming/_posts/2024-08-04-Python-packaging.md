@@ -108,7 +108,7 @@ import tktkt.models.bpe.dropout as dp
 ```
 or, if there is a particular class we want to import (say, `BPEDropout`), like
 ```python
-from tktkt.models.bpe.dropout import BPEDropout`
+from tktkt.models.bpe.dropout import BPEDropout
 ```
 
 ## Local imports
