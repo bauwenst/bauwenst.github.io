@@ -59,6 +59,16 @@ a[href*="youtube.com/"]:not(.no-mark-external):not(.no-mark)::after {
     padding-right: 2px;
 }
 
+a[href*="youtu.be/"]:not(.no-mark-external):not(.no-mark)::after {
+  content: "\00a0\f16a" !important;
+  color: red !important;
+
+  font-family: "FontAwesome" !important;
+  font-weight: normal;
+
+  padding-right: 2px;
+}
+
 a[href*="wikipedia.org/"]:not(.no-mark-external):not(.no-mark)::after {
     content: "\00a0\f266" !important;
     color: darkblue !important;
