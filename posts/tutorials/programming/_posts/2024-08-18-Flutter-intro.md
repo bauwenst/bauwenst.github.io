@@ -1,11 +1,10 @@
 ---
 layout: post
 
-title: Quick overview of mobile app development with Flutter
+title: Easy mobile app development with Flutter
 description: Cross-platform app development is surprisingly easy in 2024. Learnt it in a weekend.
 
 tags: [Dart, Flutter]
-# TODO: Speak about routing.
 ---
 
 Knowing how to build mobile apps is likely going to be a skill that will stay relevant for the foreseeable future. I've had some ideas for mobile apps in the past, and wanted to make sure that if I was going to learn to develop them, it had better be in a framework that allows having one code base and yet runs on both iOS and Android. We're in luck: Google's Flutter framework, built on top of the Dart language, does exactly that. Here are my notes learning it.
@@ -36,7 +35,6 @@ void main() {
 }
 
 class HelloWorld extends StatelessWidget {
-
     @override
     Widget build(BuildContext context) {
         return MaterialApp(
@@ -119,7 +117,6 @@ class YourWidget extends StatefulWidget {
 }
 
 class _YourWidgetState extends State<YourWidget> {
-
     @override
     Widget build(BuildContext context) {
         ...
@@ -209,7 +206,6 @@ class HomeWidget extends StatelessWidget {
 
 
 class ButtonWithCounter extends StatefulWidget {
-
     int start = 0;
     int increment = 1;
 
@@ -224,7 +220,6 @@ class ButtonWithCounter extends StatefulWidget {
 
 
 class _ButtonWithCounterState extends State<ButtonWithCounter> {
-
     int current = 0;
 
     @override
