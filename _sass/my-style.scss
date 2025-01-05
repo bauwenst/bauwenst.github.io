@@ -190,3 +190,9 @@ code {
   font-size: inherit;
   padding: .1em .1em;
 }
+
+
+// Heading padding fix
+h1, h2, h3, h4 {
+  margin: 2rem 0 0.25rem 0;
+}
