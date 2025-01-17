@@ -1,12 +1,11 @@
 <!-- 
   Add a scroll-to-top button in the nav bar.
-  The first function is based on https://www.w3schools.com/howto/howto_js_scroll_to_top.asp. 
+  The first function is based on https://stackoverflow.com/a/55926067. 
   Note that there's no need to make the button as an object. You can just insert its raw hardcoded HTML, see https://stackoverflow.com/a/46994943/9352077 
 -->
 <script>
 function scrollBackUp() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    window.scrollTo({top: 0, behavior: "smooth"});
 }
 
 function addScrollButton() {
