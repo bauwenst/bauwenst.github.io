@@ -1,10 +1,17 @@
 <!-- 
   Add a scroll-to-top button in the nav bar.
-  The first function is based on https://stackoverflow.com/a/55926067. 
-  Note that there's no need to make the button as an object. You can just insert its raw hardcoded HTML, see https://stackoverflow.com/a/46994943/9352077 
+  The first function is based on https://stackoverflow.com/a/5298684 to remove any fragments (#title) from the URL.
+  The second function is based on https://stackoverflow.com/a/55926067. 
+  In the third function, note that there's no need to make the button as an object. You can just insert its raw hardcoded HTML, see https://stackoverflow.com/a/46994943/9352077.
+  Finally, we use an event listener since the nav bar is apparently constructed AFTER scripts with 'defer' are run, so to ensure it exists, we need to delay the execution of our function with an event listener.
 -->
 <script>
+function removeHash() { 
+    history.pushState("", document.title, window.location.pathname + window.location.search);
+}
+    
 function scrollBackUp() {
+    removeHash();
     window.scrollTo({top: 0, behavior: "smooth"});
 }
 
@@ -16,5 +23,5 @@ function addScrollButton() {
     lastButton.insertAdjacentHTML("afterend", "<button id='_scrolltop' onclick='scrollBackUp()' class='nav-btn no-hover'> <span class='sr-only'>Scroll to Top</span> <span style='font-family: FontAwesome; font-size: 14pt;'></span> </button>");
 }
 
-document.addEventListener("DOMContentLoaded", (event) => addScrollButton());  // The nav bar is apparently constructed AFTER scripts with 'defer' are run, so to ensure it exists, we need to delay the execution of our function with an event listener.
+document.addEventListener("DOMContentLoaded", (event) => addScrollButton());
 </script>
