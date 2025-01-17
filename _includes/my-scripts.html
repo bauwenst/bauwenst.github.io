@@ -1,0 +1,14 @@
+<script defer>
+// Based on https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+function scrollBackUp() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+var parent   = document.querySelector(".nav-btn-bar");
+var children = parent.getElementsByTagName("button");
+var lastButton = children[children.length-1];
+
+// There's no need to make the button as an object. You can just insert its raw hardcoded HTML, see https://stackoverflow.com/a/46994943/9352077
+lastButton.insertAdjacentHTML('afterend', "<button id='_scrolltop' onclick='scrollBackUp()' class='nav-btn no-hover'> <span class='sr-only'>Scroll to Top</span> <span style='font-family: FontAwesome; font-size: 14pt;'></span> </button>");
+</script>
