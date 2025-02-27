@@ -264,6 +264,11 @@ void main() {
     runApp(ExampleApp())
 }
 ```
+
+<span style="display:inline-block; white-space: nowrap; width:92%;">
+    <img src="/cdn/img/png/2024/flutter-example.png" width="100%"/>
+</span>
+
 As mentioned above, the developer can "hot reload" the app when working on it, and not only will Flutter do minimal recompilation, but it will also keep state. In this case: note that we instantiated our stateful button as `ButtonWithCounter(start: 0, increment: 1)`. If we click the button 5 times, then change that `1` to a `2`, and then do a hot reload, the count will not change yet clicking the button will make the counter go up by 2, showing that the button widget has changed whilst the state hasn't. Granted, this does not guarantee that the current state is desirable: you could never reach a count of 5 if you started from 0 and incremented in steps of 2, and yet the app is in that state after the hot reload.
 
 # Conclusion
