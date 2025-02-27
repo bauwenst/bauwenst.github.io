@@ -43,9 +43,10 @@ Cuban is danced by moving on 1-2-3, pausing on 4, moving on 5-6-7, and pausing o
 Do this in-place with the music. No matter what happens, make sure your feet hit the ground RLR-LRL until the dance ends.
 
 # Step 3: Mirroring the basics
-Pretend there is a mirror between us. When nothing else is going on, mirror me. In closed position, we're either stepping side-to-side (paso son) or stepping backwards with alternating feet (paso basico). In open position, we step forwards on 5-6-7 and push on each other for communication.
+Pretend there is a mirror between us. When nothing else is going on, mirror me. In closed position, we're stepping backwards with alternating feet.[^1] In open position, we step forwards on 5-6-7 and push on each other for communication.
 
-**Leader note:** It's a good idea to only teach her [the guapea from *simétrico*](https://www.youtube.com/shorts/2a9vrxGnBiE). That is: remove all linearity from open position. You ask her to march in-place RLR-LRL, and then ask her if she can do this while rotating in small angles back-and-forth. By offloading the basic step to her ability to just walk, minimal coordination is needed and she can worry about pausing on 4 and 8.
+It's a good idea to only teach her [the guapea from *simétrico*](https://www.youtube.com/shorts/2a9vrxGnBiE). That is: remove all linearity from open position. You ask her to march in-place RLR-LRL, and then ask her if she can do this while rotating in small angles back-and-forth. By offloading the basic step to her ability to just walk, minimal coordination is needed and she can worry about pausing on 4 and 8.
+{:.note title="Leader note" .filled}
 
 # Step 4: The four patterns
 ## Vuelta
@@ -76,11 +77,7 @@ Things to pay attention to:
 - Don't spin. It's still two walking turns.
 
 <p>
-If she's a quick learner, you can tell her about the other vacilala signals.
-<ul>
-    <li>Reach behind your back with your left hand on 3 so that I can catch it.</li>
-    <li>When you feel me pass your hand to my other hand, make a "hands up" gesture with your left hand during your walking turn.</li>
-</ul>
+If she's a quick learner, you can tell her about the other vacilala signals.<ul><li>Reach behind your back with your left hand on 3 so that I can catch it.</li><li>When you feel me pass your hand to my other hand, make a "hands up" gesture with your left hand during your walking turn.</li></ul>
 </p>
 {:.note title="Leader note" .filled}
 
@@ -110,3 +107,6 @@ I am convinced that beginning followers are *reduced instruction set computers* 
 Unfortunately for men, learning to lead actually does take many months. I can't teach you in 15 minutes and there is a reason why I haven't run out of content for writing articles about leading casino either.
 
 Now, go on and spread the joy of casino!
+
+
+[^1]: Paso son requires too much coordination for someone who has never danced casino. Paso basico is much more accessible.
