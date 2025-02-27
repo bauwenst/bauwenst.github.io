@@ -8,24 +8,26 @@ last_modified_at: 2025-02-27
 tags: Salsa
 ---
 
-In my [first article](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-salsa-101/) about casino (a.k.a. Cuban salsa), I started by describing the three main positions of the couple (*abierta*/open, *cerrada*/closed, *caída*/perpendicular) and organised the rest of the article into a taxonomy of figures starting in a certain position and ending in a certain position. I've noticed, however, that two of the three positions, namely *abierta* and *caída*, can look different depending on the dance school. Doing one differently often means doing the other differently, which really means that we should probably point out the existence of these whole *positional systems* as the difference is not trivial for beginners learning basic figures.
+In my [first article](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-salsa-101/) about casino (a.k.a. Cuban salsa), I started by describing the three main positions of the couple (*abierta*, *cerrada*, *caída*, a.k.a. open, closed, perpendicular) and organised the rest of the article into a taxonomy of figures starting in a certain position and ending in a certain position. I've noticed, however, that two of the three positions, namely *abierta* and *caída*, can look different depending on the dance school. Doing one differently often means doing the other differently, which really means that we should probably point out the existence of these whole *positional systems* as the difference is not trivial for beginners learning basic figures.
 
 # Overview
 I'm going to argue that there exist two competing positional systems: 
-- **El sistema asimétrico** (the asymmetrical system), *asimétrico* for short: more LA/NY-inspired. Open position and closed position are in front of the leader with the follower facing him, caída is with the follower looking at his right ear. This is the positional system described in [the previous article](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-salsa-101/).
+- **El sistema asimétrico** (the asymmetrical system), *asimétrico* for short: more LA/NY-inspired. Open position and closed position are in front of the leader with the follower facing him, caída is with the follower looking at his right ear.
 - **El sistema simétrico** (the symmetrical system), *simétrico* for short: more rueda-inspired. Open position is to the left of the leader, closed position in front of the leader, caída to the right of the leader. In open and caída, the follower is looking in the *same* direction as the leader.
 
 Diagrammatically, they look as follows:
-<span style="display:inline-block; white-space: nowrap; width:100%;">
-    <span style="display:inline-block; vertical-align:middle; width:50%;">
-        <img src="/cdn/img/svg/2025/salsa-sistema-asimetrico.svg" width="100%"/>
+<p style="display:inline-block; white-space: nowrap; width:100%; text-align: center;">
+    <span style="display:inline-block; vertical-align:middle; padding-right: 3em;">
+        <img src="/cdn/img/svg/2025/salsa-sistema-asimetrico.svg" style="height: 25cqw;"/>
     </span>
-    <span style="display:inline-block; vertical-align:middle; width:50%;">
-        <img src="/cdn/img/svg/2025/salsa-sistema-simetrico.svg" width="100%"/>
+    <span style="display:inline-block; vertical-align:middle;">
+        <img src="/cdn/img/svg/2025/salsa-sistema-simetrico.svg" style="height: 25cqw;"/>
     </span>
-</span>
+</p>
+**Left:** asimétrico. **Right:** simétrico.
+{:.figcaption}
 
-I was taught *asimétrico* in my real-life classes, and in rare cases I also see it online like with [Yant y Polina](https://www.youtube.com/watch?v=K9jNJCZ420E). 
+I was taught *asimétrico* in my real-life classes (and hence described it in my first article), and in rare cases I also see it online like with [Yant y Polina](https://www.youtube.com/watch?v=K9jNJCZ420E). 
 However, I mainly see *simétrico* online: Steven Messina [explicitly describes this system as a triangle](https://youtu.be/vPlTwKLdgDI?t=37), where abierta and caída are left and right, and Daybert Linares [adds to this](https://youtu.be/FSizt_LwXXA?t=215) that the follower shouldn't just end up on his right (and facing the same way), but *behind* him.
 
 # Effect on figures
