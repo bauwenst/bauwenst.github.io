@@ -8,7 +8,7 @@ last_modified_at: 2025-02-13
 tags: [salsa, casino]
 ---
 
-If you're a Cuban salsa leader, I'm sure this has happened to you before: you're at a salsa social and ask a woman to dance, to which she responds she has never actually danced salsa (for example, because she is a bachatera), or alternatively, she dances LA style. You could just tell her "Nevermind.", but, if she's up for it, you could teach her, like a man. How will she ever catch up on the dozens of hours of classes you've had? Here's the secret: all follower movement can be [reduced to a very small set](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) of prerequisite patterns. I'm about to give you a script I've used many times over to teach followers from zero in just 15 minutes.
+If you're a Cuban salsa leader, I'm sure this has happened to you before: you're at a salsa social and ask a woman to dance, to which she responds she has never actually danced salsa (for example, because she is a bachatera), or alternatively, she dances LA style. You could just tell her *"Nevermind..."*, but, if she tells you she's open to it, you could teach her, like a man. How will she ever catch up on the dozens of hours of classes you've had? Here's the secret: all follower movement can be [reduced to a very small set](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) of prerequisite patterns. I'm about to give you a script I've used many times over to teach followers from zero in just 15 minutes.
 
 # Overview
 Here is the reduced skill tree a follower needs to complete if she wants to follow all the figures you'll see in 10-20 weeks of beginners classes.
@@ -94,11 +94,11 @@ The vuelta allows her to do a vuelta doble too, as well as a hammerlocking vuelt
 
 The walking vuelta allows her to follow exhibela (from caída or closed) and sácala.
 
-The vacilala allows her to do a dile que si. Once she starts offering her hand behind her back, you can lead setenta. Once she understands the sombrero signal, you can lead sombero and montaña.
+The vacilala allows her to do a dile que si and a dedo. Once she starts offering her hand behind her back, you can lead setenta. Once she understands the sombrero signal, you can lead sombero and montaña.
 
 # Conclusion
 I am convinced that beginning followers are *reduced instruction set computers* which can be bootstrapped to participate in a solid casino dance with a learning curve of 15 minutes.
 
-Unfortunately for men, laying to lead actually does take many months, if you don't quit. I can't teach it to you in 15 minutes and there is a reason why I haven't run out of content for writing articles about leading casino either.
+Unfortunately for men, learning to lead actually does take many months. I can't teach you in 15 minutes and there is a reason why I haven't run out of content for writing articles about leading casino either.
 
 Now, go on and spread the joy of casino!
