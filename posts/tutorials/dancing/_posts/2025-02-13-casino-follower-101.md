@@ -54,7 +54,7 @@ Things to pay attention to:
 - On 7, your left foot should land in the exact same place you were before the turn.
 
 ## Walking vuelta
-Any time I lift my arm in an arch, you walk under it and then U-turn to where you were. Your center of mass moves back and forth on a straight line and you should be able to repeat this forever.
+Any time I lift my arm in an arch, you **walk** under it and then **U-turn** to where you were. Your center of mass moves back and forth on a straight line and you should be able to repeat this forever.
 
 You use the same rotations as vuelta, but when your right foot turns 180⁰, you push it forward to cover distance, and the last step of your left foot also covers distance (putting your feet in a line rather than together).
 
@@ -63,7 +63,7 @@ Things to pay attention to:
 - End in the same orientation on 7 as you started.
 
 ## Vacilala
-When we are in guapea and I push myself off of you (so that we both end up looking to your left), you do a **double walking turn** from my left side to my right side: a first 360⁰ on 1-2-3, a second 360⁰ on 5-6-7, along a half-circle (not a line like before) around me.
+When we are in guapea and I push myself off of you (so that we both end up looking to your left), you do a **double walking turn**, **from my left side to my right side**: a first 360⁰ on 1-2-3, a second 360⁰ on 5-6-7, along a half-circle (not a line like before) around me.
 
 Things to pay attention to:
 - If you don't push back on me in guapea, you can't feel when I push harder.
@@ -72,20 +72,21 @@ Things to pay attention to:
 - Don't go too slowly: on 3, you should be facing me with your back, having done a full 360⁰ already.
 - Don't spin. It's still two walking turns.
 
-**Leader note:** if she's a quick learner, you can tell her about the other vacilala signals.
-- Bonus: reach behind your back with your left hand on 3 so that I can catch it.
-- Bonus: when I pass your hand to my other hand, make a "hands up" gesture with your left hand.
+If she's a quick learner, you can tell her about the other vacilala signals.
+- Reach behind your back with your left hand on 3 so that I can catch it.
+- When you feel me pass your hand to my other hand, make a "hands up" gesture with your left hand during your walking turn.
+{:.note title="Leader note" .filled}
+
 
 ## Dile que no
-Whenever we are in perpendicular position and I step in front of your face, we do a DQN. Step backward, in-place, and rotate, and then walk forward in a line to get into open position.
-
-I'll guide you through by telling you "backwards-step-step, and walk-walk-walk".
+Whenever we are in perpendicular position and I step in front of your face, we do a DQN. Imagine **walking from my right side back to my left side** using straight lines. You step backward, in-place, and rotate, and then walk forward in a line to get into open position. I'll guide you through by telling you "backwards-step-step, and walk-walk-walk".
 
 Things to pay attention to:
 - Don't step back on 5. It's back on 1, forward on 5. (Do a tap on 4 to help.)
 - Don't turn clockwise. DQN is not a walking turn, so it is done counterclockwise.
 
-**Leader note:** Have patience. Remember that she's working with only a couple *minutes* of experience. Do emphasise that DQN is the most important movement in all of casino, and that it appears so often that she should be ready to do it whenever she is perpendicular to you.
+Have patience. Remember that she's working with only a couple *minutes* of experience. Do emphasise that DQN is the most important movement in all of casino, and that it appears so often that she should be ready to do it whenever she is perpendicular to you.
+{:.note title="Leader note" .filled}
 
 # Figures this follower can follow
 Once the follower understands that she should keep stepping RLR-LRL, she can follow enchufla, enchufla doble, any sencilla, and even Kentucky, Cubanita, Cubanito, and doce.
