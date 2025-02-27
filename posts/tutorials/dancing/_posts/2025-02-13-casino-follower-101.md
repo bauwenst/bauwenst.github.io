@@ -10,6 +10,9 @@ tags: [salsa, casino]
 
 If you're a Cuban salsa leader, I'm sure this has happened to you before: you're at a salsa social and ask a woman to dance, to which she responds she has never actually danced salsa (for example, because she is a bachatera), or alternatively, she dances LA style. You could just tell her *"Nevermind..."*, but, if she tells you she's open to it, you could teach her, like a man. How will she ever catch up on the dozens of hours of classes you've had? Here's the secret: all follower movement can be [reduced to a very small set](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) of prerequisite patterns. I'm about to give you a script I've used many times over to teach followers from zero in just 15 minutes.
 
+1. dummy
+{:toc}
+
 # Overview
 Here is the reduced skill tree a follower needs to complete if she wants to follow all the figures you'll see in 10-20 weeks of beginners classes.
 1. Recognising the 3 positions: open, closed, perpendicular.
@@ -74,8 +77,10 @@ Things to pay attention to:
 
 <p>
 If she's a quick learner, you can tell her about the other vacilala signals.
-- Reach behind your back with your left hand on 3 so that I can catch it.
-- When you feel me pass your hand to my other hand, make a "hands up" gesture with your left hand during your walking turn.
+<ul>
+    <li>Reach behind your back with your left hand on 3 so that I can catch it.</li>
+    <li>When you feel me pass your hand to my other hand, make a "hands up" gesture with your left hand during your walking turn.</li>
+</ul>
 </p>
 {:.note title="Leader note" .filled}
 

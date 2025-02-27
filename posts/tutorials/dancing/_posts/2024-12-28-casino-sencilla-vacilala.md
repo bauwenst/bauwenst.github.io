@@ -81,6 +81,7 @@ As pointed out by [SalsaSelfie](https://salsaselfie.com/2018/12/17/cuban-salsa-v
 - **Video:** [Steven Messina](https://youtu.be/-kIJZu6ECF4?t=213) gives a comparison of both vacilalas the 5 seconds after the timestamp.
 
 Lastly: because vacilala ends in caída, the leader moves differently depending on the positional system he dances in. More about that in [the next article](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-29-casino-positional-systems/).
+
 <!--
 - In *simétrico*, the follower will have done exactly 2 × 360⁰ and end in the mirror position of abierta, next to the leader, facing the same way.
 - In *asimétrico*, the leader turns 90⁰ clockwise in the second bar, letting the follower again do her 2 × 360⁰. Alternatively (but I don't recommend this), the leader does not turn at all, letting the follower only do 360⁰ + 270⁰. The benefit of the first approach is that the follower doesn't need a different speed in both bars: 360⁰ per 4 counts. The benefit of the second approach is that the follower becomes less dizzy since she essentially ditches the second turn and just walks into caída, which is how some schools teach vacilala (a turn + a walk).

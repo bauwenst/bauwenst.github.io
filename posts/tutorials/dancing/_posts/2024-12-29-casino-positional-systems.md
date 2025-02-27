@@ -10,6 +10,9 @@ tags: [salsa, casino]
 
 In my [first article](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-casino-101/) about casino (a.k.a. Cuban salsa), I started by describing the three main positions of the couple (*abierta*, *cerrada*, *caída*, a.k.a. open, closed, perpendicular) and organised the rest of the article into a taxonomy of figures starting in a certain position and ending in a certain position. I've noticed, however, that two of the three positions, namely *abierta* and *caída*, can look different depending on the dance school. Doing one differently often means doing the other differently, which really means that we should probably point out the existence of these whole *positional systems* as the difference is not trivial for beginners learning basic figures.
 
+1. dummy
+{:toc}
+
 # Overview
 I'm going to argue that there exist two competing positional systems: 
 - **El sistema asimétrico** (the asymmetrical system), *asimétrico* for short: more LA/NY-inspired. Open position and closed position are in front of the leader with the follower facing him, caída is with the follower looking at his right ear.
