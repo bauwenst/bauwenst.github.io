@@ -26,7 +26,7 @@ Now let me pretend like you are one of these uninitiated followers. Start the cl
 
 # Step 1: Recognise the 3 positions
 All figures in the dance transition between three positions.
-1. **Open position:** we are facing each other about 2 footsteps apart, holding your right hand.
+1. **Open position:** I'm holding your right hand and we are about 2 footsteps apart, looking diagonally past each other.
 2. **Closed position:** we are facing each other up close, holding a solid frame. Solid means (1) your right arm is rigid, (2) your left arm pulls my shoulder blade towards you, and (3) your left elbow pushes down on my elbow.
 3. **Perpendicular position:** your feet are perpendicular to mine. I'm on your left.
 
@@ -40,7 +40,7 @@ Cuban is danced by moving on 1-2-3, pausing on 4, moving on 5-6-7, and pausing o
 Do this in-place with the music. No matter what happens, make sure your feet hit the ground RLR-LRL until the dance ends.
 
 # Step 3: Mirroring the basics
-Pretend there is a mirror between us. When nothing else is going on, mirror me. In closed position, we only step backwards. In open position, we start backwards, but then step forwards and explicitly push on each other.
+Pretend there is a mirror between us. When nothing else is going on, mirror me. In closed position, we're either stepping side-to-side (paso son) or stepping backwards with alternating feet (paso basico). In open position, we step forwards on 5-6-7 and push on each other for communication.
 
 **Leader note:** It's a good idea to only teach her [the guapea from *simétrico*](https://www.youtube.com/shorts/2a9vrxGnBiE). That is: remove all linearity from open position. You ask her to march in-place RLR-LRL, and then ask her if she can do this while rotating in small angles back-and-forth. By offloading the basic step to her ability to just walk, minimal coordination is needed and she can worry about pausing on 4 and 8.
 
@@ -72,9 +72,11 @@ Things to pay attention to:
 - Don't go too slowly: on 3, you should be facing me with your back, having done a full 360⁰ already.
 - Don't spin. It's still two walking turns.
 
+<p>
 If she's a quick learner, you can tell her about the other vacilala signals.
 - Reach behind your back with your left hand on 3 so that I can catch it.
 - When you feel me pass your hand to my other hand, make a "hands up" gesture with your left hand during your walking turn.
+</p>
 {:.note title="Leader note" .filled}
 
 
