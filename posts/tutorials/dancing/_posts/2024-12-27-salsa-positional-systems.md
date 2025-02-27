@@ -17,14 +17,14 @@ I'm going to argue that there exist two competing positional systems:
 
 Diagrammatically, they look as follows:
 <p style="display:inline-block; white-space: nowrap; width:100%; text-align: center;">
-    <span style="display:inline-block; vertical-align:middle; padding-right: 3em;">
+    <span style="display:inline-block; vertical-align:middle; padding-right: 4em;">
         <img src="/cdn/img/svg/2025/salsa-sistema-asimetrico.svg" style="height: 25cqw;"/>
     </span>
     <span style="display:inline-block; vertical-align:middle;">
-        <img src="/cdn/img/svg/2025/salsa-sistema-simetrico.svg" style="height: 25cqw;"/>
+        <img src="/cdn/img/svg/2025/salsa-sistema-simetrico.svg" style="width: 25cqw;"/>
     </span>
 </p>
-**Left:** asimétrico. **Right:** simétrico.
+Positional systems in casino. **Left:** asimétrico. **Right:** simétrico.
 {:.figcaption}
 
 I was taught *asimétrico* in my real-life classes (and hence described it in my first article), and in rare cases I also see it online like with [Yant y Polina](https://www.youtube.com/watch?v=K9jNJCZ420E). 
