@@ -126,6 +126,15 @@ a[href*="stackexchange.com/"]:not(.no-mark-external):not(.no-mark)::after {
   padding-right: 2px;
 }
 
+a[href*="instagram.com/"]:not(.no-mark-external):not(.no-mark)::after {
+  content: "\00a0\f16d" !important;
+  color: #ff0069 !important;
+
+  font-family: "FontAwesome" !important;
+  font-weight: normal;
+
+  padding-right: 2px;
+}
 
 // Folder tree for nested ul's, surrounded by a div. 
 // Used to be based on https://codepen.io/sazzad/pen/gEEKQb
