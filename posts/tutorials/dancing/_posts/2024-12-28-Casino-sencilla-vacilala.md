@@ -4,7 +4,7 @@ layout: post
 title: "All you need is sencilla and vacilala"
 description: More than 10 Cuban salsa figures with almost nothing to remember once you get these two building blocks.
 
-last_modified_at: 2025-02-15
+last_modified_at: 2025-03-07
 tags: [salsa, casino]
 ---
 
@@ -159,10 +159,10 @@ A note for followers: we have now seen three arm variations of vacilala, for whi
 - When the leader does not let go and does not switch hands, put your free hand behind your back.
 
 # Enchufla complicado
-An [*enchufla complicado*](https://www.youtube.com/watch?v=Hq2OBXdCIfk) is a sencilla arriba alternando manos where additionally the free hands touch each other every time neither person is turning. This is basically the sencilla in setenta but simplified for beginners by letting one hand go during each turn.
+An [*enchufla complicado*](https://www.youtube.com/watch?v=Hq2OBXdCIfk) is a sencilla arriba alternando manos. In other words, it is a sententa that skips the hammerlock.
 
 # Ochenta y cuatro (84)
-*Ochenta y cuatro* is an [overloaded](https://salsaselfie.com/2021/05/04/cuban-salsa-ochenta-y-quatro-84/) name, but the simplest version -- the one [endorsed by](https://www.youtube.com/watch?v=652-BfCWOsA) the Norwegian Rueda Standard, if you care about such authorities -- is the mirror image of setenta:[^4] a *right-handed dedo atras* where the first 16 counts are two-handed. That is: you start the vacilala by switching to your *right* hand (versus setenta's left), again go into a hammerlock, then do a *right-handed* enchufla (versus setenta's left), then do a *clockwise* enchufate (versus setenta's counterclockwise, although you do use your right arm in both cases), let go of left connection, and do another right-handed enchufla (versus setenta's left).
+*Ochenta y cuatro* is an [overloaded](https://salsaselfie.com/2021/05/04/cuban-salsa-ochenta-y-quatro-84/) name, but the simplest version -- the one [endorsed by](https://www.youtube.com/watch?v=652-BfCWOsA) the Norwegian Rueda Standard, if you care about such authorities -- is the mirror image of setenta:[^4] a *right-handed dedo atras* where the first 16 counts are two-handed. That is: you start the vacilala by switching to your *right* hand (versus setenta's left), again go into a hammerlock, then do a *right*-handed enchufla (versus setenta's left), then do a *clockwise* enchufate (versus setenta's counterclockwise, although you do use your right arm in both cases), let go of the connection with your left, and do another *right*-handed enchufla (versus setenta's left).
 
 For the safety of your follower's elbow, here's how you lead ochenta y cuatro: once you've switched to your right hand, extend your left arm forwards and down under your right arm, and while you extend it, twist it clockwise so your elbow points up. Now you're offering an open hand palm exactly like you do in setenta, and your arm will untwist when she hammerlocks.
 
