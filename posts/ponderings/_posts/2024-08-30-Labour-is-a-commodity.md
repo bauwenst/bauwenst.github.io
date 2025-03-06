@@ -5,7 +5,7 @@ title: "Marxists don't realise labour is a commodity"
 description: A lesson in supply-and-demand for adults who still believe in fairy dust.
 
 last_modified_at: 2025-01-15
-tags: Economics
+tags: economics
 ---
 
 I recently watched a video online of someone complaining about the existence of millionaires and billionaires. I commented with the realistic and optimistic message that anyone has the ability to become a multi-millionaire, even if just through supplying a silly backend commodity like toilet rolls. Then, all hell broke loose. 

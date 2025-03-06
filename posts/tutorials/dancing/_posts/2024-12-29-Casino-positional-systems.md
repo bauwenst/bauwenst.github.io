@@ -8,7 +8,7 @@ last_modified_at: 2025-02-27
 tags: [salsa, casino]
 ---
 
-In my [first article](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-casino-101/) about casino (a.k.a. Cuban salsa), I started by describing the three main positions of the couple (*abierta*, *cerrada*, *caída*, a.k.a. open, closed, perpendicular) and organised the rest of the article into a taxonomy of figures starting in a certain position and ending in a certain position. I've noticed, however, that two of the three positions, namely *abierta* and *caída*, can look different depending on the dance school. Since doing one differently often goes hand-in-hand with doing the other differently, there really exist entire *positional systems* for dancing casino, which nobody ever points out. For beginners trying to look up basic figures, this difference is not trivial, so let's point out two such systems.
+In my [first article](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-Casino-101/) about casino (a.k.a. Cuban salsa), I started by describing the three main positions of the couple (*abierta*, *cerrada*, *caída*, a.k.a. open, closed, perpendicular) and organised the rest of the article into a taxonomy of figures starting in a certain position and ending in a certain position. I've noticed, however, that two of the three positions, namely *abierta* and *caída*, can look different depending on the dance school. Since doing one differently often goes hand-in-hand with doing the other differently, there really exist entire *positional systems* for dancing casino, which nobody ever points out. For beginners trying to look up basic figures, this difference is not trivial, so let's point out two such systems.
 
 1. dummy
 {:toc}

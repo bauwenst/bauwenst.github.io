@@ -8,7 +8,7 @@ last_modified_at: 2025-02-15
 tags: [salsa, casino]
 ---
 
-My [first series](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-casino-101/) of casino classes recently ended, just in time for the holidays. However, along with some other outlier students, I didn't want to lose momentum over Christmas break, so I started venturing into the wild trying to find figures within reach to self-teach. Along the way, I started to see patterns between all the figures I saw appear most, and I realised that I could double the amount of figures I knew just by understanding three new phrases: one phrase to learn *vacilala*s, two phrases to learn *sencilla*s. And it worked.
+My [first series](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-Casino-101/) of casino classes recently ended, just in time for the holidays. However, along with some other outlier students, I didn't want to lose momentum over Christmas break, so I started venturing into the wild trying to find figures within reach to self-teach. Along the way, I started to see patterns between all the figures I saw appear most, and I realised that I could double the amount of figures I knew just by understanding three new phrases: one phrase to learn *vacilala*s, two phrases to learn *sencilla*s. And it worked.
 
 1. dummy
 {:toc}
@@ -80,7 +80,7 @@ As pointed out by [SalsaSelfie](https://salsaselfie.com/2018/12/17/cuban-salsa-v
 
 - **Video:** [Steven Messina](https://youtu.be/-kIJZu6ECF4?t=213) gives a comparison of both vacilalas the 5 seconds after the timestamp.
 
-Lastly: because vacilala ends in caída, the leader moves differently depending on the positional system he dances in. More about that in [the next article](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-29-casino-positional-systems/).
+Lastly: because vacilala ends in caída, the leader moves differently depending on the positional system he dances in. More about that in [the next article](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-29-Casino-positional-systems/).
 
 <!--
 - In *simétrico*, the follower will have done exactly 2 × 360⁰ and end in the mirror position of abierta, next to the leader, facing the same way.
@@ -90,7 +90,7 @@ Lastly: because vacilala ends in caída, the leader moves differently depending 
 # Vacilala cerranda (di-le que si)
 The name *dile que si* ("tell him/her yes") is [apparently](https://salsayo.com/move/Dile-Que-Si) given to at least 6 different figures. I follow one of these conventions and give the name *dile que si* to the figure you could also call *vacilala cerranda*, which is a vacilala where the leader closes the position rather than catching the follower in caída. This way, you use a dile que si to get from abierta to cerrada, and a dile que no to get from cerrada to abierta.
 
-This is the missing fourth way to close that I referred to in [my first article](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-casino-101/) on casino.
+This is the missing fourth way to close that I referred to in [my first article](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-Casino-101/) on casino.
 
 # Sombrero
 Vacilala con mano, but with a switch to a right-on-right hold at the start, turning with both hands held, and ending with a crown.
@@ -149,7 +149,7 @@ Like in *dedo*, you are supposed to walk an extra 90°. This is true regardless 
 
 - **Alternatives:**
     - Salsaficion [notes](https://youtu.be/u4M1h7SmovM?t=879) that there are multiple variants for setenta. They all have a sencilla at the end (with the first enchufla two-handed). What they differ in is the two-handed figure that makes up the 8 counts before, which will determine whether the sencilla is done *linearly* or *triangularly*. With vacilala, you should do it triangularly. With a two-handed vuelta derecha, you should do it linearly. Some people distinguish this variant from the dedo-based variant by calling it a "vuelta-setenta" as opposed to a "vacilala-setenta", and think that [vuelta-setenta is evil](https://salsaselfie.com/2020/11/06/cuban-salsa-why-vacilala-is-best-for-setenta/).
-    - If you take vuelta-setenta and drop the last 16 counts of the sencilla (the enchufate and enchufla, i.e. the part of the sencilla that is never two-handed, not even in a setenta), you get the "35" figure described in my [first](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-casino-101/) article. If you make the same alteration to vacilala-setenta, you get what [this video](https://www.youtube.com/watch?v=0jzZJLJdGu0) confusingly calls a *setenta sencilla* (even though there is no more sencilla; they named it this because "sencilla" means "simple" in Spanish).
+    - If you take vuelta-setenta and drop the last 16 counts of the sencilla (the enchufate and enchufla, i.e. the part of the sencilla that is never two-handed, not even in a setenta), you get the "35" figure described in my [first](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-Casino-101/) article. If you make the same alteration to vacilala-setenta, you get what [this video](https://www.youtube.com/watch?v=0jzZJLJdGu0) confusingly calls a *setenta sencilla* (even though there is no more sencilla; they named it this because "sencilla" means "simple" in Spanish).
 
 - **Videos:** [Steven Messina](https://www.youtube.com/watch?v=Mywysg1TSGU) and [Salsaficion](https://www.youtube.com/watch?v=u4M1h7SmovM)
 
@@ -161,6 +161,11 @@ A note for followers: we have now seen three arm variations of vacilala, for whi
 # Enchufla complicado
 An [*enchufla complicado*](https://www.youtube.com/watch?v=Hq2OBXdCIfk) is a sencilla arriba alternando manos where additionally the free hands touch each other every time neither person is turning. This is basically the sencilla in setenta but simplified for beginners by letting one hand go during each turn.
 
+# Ochenta y cuatro (84)
+*Ochenta y cuatro* is an [overloaded](https://salsaselfie.com/2021/05/04/cuban-salsa-ochenta-y-quatro-84/) name, but the simplest version -- the one [endorsed by](https://www.youtube.com/watch?v=652-BfCWOsA) the Norwegian Rueda Standard, if you care about such authorities -- is the mirror image of setenta:[^4] a *right-handed dedo atras* where the first 16 counts are two-handed. That is: you start the vacilala by switching to your *right* hand (versus setenta's left), again go into a hammerlock, then do a *right-handed* enchufla (versus setenta's left), then do a *clockwise* enchufate (versus setenta's counterclockwise, although you do use your right arm in both cases), let go of left connection, and do another right-handed enchufla (versus setenta's left).
+
+For the safety of your follower's elbow, here's how you lead ochenta y cuatro: once you've switched to your right hand, extend your left arm forwards and down under your right arm, and while you extend it, twist it clockwise so your elbow points up. Now you're offering an open hand palm exactly like you do in setenta, and your arm will untwist when she hammerlocks.
+
 # Montaña
 A [*montaña*](https://www.youtube.com/watch?v=AtQqi_5hNCY) is a *two-handed [dedo atras](https://www.youtube.com/watch?v=p8a5qQeGBeY)* with a crown in the final enchufla.
 
@@ -171,7 +176,7 @@ I did not see the link at first, until [Son Y Casino pointed it out](https://son
 
 I used to think of montaña as an interrupted sombrero, with a somewhat arbitrary enchufla-hook-enchufla sequence inserted in between the vacilala and the crown. This was difficult to remember and difficult to orient; [La Suerta](https://www.youtube.com/watch?v=AtQqi_5hNCY) shows that the follower essentially walks around in a square while doing montaña, but actually, there are only three points of this square that matter to the leader and they are exactly the three points of the triangle formed by a sencilla. By instead thinking of montaña as being to dedo atras what setenta is to dedo arriba, it clicks right away.
 
-Some schools (like the first school I attended) use the name *dedo* to refer to a one-handed version of montaña, where the leader puts his left hand behind his back during the entire figure after he switches to his right in the vacilala. In the naming system in this article, taken from Salsaficion, that figure would be called a *right-handed dedo atras* with a coronala after the final enchufla.
+Note that if you didn't use your left hand, montaña and 84 would become the same figure: in the naming system in this article, taken from Salsaficion, that figure would be called a *right-handed dedo atras* (with perhaps a coronala after the final enchufla, in the case of montaña). Some schools use the name *dedo* to refer to **this specific dedo**. You can put your left hand behind your back during the entire figure after switching to your right.
 
 # Prima con la hermana
 A *prima con la hermana* [is](https://youtu.be/HOO-Mvfd_cs?t=191) a *sencilla arriba*, but replacing the first enchufla by a *prima*.
@@ -204,3 +209,4 @@ Knowing the different types of vacilalas and sencillas has huge leverage. While 
 [^1]: This term is not used by Salsaficion because they use this name to describe *son montuno*, the closed position step that goes back-and-forth. Although they are an outlier in this regard, everyone understood what they meant when "pa'ti pa'mi" was called out in their [mega-rueda](https://youtu.be/412-UMrCeS4?t=53).
 [^2]: They call it a di-le que si, by the way.
 [^3]: [According to SalsaSelfie](https://salsaselfie.com/2019/06/11/cuban-salsa-sombrero-con-mambo/), this figure "requires a rueda call because there is no natural way to lead it", but I disagree. I have given two signals that should suffice to lead even inexperienced follows. Besides, many figures in casino require the follower to have *some* background knowledge of what she is supposed to do (try doing a DQN or vacilala with newbies), and also, even someone without experience will naturally start to mimic the leader's leg movements when she is being held locked in-place and somewhat surprised by what his legs are doing.
+[^4]: This is true in casino and in real life: 70 and 84 are the two large avenues in the Miramar neighbourhood of La Havana de Cuba, bordering the northeast and southwest sides of the Monte Barreto park.

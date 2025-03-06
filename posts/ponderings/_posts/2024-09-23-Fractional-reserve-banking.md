@@ -4,7 +4,7 @@ layout: post
 title: "No, fractional reserve banking doesn't create money"
 description: A great example of why you need double-entry bookkeeping and balance sheets.
 
-tags: Economics
+tags: economics
 ---
 There are (at least) two claims that have never made sense to me ever since I heard them. One is that [double-entry bookkeeping](https://en.wikipedia.org/wiki/Double-entry_bookkeeping), where you track the capital inside a company by keeping two lists of money amounts that add up to the same total, is actually useful and not a formality that is 50% redundant. The other is that *fractional-reserve banking (FRB)*, whereby a bank is not forced to have at least as much cash on hand as the combined total of all account balances open at that bank, allows banks to create cycles of infinite money. The former is true but hard to believe at first. The latter is false but hard to disbelieve at first. Both become apparent when considering the typical claim about FBR through the lens of double-entry bookkeeping.
 
