@@ -20,6 +20,8 @@ Of course, I don't speak Spanish, and because I don't want to bother the handful
 > I'm going to give you the lyrics to several Spanish songs. Your job is to tell me, in English, the story the song is telling us. You don't have to translate the entire song, but please do cite the key phrases that indicate what the rest of the song revolves around.
 
 # Brujeria (El Gran Combo De Puerto Rico)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0k1hbeZodoEw34FAdbh8xM?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ## Story
 According to ChatGPT:
 > This song tells the story of a man who believes he has been enchanted—or cursed—by a woman. He is completely captivated by her, to the point of obsession, and suspects that she has used some kind of magic or witchcraft to make him fall for her.
@@ -31,6 +33,8 @@ According to ChatGPT:
 - **Translation:** "You did witchcraft to me."
 
 # Qué Pasa Loco (Issac Delgado)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5evx5is4W5iLY7A5zv82Ut?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ## Story
 According to ChatGPT:
 > This song tells the story of a man who is deeply attracted to a young woman, to the point of obsession. Despite being "mature and conscious" of his situation, he finds himself losing control and experience when it comes to her. However, his friends (or his own inner voice) are warning him to stop, insisting that she is not for him.
@@ -50,6 +54,8 @@ I slightly disagree with this; I believe the song is about the narrator telling 
 This song fools every leader the first couple times. It has four different points where it pretends to end: 2:47, 3:08, 4:44, and most deviously, 5:10. Remember that **this song ends with a fade-out**. It does not end by stopping dead in its tracks. Keep dancing when it does, because there's more to come!
 
 # Abre Que Voy (Miguel Enriquez)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1v0749CQ2jCJwY9NF48u6R?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ## Story
 According to ChatGPT:
 > It seems like he's speaking to someone at the party or event where salsa is going to take place, (...) inviting them to open the door (literally or metaphorically) and let him in. (...) He's asking the door to be opened because he's ready to enter with excitement or force. The phrase is a playful, metaphorical way to say, "I'm coming in strong and full of energy—let me in!"
@@ -84,6 +90,8 @@ Open the door for me, because I come with force."
 
 
 # Marcando la Distancia (Manolito y Su Trabuco)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/70BDblSjPfj6Pe24avWzK2?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ## Story
 According to ChatGPT:
 > This song is about a confrontation between the narrator and someone (likely an ex [of his girlfriend]) who has come to his house, trying to reclaim a woman who is no longer his. (...) The narrator is saying *"Tu pa' lla' y yo pa' ca' para marcar la distancia",* and he’s saying it to the ex. The phrase translates to "You go that way, and I go this way to mark the distance," meaning the narrator is telling the ex to leave and establish a clear separation between them. He is asserting boundaries and marking that the ex is no longer involved in the woman’s life.
@@ -99,13 +107,15 @@ According to ChatGPT:
 - **Translation:** Into the street, out of my house.
 
 # Mira Como Se Mueve (Manolito Simonet y su Trabuco)
-There exist no lyrics for this song anywhere, so I had to piece them together with help from an Argentinian friend.
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4f4mYVxaveNdOoGlyhRa6M?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## Story
 Based on just the chorus, ChatGPT says:
 > The chorus is describing a girl who’s dancing wildly and passionately, impressing those around her with her moves. The narrator is reacting with surprise and admiration.
 
 ## Key lyrics
+There exist no lyrics for this song anywhere, so I had to piece them together with help from an Argentinian friend.
+
 > Ai dios, <br>
 > la niña 'sta violenta. <br>
 > Mira como se mueve, <br>
@@ -138,6 +148,8 @@ To the floor, to the floor, dancers, to the dance floor.
 Look at her, look at her, look at her."
 
 # Me liberé (El Gran Combo De Puerto Rico)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1IcnHHfeAkdc88LybFWwb9?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ## Story
 According to ChatGPT:
 > The narrator expresses relief and gratitude for freeing himself from various women who caused him emotional or relational stress, (...) breaking free from complicated relationships, particularly with women who are demanding or possessive. 
@@ -158,6 +170,8 @@ I freed myself, I freed myself,<br>
 thank heavens, I freed myself."
 
 # Después de todo (Juan Formell y Los Van Van)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4IDiFHGCutb8eNZYEBxHOV?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ## Story
 The singer decries that she was broken up with. In the first half of the song, she asks why. When the song opens up, she tries to make the statement that "fine, if this is what you want, I don't want you anymore anyway".
 
@@ -202,6 +216,8 @@ I'm sleeping on my own."
 don't comment any more, it's happened already.
 
 # Ya Tu No Coronas (Maykel Blanco Y Su Salsa Mayor)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3rhuPie2HVWD1yJ8NASOCV?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ## Story
 According to ChatGPT:
 > The phrase "Ya tú no coronas" is key to understanding the song's meaning. In this context, "coronar" is [Caribbean] slang for "to succeed" or "to win", especially in romantic or sexual conquests. So the title roughly means "You don't win anymore" or "You're not the champion anymore." <br>The song is about a love triangle where the narrator taunts another man, telling him that the woman he thinks he has isn't truly his. She still thinks about the narrator and even fakes affection for the other guy.
