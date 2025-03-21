@@ -66,7 +66,7 @@ According to ChatGPT:
 > Abreme la puerta, que vengo 'pretando.
 
 - **Grammar:** *que* here doesn't refer to *la puerta*, but means "'cause". The gerund *gozando* comes from *gozar* ("to have a great time"). Meanwhile, *'pretando* is short for *apretrando*, about which ChatGPT says: "The word "apretando" comes from "apretar", which generally means "to tighten" or "to put pressure". However, in this context, it is often used colloquially in music, especially in genres like salsa, to imply that he's coming with a strong or powerful presence -- he's bringing a lot of intensity, excitement, and rhythm."
-- **Translation:**
+- **Translation:**<br>
 "I know that you like it, I'm enchanting to you.<br>
 Open the door for me, because I come with excitement.<br>
 I know that you like it, I know that I enchant you. <br>
@@ -106,8 +106,8 @@ Based on just the chorus, ChatGPT says:
 > mira como calienta.
 
 - **Grammar:** *violenta* is used figuratively to mean something like "coming at you hard", "striking". *calienta* is not an adjective or an adverb (that would be *caliente*), but a verb form, from *calentar* ("to heat").
-- **Translation:**
-"Oh God, 
+- **Translation:**<br>
+"Oh God, <br>
 the girl is wild.<br>
 Look at how she moves,<br>
 look at how she heats it up."
@@ -115,7 +115,7 @@ look at how she heats it up."
 > Pa' la pista, pa' la pista, todo el que vino pa' la pista.<br>
 > Pa' la pista, pa' la pista, bailadores pa' la pista.
 
-- **Translation:**
+- **Translation:**<br>
 "To the dance floor, to the dance floor, everyone who came, to the dance floor.<br>
 To the floor, to the floor, dancers, to the dance floor.
 
@@ -145,7 +145,7 @@ Although the song sounds like it's a cry for help to non-Spanish-speakers ("Free
 > gracias al cielo, me liberé.
 
 - **Grammar:** *liberé* is the 1st-person singular simple past of *liberar*.
-- **Translation:**
+- **Translation:**<br>
 "I freed myself, I freed myself,<br>
 thank God, I freed myself.<br>
 I freed myself, I freed myself,<br>
@@ -162,7 +162,7 @@ The singer decries that she was broken up with. In the first half of the song, s
 > Di por mi: "Lo siento."
 
 - **Grammar:** *despues de* means "after". *roto* is the past participle of *romper* ("to break"). *Lo siento* means "I'm sorry".
-- **Translation:**
+- **Translation:**<br>
 "And after all of that,<br>
 broken (is) the feeling.<br>
 For what, and why, my love?<br>
@@ -173,22 +173,27 @@ Say sorry for me."
 > Tu de cama en cama y yo,<br>
 > y yo durmiendo sola.
 
-- **Translation:**
+- **Translation:**<br>
 "And after all of that,<br>
 everything has become bitter.<br>
 You from bed to bed, and I,<br>
 I'm sleeping on my own."
 
-> No se vig'len -- no s'atormenten más, que cada cual tiene s'suplente ya.
+> No se vig'len -- no s'atormenten más, <br>
+> que cada cual tiene s'suplente ya.
 
 - **Grammar:** In Latin-American Spanish, the plural imperative (unlike the singular imperative) always addresses the **formal** "you", regardless of the situation. Like with German's *Sie*, this formal "you" uses the **third**-person conjugation of a verb. That means that in Latin America, a plural imperative uses the third-person plural of a verb, despite being meant for the people being addressed: *se vig'len* is short for *se vigilen*, the 3rd-person plural of *vigilar* ("to watch closely"), here reflexively "don't introspect for too long". Same holds for *se atornmenten* and *atormentar* ("to torment"). *cada cual* means "every one". *suplente* is a noun meaning "replacement".
 - **Translation:**
-"Don't worry -- don't torment yourselves any more, 'cause everyone has their replacement already."
+"Don't worry -- don't torment yourselves any more, <br>
+'cause everyone has their replacement already."
 
-> Lo que pasó, pasó, 'ta bueno ya -- no comenten más, ya pasó.
+> Lo que pasó, pasó, 'ta bueno ya -- <br>
+> no comenten más, ya pasó.
 
 - **Grammar:** *esta bueno ya* literally means "it is good already" but is said when you are annoyed by something and want it to end. In my native language, we would say *nu is het wel geweest* which translates to "now it has been good".
-- **Translation:** That which has happened, happened, that's enough -- don't comment any more, it's happened already.
+- **Translation:**<br>
+"That which has happened, happened, that's enough -- <br>
+don't comment any more, it's happened already.
 
 # Ya Tu No Coronas (Maykel Blanco Y Su Salsa Mayor)
 ## Story
@@ -201,7 +206,7 @@ According to ChatGPT:
 > Ell' e' práctica, e' viva,<br>
 > y no 'tá pa'la bobería.
 
-- **Translation:**
+- **Translation:**<br>
 "If you liked how she kissed you,<br>
 understand that the one who taught her was me.<br>
 She's experienced, she's sharp,<br>
@@ -210,7 +215,7 @@ and she's not here for silly games."
 > Ay ay ay, coge la cola <br>
 > Ay ay ay, ya tú no coronas
 
-- **Translation:**
+- **Translation:**<br>
 "Ay ay ay, get to the back of the line.<br>
 Ay ay ay, no longer do you prevail."
 
