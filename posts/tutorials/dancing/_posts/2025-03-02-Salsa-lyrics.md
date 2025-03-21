@@ -77,6 +77,12 @@ Open the door for me, because I come with force."
 - **Translation:**
 "Open up, here I come!"
 
+> Tun tun. Quien es?
+
+- **Translation:**
+"Knock knock. Who's there?"
+
+
 # Marcando la Distancia (Manolito y Su Trabuco)
 ## Story
 According to ChatGPT:
@@ -198,7 +204,7 @@ don't comment any more, it's happened already.
 # Ya Tu No Coronas (Maykel Blanco Y Su Salsa Mayor)
 ## Story
 According to ChatGPT:
-> The phrase "Ya tú no coronas" is key to understanding the song's meaning. In this context, "coronar" is [Carribean] slang for "to succeed" or "to win", especially in romantic or sexual conquests. So the title roughly means "You don't win anymore" or "You're not the champion anymore." <br>The song is about a love triangle where the narrator taunts another man, telling him that the woman he thinks he has isn't truly his. She still thinks about the narrator and even fakes affection for the other guy.
+> The phrase "Ya tú no coronas" is key to understanding the song's meaning. In this context, "coronar" is [Caribbean] slang for "to succeed" or "to win", especially in romantic or sexual conquests. So the title roughly means "You don't win anymore" or "You're not the champion anymore." <br>The song is about a love triangle where the narrator taunts another man, telling him that the woman he thinks he has isn't truly his. She still thinks about the narrator and even fakes affection for the other guy.
 
 ## Key lyrics
 > Si te gu'tó como te besó, <br>
