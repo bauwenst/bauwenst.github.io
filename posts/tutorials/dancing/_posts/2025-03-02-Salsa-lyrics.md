@@ -48,7 +48,11 @@ I slightly disagree with this; I believe the song is about the narrator telling 
 > que esa niña n' e' pa'ti.
 
 - **Grammar:** *n' e' pa'* in the song is pronounced "nwepa" and is short for *no es para* ("is not for").
-- **Translation:** "Madman, what's up madman? Control yourself dude, because that girl is not (meant) for you.
+- **Translation:**<br>
+"Madman,<br>
+what's up madman?<br>
+Control yourself dude,<br>
+because that girl is not (meant) for you."
 
 ## Musicality
 This song fools every leader the first couple times. It has four different points where it pretends to end: 2:47, 3:08, 4:44, and most deviously, 5:10. Remember that **this song ends with a fade-out**. It does not end by stopping dead in its tracks. Keep dancing when it does, because there's more to come!
@@ -104,7 +108,7 @@ According to ChatGPT:
 
 > Pa' la calle, fuera de mi casa.
 
-- **Translation:** Into the street, out of my house.
+- **Translation:** "Into the street, out of my house."
 
 # Mira Como Se Mueve (Manolito Simonet y su Trabuco)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4f4mYVxaveNdOoGlyhRa6M?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -143,7 +147,7 @@ To the floor, to the floor, dancers, to the dance floor.
 > Muevelo, muevelo, muevelo.<br>
 > Mirala, mirala, mirala.
 
-- **Translation:** 
+- **Translation:** <br>
 "Move it, move it, move it. <br>
 Look at her, look at her, look at her."
 
@@ -202,8 +206,8 @@ I'm sleeping on my own."
 > No se vig'len -- no s'atormenten más, <br>
 > que cada cual tiene s'suplente ya.
 
-- **Grammar:** In Latin-American Spanish, the plural imperative (unlike the singular imperative) always addresses the **formal** "you", regardless of the situation. Like with German's *Sie*, this formal "you" uses the **third**-person conjugation of a verb. That means that in Latin America, a plural imperative uses the third-person plural of a verb, despite being meant for the people being addressed: *se vig'len* is short for *se vigilen*, the 3rd-person plural of *vigilar* ("to watch closely"), here reflexively "don't introspect for too long". Same holds for *se atornmenten* and *atormentar* ("to torment"). *cada cual* means "every one". *suplente* is a noun meaning "replacement".
-- **Translation:**
+- **Grammar:** In Latin-American Spanish, the plural imperative (unlike the singular imperative) always addresses the **formal** "you", regardless of the situation. Like with German's *Sie*, this formal "you" uses the **third**-person conjugation of a verb. That means that in Latin America, a plural imperative uses the third-person plural of a verb, despite being meant for the people being addressed: *se vig'len* is short for *se vigilen*, the 3rd-person plural of *vigilar* ("to watch closely"), here reflexively "don't introspect for too long". Same holds for *se atornmenten* and *atormentar* ("to torment"). In Spain, people would use the 2nd-person plural imperatives *no os vigiléis* and *no os atornmentéis* instead. *cada cual* means "every one". *suplente* is a noun meaning "replacement".
+- **Translation:**<br>
 "Don't worry -- don't torment yourselves any more, <br>
 'cause everyone has their replacement already."
 
