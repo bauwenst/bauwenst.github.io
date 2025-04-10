@@ -8,7 +8,7 @@ last_modified_at: 2025-04-09
 tags: [salsa, casino]
 ---
 
-As I have explored in previous articles, all casino figures transition between three positions. One of those, *caída*, is rather starved compared to the other two (and certainly *abierta*, from which most figures start); the choice is basically between doing an exhibela or a DQN. There are two ways to alleviate this: by **substituting** caída with a figure, and by **substituting** the last bar of DQN. There is a very nice relationship between both, and in fact, by assuming symmetry between them, you can logically deduce the existence of new figures.
+As I have explored in [previous articles](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-29-Casino-positional-systems/), all casino figures transition between three positions. One of those, *caída*, is rather starved compared to the other two (and certainly *abierta*, from which most figures start); the choice is basically between doing an exhibela or a DQN. There are two ways to alleviate this: by **substituting** caída with a figure, and by **substituting** the last bar of DQN. There is a very nice relationship between both, and in fact, by assuming symmetry between them, you can logically deduce the existence of new figures.
 
 1. dummy
 {:toc}
@@ -50,10 +50,10 @@ Finally, [there is](https://youtube.com/shorts/mc7171xd4CY) a third figure where
 For the sake of naming, because there are three, you could call the classic one "arriba", the one behind the back "atras" and the one where you go under "abajo". In fact, this matches the invariants of the enchufates: atras is the only one that rotates the other way (counterclockwise) versus arriba and abajo (clockwise), 
 
 ## Por debajo del brazo
-[_Por debajo del brazo_](https://youtu.be/HVoSUPBuqgQ?t=109) goes as follows: do right-handed vacilala, lead her towards your back like a rodeo, except on 7, do a behind-the-back switch to your left hand, and in the next bar, pull her forwards on your left side with your hand veering left, essentially doing an enchufla without looking. The rest is like enchufla.
+[_Por debajo del brazo_](https://youtu.be/HVoSUPBuqgQ?t=109) (PDD) goes as follows: do a right-handed vacilala and lead her towards your back like a rodeo, except on 7, do a behind-the-back switch to your left hand, and in the next bar, pull her forwards on your left side with your hand veering left, essentially doing an enchufla without looking. The rest is like enchufla.
 
-It sounds new, but actually, from the follower's perspective, this is identical to a vacilala with enchufate abajo, just without the leader rotating to face the follower.<br>
-By symmetry, this implies two things: firstly, that there are two other variants of PDD, with enchufate arriba and enchufate atras respectively, which in this case just correspond to how you move your elbow over your head. Secondly, that you can do non-rotating enchufates in other situations, like after an enchufla rather than a vacilala.
+It sounds new, but actually, from the follower's perspective, this is identical to a vacilala and an enchufate abajo followed by an enchufla, just without the leader rotating to face the follower.<br>
+By symmetry, this implies two things: firstly, that there are two other variants of PDD, with enchufate arriba and enchufate atras respectively, which in this case just correspond to how you move your elbow over your head. Secondly, that you can do non-rotating enchufates in other situations, like after an enchufla rather than a vacilala. For example, one could wonder if the leader needs to turn to the follower after his enchufate in setenta.
 
 ## Balsero
 This article is not about using two hands, but it's worth mentioning that some figures are based on rodeo steps, like balsero.
@@ -92,6 +92,20 @@ There is indeed one problem: in the second bar of a DQN, followers do a 180⁰ t
 Since enchufate atras can use a hook turn with the right foot hooking behind the left, enchufate inverso atras can use a hook turn with the right foot hooking in front of the left.
 
 I've tested this in practice, and it works. During your turn, push her clockwise with your left arm and push on her back with your right so her DQN is blocked. The turn will feel like an enchufate arriba at first (because it's counterclockwise), but it's a 360⁰ right-over-left hook turn, not a 180⁰ enchufate. You can step through this hook turn if you pivot your left foot 90⁰ on 4.
+
+Here is an overview in tabular form that shows how enchufates and rodeos relate.
+
+| Figure | Leader | Follower | Starts in bar | After 0 bars | After 1 bar | After 2 bars |
+| --- | --- | --- | --- | --- | --- | --- |
+| Rodeo             | / | walks clockwise | 1 | caída | abierta | caída |
+| Rodeo inverso     | / | walks counterclockwise | 1 | abierta | caída | abierta |
+| Paseala | / | walks counterclockwise | 1 | abierta | caída | abierta | 
+| Enchufate arriba  | walks and turns 180° CCW | turns 180° CW | 2 | moving into caída | abierta | / |
+| Enchufate atras   | turns 360° CW | / | 2 | moving into caída | abierta | / |
+| Enchufate abajo   | walks and turns 180° CCW | turns 180° CW | 2 | moving into caída | abierta | / |
+| Enchufate inverso arriba  | turns 180° CW | walks and turns 180° CCW | 2 | moving into abierta | caída | / | 
+| Enchufate inverso atras   | turns 360° CCW | walks straight | 2 | moving into abierta | caída | / |
+| Enchufate inverso abajo   | turns 180° CW | walks and turns 180° CCW | 2 | moving into abierta | caída | / |
 
 ## Bayamo
 Again, this article is not about two-handed figures, but it's worth pointing out that Bayamo is just a rodeo inverso in essence. It is the counterclockwise equivalent of balsero.

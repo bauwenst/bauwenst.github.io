@@ -173,6 +173,16 @@ thank God, I freed myself.<br>
 I freed myself, I freed myself,<br>
 thank heavens, I freed myself."
 
+> Que yo no quiero más complicaciones, por eso me liberé.<br>
+> Me libére, me libére.
+
+- **Translation:**<br>
+"That I don't want more complications, for that I freed myself.<br>
+I freed myself, I freed myself."
+
+## Musicality
+The last excerpt above appears towards the end of the song. Between the two lines, there is a burst of the orchestra. Try to anticipate this hit (which you can't do by the lyrics alone, because the first line appears earlier in the song) and exaggerate your movement at that moment.
+
 # Después de todo (Juan Formell y Los Van Van)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4IDiFHGCutb8eNZYEBxHOV?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
@@ -224,7 +234,7 @@ don't comment any more, it's happened already.
 
 ## Story
 According to ChatGPT:
-> The phrase "Ya tú no coronas" is key to understanding the song's meaning. In this context, "coronar" is [Caribbean] slang for "to succeed" or "to win", especially in romantic or sexual conquests. So the title roughly means "You don't win anymore" or "You're not the champion anymore." <br>The song is about a love triangle where the narrator taunts another man, telling him that the woman he thinks he has isn't truly his. She still thinks about the narrator and even fakes affection for the other guy.
+> The phrase "Ya tú no coronas" is key to understanding the song's meaning. In this context, "coronar" is [Caribbean]() slang for "to succeed" or "to win", especially in romantic or sexual conquests. So the title roughly means "You don't win anymore" or "You're not the champion anymore." <br>The song is about a love triangle where the narrator taunts another man, telling him that the woman he thinks he has isn't truly his. She still thinks about the narrator and even fakes affection for the other guy.
 
 ## Key lyrics
 > Si te gu'tó como te besó, <br>
@@ -244,6 +254,47 @@ and she's not here for silly games."
 - **Translation:**<br>
 "Ay ay ay, get to the back of the line.<br>
 Ay ay ay, no longer do you prevail."
+
+# Pastilla de Menta (Havana D'Primera)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4kh7zU2CeQtLLL91ZNn2FA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+## Story
+According to ChatGPT:
+> The narrator is defending and celebrating his music (his timba), despite gossip or criticism. (...) The phrase "pastilla de menta" (a breathmint) may be a metaphor, possibly for something refreshing, soothing, or spicy, depending on context. Could be slang for his musical flavor — like saying, "Here’s something fresh for you."
+
+## Key lyrics
+> Mira mi timba, que bien se ve.<br>
+> Ven, tirat' una foto.
+
+- **Translation:**<br>
+"Look at my timba, how good it looks.<br>
+Come, take yourself a photo."
+
+> Prepárate,<br>
+> apúntate,<br>
+> menéate.<br>
+> Un, dos, tres, camina!
+
+- **Translation:**<br>
+"Prepare yourself,<br>
+join in,<br>
+sway your body.<br>
+One, two, three, let's go!"
+
+> Heh, hah, agítala,<br>
+> jala por aquí, jala por allá,<br>
+> levanta la mano y mueva la cintura,<br>
+> salta! Dale pa'que vuelv'a 'mpezar.
+
+- **Grammar:** The last sentence is hard to translate. It starts with *dale* (literally "give it"), a phrase that means "go for it", and then *pa'que* (*para que*, "for the reason that"), *vuelva* ("it comes back around") and *a empezar* ("to start").
+- **Translation:**<br>
+"Hey, hah, shake it,<br>
+pull over here, pull over there,<br>
+raise your hand and move your waist,<br>
+jump! Go ahead, so it returns to starting."
+
+## Musicality
+The final excerpt describes a little dance routine which you can try to integrate into your dance. To get an idea, [here is Havana D'Primera](https://youtu.be/Rb2BwJwTIi0?t=150) performing the song in concert. It repeats four times back-to-back after the bridge, and you can have a lot of fun even with the *"salta!"* alone.
 
 # Conclusion
 Practice these lyrics when listening to the songs. Close your position when the music is calmer (the start and the end, and sometimes during the bridge). And, whenever you can, dance like the protagonist in these songs.
