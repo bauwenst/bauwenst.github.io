@@ -234,7 +234,7 @@ don't comment any more, it's happened already.
 
 ## Story
 According to ChatGPT:
-> The phrase "Ya tú no coronas" is key to understanding the song's meaning. In this context, "coronar" is [Caribbean]() slang for "to succeed" or "to win", especially in romantic or sexual conquests. So the title roughly means "You don't win anymore" or "You're not the champion anymore." <br>The song is about a love triangle where the narrator taunts another man, telling him that the woman he thinks he has isn't truly his. She still thinks about the narrator and even fakes affection for the other guy.
+> The phrase "Ya tú no coronas" is key to understanding the song's meaning. In this context, "coronar" is [Caribbean](https://en.wikipedia.org/wiki/Caribbean_Spanish) slang for "to succeed" or "to win", especially in romantic or sexual conquests. So the title roughly means "You don't win anymore" or "You're not the champion anymore." <br>The song is about a love triangle where the narrator taunts another man, telling him that the woman he thinks he has isn't truly his. She still thinks about the narrator and even fakes affection for the other guy.
 
 ## Key lyrics
 > Si te gu'tó como te besó, <br>
@@ -291,7 +291,7 @@ One, two, three, let's go!"
 "Hey, hah, shake it,<br>
 pull over here, pull over there,<br>
 raise your hand and move your waist,<br>
-jump! Go ahead, so it returns to starting."
+jump! Do it now, so we can start over."
 
 ## Musicality
 The final excerpt describes a little dance routine which you can try to integrate into your dance. To get an idea, [here is Havana D'Primera](https://youtu.be/Rb2BwJwTIi0?t=150) performing the song in concert. It repeats four times back-to-back after the bridge, and you can have a lot of fun even with the *"salta!"* alone.
