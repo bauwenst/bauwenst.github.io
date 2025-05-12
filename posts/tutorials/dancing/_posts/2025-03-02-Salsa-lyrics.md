@@ -296,6 +296,52 @@ jump! Do it now, so we can start over."
 ## Musicality
 The final excerpt describes a little dance routine which you can try to integrate into your dance. To get an idea, [here is Havana D'Primera](https://youtu.be/Rb2BwJwTIi0?t=150) performing the song in concert. It repeats four times back-to-back after the bridge, and you can have a lot of fun even with the *"salta!"* alone.
 
+# La Chica Chocolate (Barbaro Fines y su Mayimbe)
+This song is my all-time favourite rueda song. Barbaro Fines's drummer deserves an award for the insane energy he brings to this.
+
+According to ChatGPT:
+> This song is a tribute to a girl dubbed "la chica chocolate" (the chocolate girl), admired for her irresistible looks and seductive dance moves. (...) "Chocolate" refers to her skin tone -- it's a common, affectionate way to describe a beautiful black or brown-skinned woman.
+
+From what I can tell myself, this song's lyrics are either very explicitly sexual, or alternatively, they are trying to be funny by serenading an actual liquid-inside chocolate figure which they are about to consume. I made ChatGPT start doubting itself by asking about the sexual nature of the metaphors, so it did not help me figure out which interpretation is correct.
+
+## Key lyrics
+> Mamita ven,<br>
+> que tu esta' pa' chuparte toda, el chocolate ma' rico, mami.
+
+- **Pronunciation:** "tu esta'" is pronounced "twesta" here.
+- **Grammar:** *ven* is the imperative of *venir* ("to come") and "que" here is meant as "because". Interestingly, *chupar* ("to take in", "to suck") here has a direct pronoun *te* because *tu estas para chupar* would mean "you are (made) to take in", where *tu* becomes the subject of this *para*.
+- **Translation:**<br>
+"Come here, lil' momma,<br>
+because you're made to be taken in whole, the chocolate so very rich, mommy"
+
+> Salte del medio, demente.<br>
+> Mejor evit'un accidente.<br>
+> Dedicat' a tu musiquita, y a tun-tun-tun
+
+- **Translation:**<br>
+"Get out of the way, lunatic.<br>
+Better avoid an accident.<br>
+Dedicate yourself to your little music, and to tun-tun-tun."
+
+> Ella, lo que tiene 's chocolate en 'l cuerpo.
+
+- **Translation:**<br>
+"She, that which she has is chocolate in her body."
+
+> Que rico seria pasarte la lenguïta por tu barriguita, cosita rica.
+
+- **Translation:**<br>
+"How rich it would be to pass my tongue over your stomach, you savoury little thing."<br>
+
+## Musicality
+If you are the cantante for a rueda to this song, there are several moments you can exploit for extra effect. (All credit for this goes to [DJ El Guapo](https://www.instagram.com/el_guapo1906/), whom I suggested do a rueda to this song I had just discovered, and who proceeded to nail every single accent.)
+
+At 2:25, the music rests for 20 seconds so that it can come back with even more energy at 2:45. I recommend against calling any partner changes in these 20 seconds (keeping the rueda stagnant) and allow *guapea* in the truest sense of the word, which is to say, have everyone show off with their partner using the accents in the music. Then, at 2:45, you call any enchufla-based figure (like *festival de pelotas*) to ramp up the movement of the rueda.
+
+The same is true between 5:40 and 6:35 to prepare for the final minute of the song.
+
+At 3:35, I recommend you call *cintura*, i.e. the couples let go and rotate while girating the hips. You can keep doing this for all four phrases and then call a *dame*.
+
 # Conclusion
 Practice these lyrics when listening to the songs. Close your position when the music is calmer (the start and the end, and sometimes during the bridge). And, whenever you can, dance like the protagonist in these songs.
 

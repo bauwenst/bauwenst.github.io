@@ -43,7 +43,7 @@ Another thing you can do on a rodeo is to keep her arm low and have her trace yo
 ## Cásate
 In rueda, there is a figure called [_enchufla y cásate_](https://youtube.com/shorts/-FgMtsnaNcI) (from _casar_, meaning "get yourself married") where you do a right-on-right enchufla, and -- as the setup to substitute caída without the follower's awareness -- use the connection to hook her held arm behind your left arm. Arm-in-arm, you then walk around the circle. En pareja, there is no circle, so you walk around your connection (she walks forwards, you walk backwards). This is cásate.
 
-[There exists](https://youtube.com/shorts/r8jdz3aR_cM) a subtly different form of cásate where you also walk backwards facing the same way as her, but keeping the right-on-right hold behind your back rather than using it to hook.
+There exists a subtly different form of cásate where you also walk backwards facing the same way as her, but keeping the right-on-right hold behind your back rather than using it to hook. This happens in e.g. [this video](https://youtube.com/shorts/r8jdz3aR_cM) and [this video](https://youtube.com/shorts/-oOQr2RvGnI?si=myKxknHgH3Kc4VdA).
 
 Finally, [there is](https://youtube.com/shorts/mc7171xd4CY) a third figure where you "spin out" like you do in the previous video, except you do so by diving under her held arm. 
 
