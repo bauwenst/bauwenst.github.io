@@ -4,7 +4,7 @@ layout: post
 title: "Bits-per-character and its relation to perplexity"
 description: A short formalisation of an obscure metric.
 
-tags: language modelling
+tags: "language modelling"
 ---
 I was recently reading [a paper](https://arxiv.org/abs/2405.07883) on how to train an adapter between a given model and any tokeniser, and noticed that they measured their causal language modelling performance in *bits-per-character (BPC)* rather than the more standard *perplexity (PPL)* with no citation to show for it. Let's dive into that!
 
