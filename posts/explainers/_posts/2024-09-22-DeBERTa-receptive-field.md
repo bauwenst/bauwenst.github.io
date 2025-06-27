@@ -4,7 +4,7 @@ layout: post
 title: "Does DeBERTa have infinite context length, and how large is the receptive field of a token?"
 description: Disentangling the strangeness of relative distance and more.
 
-tags: language modelling
+tags: "language modelling"
 ---
 The promise of [DeBERTa](https://arxiv.org/abs/2006.03654) is that it does away with absolute positional embeddings added at the start of the transformer encoder, and replaces it instead with an attention mechanism that takes into account the relative distance between tokens when doing attention, in every head of every layer. Since absolute positional embeddings [are the only part of a transformer](https://datascience.stackexchange.com/q/120601/141432) whose dimensionality is related to the length of the input, would taking it out mean DeBERTa can process an infinite amount of tokens at once? Let's analyse.
 

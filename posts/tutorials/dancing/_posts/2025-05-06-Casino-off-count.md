@@ -10,7 +10,7 @@ tags: [salsa, casino]
 
 Beginners are cursed with not finding the count and being off count without knowing, which bothers onlookers. Improvers are cursed with knowing how to find count in most songs, and hence they are the first to feel discomfort when falling off count. You can't just defibrillate the dance with a hard stop, like you would a heart to restart the pulse. So, here are some of the ways I get back on count -- fixing the car while driving it.
 
-# Rodeo, casaté, familia
+# Rodeo, cásate, familia
 If you take away one technique from this article, it should be this one: you can prolong any of the indefinitely rotating figures (rodeo, cásate, familia) with enough counts to synchronise the dance again. This is by far my favourite way to shift the count, since it can correct any offset, goes unnoticed due to staying connected to the follower, and she gets to show off too. The only real difficulty is that at some point along the way, either the left or the right foot will step twice in a row.
 
 # Cruze
