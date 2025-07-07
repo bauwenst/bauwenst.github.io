@@ -67,76 +67,76 @@ The only source I could find for the lyrics was a [lyric video](https://www.yout
   <summary>Show lyrics</summary>
 
 ```
-te portaste mal
-no te llevo mas
-me debes una explicacion
-te robaste el show que ridiculo
-salimo en los periodico
+  te portaste mal
+  no te llevo mas
+  me debes una explicacion
+  te robaste el show que ridiculo
+  salimo en los periodico
 
-por toxica, frenetica,
-tu nota ya no mide el peligro
-me agota la paeciencia
-que pena
-tu te portas mal
+  por toxica, frenetica,
+  tu nota ya no mide el peligro
+  me agota la paeciencia
+  que pena
+  tu te portas mal
 
-vamo' a ver
-si con el tiempo maduras
-y retomas la postura
-que necesito que tengas
-para poder convivir
+  vamo' a ver
+  si con el tiempo maduras
+  y retomas la postura
+  que necesito que tengas
+  para poder convivir
 
-y si te portas bien
-ya lo valorare
-ehhh, ehhh,
+  y si te portas bien
+  ya lo valorare
+  ehhh, ehhh,
 
-(tu te salvas porque tu me gustas)
-(pero no te vistas que estas castiga')
+  (tu te salvas porque tu me gustas)
+  (pero no te vistas que estas castiga')
 
-(tu te salvas porque tu me gustas)
-(pero no te vistas que estas castiga')
+  (tu te salvas porque tu me gustas)
+  (pero no te vistas que estas castiga')
 
-(tu te salvas porque tu me gustas)
-(pero no te vistas que estas castiga')
+  (tu te salvas porque tu me gustas)
+  (pero no te vistas que estas castiga')
 
-(tu te salvas porque tu me gustas)
-(pero no te vistas que estas castiga')
+  (tu te salvas porque tu me gustas)
+  (pero no te vistas que estas castiga')
 
-y la lleve al aljibe
-(y se comio to' el pollo)
-la lleve a casa de Teresa
-(se tomo la cerveza)
-y la lleve al chachacha
-(y no dejo na)
+  y la lleve al aljibe
+  (y se comio to' el pollo)
+  la lleve a casa de Teresa
+  (se tomo la cerveza)
+  y la lleve al chachacha
+  (y no dejo na)
 
-por eso
-por eso no vas
+  por eso
+  por eso no vas
 
-por estar formando cosas
+  por estar formando cosas
 
-cada vez que compartimos siempre formas un problema
-que clase e' situacion
-que clase e' tema
+  cada vez que compartimos siempre formas un problema
+  que clase e' situacion
+  que clase e' tema
 
-pa que no me estes formando na te quedas
-pa que no me estes formando na te quedas
+  pa que no me estes formando na te quedas
+  pa que no me estes formando na te quedas
 
-hey
-coge un stop
-y mirama de frente
-deja el papelazo
-mira la gente
-no te pongas imprudente
-no empeores
-y no me pongas
-el ambiente caliente
+  hey
+  coge un stop
+  y mirama de frente
+  deja el papelazo
+  mira la gente
+  no te pongas imprudente
+  no empeores
+  y no me pongas
+  el ambiente caliente
 
-por eso
-por eso no vas
+  por eso
+  por eso no vas
 
-oye deja ya la crisis
-oye deja el papelazo
+  oye deja ya la crisis
+  oye deja el papelazo
 
-aye tu te quedas, no vas
+  aye tu te quedas, no vas
 ```
 
 </details>
@@ -171,6 +171,7 @@ and I took her to cha-cha-cha<br>
 (and she left nothing)."<br>
 
 > Por eso no vas.
+
 - **Translation:** "For that reason, you're not coming along."
 
 # Qué Pasa Loco (Issac Delgado)
@@ -212,11 +213,17 @@ From what I can tell myself, this song's lyrics are either very explicitly sexua
 > Mamita ven,<br>
 > que tu esta' pa' chuparte toda, el chocolate ma' rico, mami.
 
-- **Pronunciation:** "tu esta'" is pronounced "twesta" here.
+- **Pronunciation:** "tu estas" is pronounced "twesta" here.
 - **Grammar:** *ven* is the imperative of *venir* ("to come") and "que" here is meant as "because". Interestingly, *chupar* ("to take in", "to suck") here has a direct pronoun *te* because *tu estas para chupar* would mean "you are (made) to take in", where *tu* becomes the subject of this *para*.
 - **Translation:**<br>
 "Come here, lil' momma,<br>
 because you're made to be taken in whole, the chocolate so very rich, mommy"
+
+> Mano' pal cielo!<br>
+> Todas las chicas chocolates que vinieron, a ver!
+- **Translation:**<br>
+"Hands to the sky!<br>
+All the chocolate girls that showed up, let's see!"
 
 > Tú tienes que tener presente<br>
 > que Mayimbe suena diferente.<br>
