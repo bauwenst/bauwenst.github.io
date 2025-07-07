@@ -1,11 +1,10 @@
 ---
 layout: post
-
-title: "Spanish lyrics for the dance floor"
+title: Spanish lyrics for the dance floor
 description: Our bodies embody the music, but our minds and mouths should embody the song.
-last_modified_at: 2025-04-10
-
-tags: salsa
+last_modified_at: 2025-07-08
+tags:
+  - salsa
 ---
 
 As a beginning leader, all you care about in the music is the count. Yet, as [David Linares](https://sonycasino.com/2015/06/04/musicality-how-to-tell-when-some-songs-are-about-to-end/) blogged about almost a decade ago, and as was recently reiterated by [Steven Messina](https://youtu.be/Uyq3--7FPdw?t=0) and [Robin Campbell](https://youtu.be/GC3UnguZdu0?t=55), a good leader conditions his figures and positions on the energy of the music. I will go one step further and argue that true musicality requires that your dance follows the emotion expressed by the lyrics. So, let's learn some Spanish lyrics.
@@ -59,6 +58,118 @@ jump! Do it now, so we can start over."
 
 ## Musicality
 The final excerpt describes a little dance routine which you can try to integrate into your dance. To get an idea, [here is Havana D'Primera](https://youtu.be/Rb2BwJwTIi0?t=150) performing the song in concert. It repeats four times back-to-back after the bridge, and you can have a lot of fun even with the *"salta!"* alone.
+
+# Por Eso No Vas (Maykel Blanco y su Salsa Mayor)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4oYssx9PToAapklTHsvycI?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+The only source I could find for the lyrics was a [lyric video](https://www.youtube.com/watch?v=VlrW2WI_O9Q), so I transcribed it.
+<details>
+  <summary>Show lyrics</summary>
+```
+te portaste mal
+no te llevo mas
+me debes una explicacion
+te robaste el show que ridiculo
+salimo en los periodico
+
+por toxica, frenetica,
+tu nota ya no mide el peligro
+me agota la paeciencia
+que pena
+tu te portas mal
+
+vamo' a ver
+si con el tiempo maduras
+y retomas la postura
+que necesito que tengas
+para poder convivir
+
+y si te portas bien
+ya lo valorare
+ehhh, ehhh,
+
+(tu te salvas porque tu me gustas)
+(pero no te vistas que estas castiga')
+
+(tu te salvas porque tu me gustas)
+(pero no te vistas que estas castiga')
+
+(tu te salvas porque tu me gustas)
+(pero no te vistas que estas castiga')
+
+(tu te salvas porque tu me gustas)
+(pero no te vistas que estas castiga')
+
+y la lleve al aljibe
+(y se comio to' el pollo)
+la lleve a casa de Teresa
+(se tomo la cerveza)
+y la lleve al chachacha
+(y no dejo na)
+
+por eso
+por eso no vas
+
+por estar formando cosas
+
+cada vez que compartimos siempre formas un problema
+que clase e' situacion
+que clase e' tema
+
+pa que no me estes formando na te quedas
+pa que no me estes formando na te quedas
+
+hey
+coge un stop
+y mirama de frente
+deja el papelazo
+mira la gente
+no te pongas imprudente
+no empeores
+y no me pongas
+el ambiente caliente
+
+por eso
+por eso no vas
+
+oye deja ya la crisis
+oye deja el papelazo
+
+aye tu te quedas, no vas
+```
+</details>
+
+## Story
+According to ChatGPT:
+> The central speaker is addressing a partner (likely a girlfriend) who has **acted out socially**, causing embarrassment, making scenes, and behaving inappropriately in public.
+
+## Key lyrics
+In all of the below, don't pronounce the letter "s". This is typical for Caribbean Spanish.
+
+> tu te salvas porque tu me gustas<br>
+> pero no te vistas que estas castiga'
+
+- **Translation:**<br>
+"You redeem yourself because I like you<br>
+but don't get dressed, because you're in time-out."
+
+> y la lleve al Aljibe
+> (y se comio to' el pollo)
+> la lleve a casa de Teresa
+> (se tomo la cerveza)
+> y la lleve al chachacha
+> (y no dejo na)
+
+- **Translation:**<br>
+"And I took her to the Reservoir<br>
+(and she ate all their chicken)<br>
+I took her to Teresa's house<br>
+(she drank her beer)<br>
+and I took her to cha-cha-cha<br>
+(and she left nothing)."<br>
+
+> Por eso no vas.
+- **Translation:** "For that reason, you're not coming along."
 
 # Qué Pasa Loco (Issac Delgado)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5evx5is4W5iLY7A5zv82Ut?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -167,6 +278,31 @@ Open the door for me, because I come with force."
 
 - **Translation:**
 "Knock knock. Who's there?"
+
+# Chupa Mi Melao (Nic N'Taya)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3QcftrZy52znkV83nCB5A7?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+The key lyric for this song also feature prominently at the end of *La Reventaya*, a medley of N'Taya songs.
+
+## Key lyrics
+> Del changüí, yo soy el presidente.
+
+- **Translation:**<br>
+"Of changüí, I am the president.
+
+
+# N'Taya No Falla (Nic N'Taya)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2t20mFjIBLs16mJA9AwzRL?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+## Key lyrics
+> ay, caballero<br>
+> esto no falla<br>
+> si, la pista se pone calienta cuando suen' N'Taya
+
+- **Translation:**<br>
+"Oh, sir<br>
+this one doesn't fail.<br>
+Yes, the dance floor finds itself hot when N'Taya sounds."
 
 # Marcando la Distancia (Manolito y Su Trabuco)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/70BDblSjPfj6Pe24avWzK2?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -303,6 +439,36 @@ I'm sleeping on my own."
 - **Translation:**<br>
 "That which has happened, happened, that's enough -- <br>
 don't comment any more, it's happened already.
+
+# Azowano (Havana D'Primera)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1ebkv7RBt8pNn8qJ6rA5QN?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+This song is quite difficult to dance to, but the instrumentation is beautiful. It is technically a prayer, so we should be sensitive singing it appropriately.
+
+## Story
+According to ChatGPT:
+> This song is a religious tribute to San Lázaro (Babalú-Ayé), a highly revered figure in Cuban popular and Afro-Caribbean spiritual traditions, especially within Santería and related belief systems like Arará. (...) The song tells the mythic-spiritual story of San Lázaro, syncretized with Babalú-Ayé, the orisha (Yoruba deity) of illness and healing. In Catholicism, San Lázaro is associated with leprosy and suffering. In Santería, Babalú-Ayé is the orisha who punishes and cures diseases—especially epidemics and skin conditions. (...) The lyrics narrate his suffering (covered in sores, walking with crutches), his resurrection or healing, and the guidance he receives from other orishas like Elegguá, Changó, Obatalá, and Orula—each with their own divine roles (e.g., fate, wisdom, purity, power).
+
+## Key lyrics
+> Azowano, ashé mi Babalú.
+> Aquí estamos los Cubanos, 
+> pidiéndote salud, salud, salud.
+
+- **Translation:**<br>
+"Azowano, power to you, my Babalu.<br>
+Here are the Cubans,<br>
+begging you for good health, good health, good health."
+
+> San Lázaro bendito,<br>
+> ya puede caminar.<br>
+> Ya tiene dos muletas,<br>
+> ya puede caminar.
+
+- **Translation:**<br>
+"Saint Lazarus, blessed one,<br>
+already he can walk again.<br>
+Already he is carrying two crutches,<br>
+already he can walk again."
 
 # Ya Tu No Coronas (Maykel Blanco Y Su Salsa Mayor)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3rhuPie2HVWD1yJ8NASOCV?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
