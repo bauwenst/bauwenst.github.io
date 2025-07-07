@@ -66,7 +66,7 @@ The only source I could find for the lyrics was a [lyric video](https://www.yout
 <details>
   <summary>Show lyrics</summary>
 
-```
+  ```text
   te portaste mal
   no te llevo mas
   me debes una explicacion
@@ -155,11 +155,11 @@ In all of the below, don't pronounce the letter "s". This is typical for Caribbe
 "You redeem yourself because I like you<br>
 but don't get dressed, because you're in time-out."
 
-> y la lleve al Aljibe
-> (y se comio to' el pollo)
-> la lleve a casa de Teresa
-> (se tomo la cerveza)
-> y la lleve al chachacha
+> y la lleve al Aljibe<br>
+> (y se comio to' el pollo)<br>
+> la lleve a casa de Teresa<br>
+> (se tomo la cerveza)<br>
+> y la lleve al chachacha<br>
 > (y no dejo na)
 
 - **Translation:**<br>
@@ -168,7 +168,7 @@ but don't get dressed, because you're in time-out."
 I took her to Teresa's house<br>
 (she drank her beer)<br>
 and I took her to cha-cha-cha<br>
-(and she left nothing)."<br>
+(and she left nothing)."
 
 > Por eso no vas.
 
@@ -221,6 +221,7 @@ because you're made to be taken in whole, the chocolate so very rich, mommy"
 
 > Mano' pal cielo!<br>
 > Todas las chicas chocolates que vinieron, a ver!
+
 - **Translation:**<br>
 "Hands to the sky!<br>
 All the chocolate girls that showed up, let's see!"
@@ -442,8 +443,8 @@ According to ChatGPT:
 > This song is a religious tribute to San Lázaro (Babalú-Ayé), a highly revered figure in Cuban popular and Afro-Caribbean spiritual traditions, especially within Santería and related belief systems like Arará. (...) The song tells the mythic-spiritual story of San Lázaro, syncretized with Babalú-Ayé, the orisha (Yoruba deity) of illness and healing. In Catholicism, San Lázaro is associated with leprosy and suffering. In Santería, Babalú-Ayé is the orisha who punishes and cures diseases—especially epidemics and skin conditions. (...) The lyrics narrate his suffering (covered in sores, walking with crutches), his resurrection or healing, and the guidance he receives from other orishas like Elegguá, Changó, Obatalá, and Orula—each with their own divine roles (e.g., fate, wisdom, purity, power).
 
 ## Key lyrics
-> Azowano, ashé mi Babalú.
-> Aquí estamos los Cubanos, 
+> Azowano, ashé mi Babalú.<br>
+> Aquí estamos los Cubanos,<br>
 > pidiéndote salud, salud, salud.
 
 - **Translation:**<br>
