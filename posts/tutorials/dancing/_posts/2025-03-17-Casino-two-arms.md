@@ -59,7 +59,7 @@ Let me now introduce a new, arithmetical way of thinking about two-handed handho
 Firstly, I will borrow terminology from organic chemistry to describe how the *hands* are connected, not yet how the arms are positioned.
 <p style="display:inline-block; white-space: nowrap; width:100%; text-align: center;">
     <span style="display:inline-block; vertical-align:middle;">
-        <img src="/cdn/img/svg/2025/cis-vs-trans.svg" style="height: 25cqw;"/>
+        <img src="/cdn/img/svg/2025/cis-vs-trans.svg" style="height: 20cqw;"/>
     </span>
 </p>
 Geometric isomerism in organic chemistry.
@@ -89,9 +89,6 @@ Meanwhile, trans holds can never be open, but can still be double-crossed. So, t
 
 ### Why numbers?
 The reason for all of the above names is the fundamental insight that *the resting position of two connected arms is a counter of (counter)clockwise entanglement.* Just like you can count to 10 on your fingers, you can count within a certain range by entangling and disentangling your arms. The counter can go up and down within limits. Figures (or half-figures) are operations on this counter.
-
-This number-based + position-aware version of the theory was not the first one I came up with. I've been trying to formalise arms since January 2025, at which point I thought most figures were unique transformations. it took two months to realise that there was a much simpler pattern. Originally, I had only modelled a "TL" and "TR" alongside "CL2", "C" and "CR2". But then, one night mid-March -- about a week after I had come up with this shiny new letter-based model -- I was practicing figures on my mum and noticed that when doing a *sombrero de Manny* with two hands held, it started in a hold that didn't fit the model when wrangling myself through, yet it worked after one enchufla. The theory will need one more version update to describe holds where leader and follower are facing the same direction, and another to describe the many hammerlocks that exist (at least 2 T-hammerlocks for followers on her left and right hip, and another 4 for leaders, and probably even more considering what happens in [*setenta pal piso*](https://salsaselfie.com/2020/02/24/cuban-salsa-setenta-para-el-piso/)).
-{:.note title="Historical note" .filled}
 
 # Figures
 Figures are operations on the counter. Indeed, here are some two-handed transitions:
@@ -128,7 +125,7 @@ Some sequences are kept stable by alternating between incrementing and decrement
 	- **[Helicoptero](https://www.youtube.com/shorts/mAZoSMjFsxs)** is the RLLH version of balsero. Analogous to how *Bayamo abajo* is the hammerlocking version of Bayamo arriba, you could call helicoptero a *balsero abajo*. (But once again, hammerlocks are more complex.)
 
 ## Mathematically
-First, here is a summary of the above in more compact form. All figures can be described with scientific notation `x.yZ+w` where the integer part `x` is the starting position, the fractional part `y` is the end position, `Z` is the hold family, and `w` is the increment to the turn counter.
+First, here is a summary of the above in more compact form. All figures can be described with scientific notation `x.yZ+w` where the integer part `x` is the starting position, the fractional part `y` is the end position, `Z` is the hold family, and `w` is the increment to the turn counter.[^2]
 
 | Figure | Family | Operator |
 | --- | --- | --- |
@@ -156,7 +153,7 @@ To find out which position and hold a sequence of figures ends in (or to verify 
 
 $$F = X^{-1} Y\, e^{w\, z}$$
 
-where $$X, Y \in \mathbb{R}^{m\times m}$$ are invertible non-commuting matrices[^2] (of some arbitrary dimension $$m$$) representing the start and end position respectively, $$w \in \mathbb{Z}$$ represents the turn counter increment, $$e$$ is Euler's number, and $$z \in\{1, i\}$$ indicates the cis and trans holds respectively. In practice, since it is pointless to have two-arm theory for *posicion cerrada*, there will only ever be two matrices in play, namely $$A$$ for *abierta* and $$C$$ for *caída*, which are chosen such that no product consisting of any amount of $$A$$, $$C$$, $$A^{-1}$$ and $$C^{-1}$$ equals those inverses, unless the product trivially has them as the only factor.
+where $$X, Y \in \mathbb{R}^{m\times m}$$ are invertible non-commuting matrices[^3] (of some arbitrary dimension $$m$$) representing the start and end position respectively, $$w \in \mathbb{Z}$$ represents the turn counter increment, $$e$$ is Euler's number, and $$z \in\{1, i\}$$ indicates the cis and trans holds respectively. In practice, since it is pointless to have two-arm theory for *posicion cerrada*, there will only ever be two matrices in play, namely $$A$$ for *abierta* and $$C$$ for *caída*, which are chosen such that no product consisting of any amount of $$A$$, $$C$$, $$A^{-1}$$ and $$C^{-1}$$ equals those inverses, unless the product trivially has them as the only factor.
 
 For example, say we start in abierta with a cis hold. First we do an enchufla, followed by one exhibela with a coronala. Then we do a DQN where we first decoronala but then also peinala. We then do a vacilala with a vuelta in the second bar. *Can we do an exhibela from this position?* Let's check:
 
@@ -240,4 +237,5 @@ People often tell me that I "think too much". People tell me equally often how s
 
 
 [^1]: It seems slightly too coincidental for someone writing about salsa, albeit LA style, to have the last name "enchufa", but I'll go with it.
-[^2]: It is left as an exercise to the reader to find suitable matrices as described here.
+[^2]: On a historical note: this number-based + position-aware version of the theory was not the first one I came up with. I've been trying to formalise arms since January 2025, at which point I still thought most figures had entirely unique arm outcomes. It took two months to realise that there was a much simpler pattern, which I originally modelled as "TL" and "TR" alongside "CL2", "C" and "CR2". About a week after I had come up with this shiny new letter-based model, I was practicing figures (on my mother) and noticed that *sombrero de Manny* starts in a hold which -- when wrangling myself through -- turned into "TL" after one enchufla and "TR" after two enchuflas, which was impossible in that model, and made me realise an arm hold was just an enchufla counter. The theory will now need one more version update to describe holds where leader and follower are facing the same direction, and another to describe the many hammerlocks that exist (at least 2 T-hammerlocks for followers on her left and right hip, and another 4 for leaders, and probably even more considering what happens in [*setenta pal piso*](https://salsaselfie.com/2020/02/24/cuban-salsa-setenta-para-el-piso/)).
+[^3]: It is left as an exercise to the reader to find suitable matrices as described here.
