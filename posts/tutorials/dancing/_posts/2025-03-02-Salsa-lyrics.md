@@ -65,6 +65,7 @@ The final excerpt describes a little dance routine which you can try to integrat
 The only source I could find for the lyrics was a [lyric video](https://www.youtube.com/watch?v=VlrW2WI_O9Q), so I transcribed it.
 <details>
   <summary>Show lyrics</summary>
+
 ```
 te portaste mal
 no te llevo mas
@@ -137,6 +138,7 @@ oye deja el papelazo
 
 aye tu te quedas, no vas
 ```
+
 </details>
 
 ## Story
@@ -216,12 +218,20 @@ From what I can tell myself, this song's lyrics are either very explicitly sexua
 "Come here, lil' momma,<br>
 because you're made to be taken in whole, the chocolate so very rich, mommy"
 
+> Tú tienes que tener presente<br>
+> que Mayimbe suena diferente.<br>
+> Porque mi música es la que siente,<br>
+> y hace gozar a toda la gente.<br><br>
 > Salte del medio, demente.<br>
 > Mejor evit'un accidente.<br>
 > Dedicat' a tu musiquita, y a tun-tun-tun
 
 - **Translation:**<br>
-"Get out of the way, lunatic.<br>
+"You have to keep top-of-mind<br>
+that the Boss sounds different.<br>
+Because my music is that which feels,<br>
+and makes everyone enjoy themselves.<br><br>
+Get out of the way, lunatic.<br>
 Better avoid an accident.<br>
 Dedicate yourself to your little music, and to tun-tun-tun."
 
@@ -279,32 +289,7 @@ Open the door for me, because I come with force."
 - **Translation:**
 "Knock knock. Who's there?"
 
-# Chupa Mi Melao (Nic N'Taya)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3QcftrZy52znkV83nCB5A7?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-The key lyric for this song also feature prominently at the end of *La Reventaya*, a medley of N'Taya songs.
-
-## Key lyrics
-> Del changüí, yo soy el presidente.
-
-- **Translation:**<br>
-"Of changüí, I am the president.
-
-
-# N'Taya No Falla (Nic N'Taya)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2t20mFjIBLs16mJA9AwzRL?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-## Key lyrics
-> ay, caballero<br>
-> esto no falla<br>
-> si, la pista se pone calienta cuando suen' N'Taya
-
-- **Translation:**<br>
-"Oh, sir<br>
-this one doesn't fail.<br>
-Yes, the dance floor finds itself hot when N'Taya sounds."
-
-# Marcando la Distancia (Manolito y Su Trabuco)
+# Marcando la Distancia (Manolito y su Trabuco)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/70BDblSjPfj6Pe24avWzK2?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## Story
@@ -470,7 +455,7 @@ already he can walk again.<br>
 Already he is carrying two crutches,<br>
 already he can walk again."
 
-# Ya Tu No Coronas (Maykel Blanco Y Su Salsa Mayor)
+# Ya Tu No Coronas (Maykel Blanco Y su Salsa Mayor)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3rhuPie2HVWD1yJ8NASOCV?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## Story
@@ -508,6 +493,32 @@ According to ChatGPT:
 
 - **Grammar:** *m'* is short for *me*. *hiciste* is the past 2nd singular of *hacer* ("to do").
 - **Translation:** "You did witchcraft to me."
+
+
+# Chupa Mi Melao (Nic N'Taya)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3QcftrZy52znkV83nCB5A7?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+The key lyric for this song also feature prominently at the end of *La Reventaya*, a medley of N'Taya songs.
+
+## Key lyrics
+> Del changüí, yo soy el presidente.
+
+- **Translation:**<br>
+"Of changüí, I am the president.
+
+
+# N'Taya No Falla (Nic N'Taya)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2t20mFjIBLs16mJA9AwzRL?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+## Key lyrics
+> ay, caballero<br>
+> esto no falla<br>
+> si, la pista se pone calienta cuando suen' N'Taya
+
+- **Translation:**<br>
+"Oh, sir<br>
+this one doesn't fail.<br>
+Yes, the dance floor finds itself hot when N'Taya sounds."
 
 # Conclusion
 Practice these lyrics when listening to the songs. Close your position when the music is calmer (the start and the end, and sometimes during the bridge). And, whenever you can, dance like the protagonist in these songs.
