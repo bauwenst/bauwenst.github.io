@@ -1,11 +1,11 @@
 ---
 layout: post
-
-title: "A Matrix Algebra that Models Dancing with Two Arms"
+title: A Matrix Algebra that Models Dancing with Two Arms
 description: And you thought I was done systematising.
-
-last_modified_at: 2025-05-11
-tags: [salsa, casino]
+last_modified_at: 2025-07-07
+tags:
+  - salsa
+  - casino
 ---
 
 I have written in the past about the [positional system](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-29-Casino-positional-systems/) that underlies casino dancing and [why it works so well](https://bauwenst.github.io/posts/tutorials/dancing/2025-04-07-Casino-caida-substitutes/) as a model that predicts what works and doesn't work. Such modelling [had already been done](https://youtu.be/vPlTwKLdgDI?t=37) even before I knew casino existed, probably because positions are mainly *footwork*, and footwork is what everyone, beginner or not, needs a good understanding of before anything else. Conversely, at higher levels, not much new footwork is learnt, and **armwork** becomes the focus. Since arms can move so freely, it would seem impossible to model them discretely at first glance, and so nobody has managed to do so. I will do exactly that, and integrate it into positional theory. Introducing *bibrachial theory*.
@@ -53,30 +53,41 @@ Note that both aspects of her system fall short: the naming falls short because 
 I can do better.
 
 # Bibrachial theory
-Let me now introduce a new, arithmetical way of thinking about handholds.
+Let me now introduce a new, arithmetical way of thinking about two-handed handholds.
 
-There are two families of holds: cis holds and trans holds. 
+## Hands
+Firstly, I will borrow terminology from organic chemistry to describe how the *hands* are connected, not yet how the arms are positioned.
+<p style="display:inline-block; white-space: nowrap; width:100%; text-align: center;">
+    <span style="display:inline-block; vertical-align:middle;">
+        <img src="/cdn/img/svg/2025/cis-vs-trans.svg" style="height: 25cqw;"/>
+    </span>
+</p>
+Geometric isomerism in organic chemistry.
+{:.figcaption}
+
+As observed by both sources above, there is some notion of hands being "crossed". This makes two fundamental families of holds, which I call **cis** holds and **trans** holds.
 - In a **cis hold**, each left hand is connected to the other's right hand (LoR and RoL), like Martin Blais's "double open" hold, or the starting position in bachata. 
 - In a **trans hold**, lefts are connected and rights are connected (LoL and RoR), like giving a normal handshake and then connecting the other hands after.
 
 As long as no regrip is done, the hold family stays the same throughout a sequence, no matter the figures. Cis and trans never turn into each other.
 {:.note title="First law of inertia" .filled}
 
+## Arms
 In this article, I will assume we are only concerned with holds where leader and follower are facing each other. (This is the case the majority of the time, and will lead to a model that easily extends to the rest of cases.) That means figures like Kentucky and Cubanita/-o are not modelled here. Also, since hammerlocks are also much more complicated, I will not cover them here either, but I will do it elsewhere eventually.
 
-## Cis holds
+### Cis holds
 There are three possible cis holds, not counting hammerlocks:
 - Open: LoR and RoL (**C**) with no crossing.
 - Double-crossed: LoR over RoL (**C-2**) and RoL over LoR (**C+2**).
 
 Although there is usually duality in holds (every hold has a mirror image), there is no dual for **C** (which would be "RoL and LoR"). This is related to the fact that leader and follower always have the same upper hand: when a leader's right is over his left and follower's left is over her right, or when leader's left is over his right and follower's right is over her left, there is no knot and you end up with **C** (try it).
 
-## Trans holds
+### Trans holds
 Meanwhile, trans holds can never be open, but can still be double-crossed. So, there are four possible trans holds, not counting hammerlocks:
 - Single-crossed: LoL over RoR (**T-1**) and RoR over LoL (**T+1**). 
 - Double-crossed: LoL over RoR (**T-3**) and RoR over LoL (**T+3**). These are harder to hold, but just feasible.
 
-## Why numbers?
+### Why numbers?
 The reason for all of the above names is the fundamental insight that *the resting position of two connected arms is a counter of (counter)clockwise entanglement.* Just like you can count to 10 on your fingers, you can count within a certain range by entangling and disentangling your arms. The counter can go up and down within limits. Figures (or half-figures) are operations on this counter.
 
 This number-based + position-aware version of the theory was not the first one I came up with. I've been trying to formalise arms since January 2025, at which point I thought most figures were unique transformations. it took two months to realise that there was a much simpler pattern. Originally, I had only modelled a "TL" and "TR" alongside "CL2", "C" and "CR2". But then, one night mid-March -- about a week after I had come up with this shiny new letter-based model -- I was practicing figures on my mum and noticed that when doing a *sombrero de Manny* with two hands held, it started in a hold that didn't fit the model when wrangling myself through, yet it worked after one enchufla. The theory will need one more version update to describe holds where leader and follower are facing the same direction, and another to describe the many hammerlocks that exist (at least 2 T-hammerlocks for followers on her left and right hip, and another 4 for leaders, and probably even more considering what happens in [*setenta pal piso*](https://salsaselfie.com/2020/02/24/cuban-salsa-setenta-para-el-piso/)).
