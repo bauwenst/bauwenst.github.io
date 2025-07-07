@@ -19,18 +19,46 @@ Of course, I don't speak Spanish, and because I don't want to bother the handful
 
 > I'm going to give you the lyrics to several Spanish songs. Your job is to tell me, in English, the story the song is telling us. You don't have to translate the entire song, but please do cite the key phrases that indicate what the rest of the song revolves around.
 
-# Brujeria (El Gran Combo De Puerto Rico)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0k1hbeZodoEw34FAdbh8xM?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+# Pastilla de Menta (Havana D'Primera)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4kh7zU2CeQtLLL91ZNn2FA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## Story
 According to ChatGPT:
-> This song tells the story of a man who believes he has been enchanted—or cursed—by a woman. He is completely captivated by her, to the point of obsession, and suspects that she has used some kind of magic or witchcraft to make him fall for her.
+> The narrator is defending and celebrating his music (his timba), despite gossip or criticism. (...) The phrase "pastilla de menta" (a breathmint) may be a metaphor, possibly for something refreshing, soothing, or spicy, depending on context. Could be slang for his musical flavor — like saying, "Here’s something fresh for you."
 
 ## Key lyrics
-> Tu m'hiciste brujeria.
+> Mira mi timba, que bien se ve.<br>
+> Ven, tirat' una foto.
 
-- **Grammar:** *m'* is short for *me*. *hiciste* is the past 2nd singular of *hacer* ("to do").
-- **Translation:** "You did witchcraft to me."
+- **Translation:**<br>
+"Look at my timba, how good it looks.<br>
+Come, take yourself a photo."
+
+> Prepárate,<br>
+> apúntate,<br>
+> menéate.<br>
+> Un, dos, tres, camina!
+
+- **Translation:**<br>
+"Prepare yourself,<br>
+join in,<br>
+sway your body.<br>
+One, two, three, let's go!"
+
+> Heh, hah, agítala,<br>
+> jala por aquí, jala por allá,<br>
+> levanta la mano y mueva la cintura,<br>
+> salta! Dale pa'que vuelv'a 'mpezar.
+
+- **Grammar:** The last sentence is hard to translate. It starts with *dale* (literally "give it"), a phrase that means "go for it", and then *pa'que* (*para que*, "for the reason that"), *vuelva* ("it comes back around") and *a empezar* ("to start").
+- **Translation:**<br>
+"Hey, hah, shake it,<br>
+pull over here, pull over there,<br>
+raise your hand and move your waist,<br>
+jump! Do it now, so we can start over."
+
+## Musicality
+The final excerpt describes a little dance routine which you can try to integrate into your dance. To get an idea, [here is Havana D'Primera](https://youtu.be/Rb2BwJwTIi0?t=150) performing the song in concert. It repeats four times back-to-back after the bridge, and you can have a lot of fun even with the *"salta!"* alone.
 
 # Qué Pasa Loco (Issac Delgado)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5evx5is4W5iLY7A5zv82Ut?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -56,6 +84,54 @@ because that girl is not (meant) for you."
 
 ## Musicality
 This song fools every leader the first couple times. It has four different points where it pretends to end: 2:47, 3:08, 4:44, and most deviously, 5:10. Remember that **this song ends with a fade-out**. It does not end by stopping dead in its tracks. Keep dancing when it does, because there's more to come!
+
+# La Chica Chocolate (Barbaro Fines y su Mayimbe)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4x63ATVTkH4p48gHOtBpUA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+This song is my all-time favourite rueda song. Barbaro Fines's drummer deserves an award for the insane energy he brings to this.
+
+## Story
+According to ChatGPT:
+> This song is a tribute to a girl dubbed "la chica chocolate" (the chocolate girl), admired for her irresistible looks and seductive dance moves. (...) "Chocolate" refers to her skin tone -- it's a common, affectionate way to describe a beautiful black or brown-skinned woman.
+
+From what I can tell myself, this song's lyrics are either very explicitly sexual, or alternatively, they are trying to be funny by serenading an actual liquid-inside chocolate figure which they are about to consume. I made ChatGPT start doubting itself by asking about the sexual nature of the metaphors, so it did not help me figure out which interpretation is correct.
+
+## Key lyrics
+> Mamita ven,<br>
+> que tu esta' pa' chuparte toda, el chocolate ma' rico, mami.
+
+- **Pronunciation:** "tu esta'" is pronounced "twesta" here.
+- **Grammar:** *ven* is the imperative of *venir* ("to come") and "que" here is meant as "because". Interestingly, *chupar* ("to take in", "to suck") here has a direct pronoun *te* because *tu estas para chupar* would mean "you are (made) to take in", where *tu* becomes the subject of this *para*.
+- **Translation:**<br>
+"Come here, lil' momma,<br>
+because you're made to be taken in whole, the chocolate so very rich, mommy"
+
+> Salte del medio, demente.<br>
+> Mejor evit'un accidente.<br>
+> Dedicat' a tu musiquita, y a tun-tun-tun
+
+- **Translation:**<br>
+"Get out of the way, lunatic.<br>
+Better avoid an accident.<br>
+Dedicate yourself to your little music, and to tun-tun-tun."
+
+> Ella, lo que tiene 's chocolate en 'l cuerpo.
+
+- **Translation:**<br>
+"She, that which she has is chocolate in her body."
+
+> Que rico seria pasarte la lenguïta por tu barriguita, cosita rica.
+
+- **Translation:**<br>
+"How rich it would be to pass my tongue over your stomach, you savoury little thing."<br>
+
+## Musicality
+If you are the cantante for a rueda to this song, there are several moments you can exploit for extra effect. (All credit for this goes to [DJ El Guapo](https://www.instagram.com/el_guapo1906/), whom I suggested do a rueda to this song I had just discovered, and who proceeded to nail every single accent.)
+
+At 2:25, the music rests for 20 seconds so that it can come back with even more energy at 2:45. I recommend against calling any partner changes in these 20 seconds (keeping the rueda stagnant) and allow *guapea* in the truest sense of the word, which is to say, have everyone show off with their partner using the accents in the music. Then, at 2:45, you call any enchufla-based figure (like *festival de pelotas*) to ramp up the movement of the rueda.
+
+The same is true between 5:40 and 6:35 to prepare for the final minute of the song.
+
+At 3:35, I recommend you call *cintura*, i.e. the couples let go and rotate while girating the hips. You can keep doing this for all four phrases and then call a *dame*.
 
 # Abre Que Voy (Miguel Enriquez)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1v0749CQ2jCJwY9NF48u6R?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -91,7 +167,6 @@ Open the door for me, because I come with force."
 
 - **Translation:**
 "Knock knock. Who's there?"
-
 
 # Marcando la Distancia (Manolito y Su Trabuco)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/70BDblSjPfj6Pe24avWzK2?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -255,92 +330,18 @@ and she's not here for silly games."
 "Ay ay ay, get to the back of the line.<br>
 Ay ay ay, no longer do you prevail."
 
-# Pastilla de Menta (Havana D'Primera)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4kh7zU2CeQtLLL91ZNn2FA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+# Brujeria (El Gran Combo De Puerto Rico)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0k1hbeZodoEw34FAdbh8xM?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## Story
 According to ChatGPT:
-> The narrator is defending and celebrating his music (his timba), despite gossip or criticism. (...) The phrase "pastilla de menta" (a breathmint) may be a metaphor, possibly for something refreshing, soothing, or spicy, depending on context. Could be slang for his musical flavor — like saying, "Here’s something fresh for you."
+> This song tells the story of a man who believes he has been enchanted—or cursed—by a woman. He is completely captivated by her, to the point of obsession, and suspects that she has used some kind of magic or witchcraft to make him fall for her.
 
 ## Key lyrics
-> Mira mi timba, que bien se ve.<br>
-> Ven, tirat' una foto.
+> Tu m'hiciste brujeria.
 
-- **Translation:**<br>
-"Look at my timba, how good it looks.<br>
-Come, take yourself a photo."
-
-> Prepárate,<br>
-> apúntate,<br>
-> menéate.<br>
-> Un, dos, tres, camina!
-
-- **Translation:**<br>
-"Prepare yourself,<br>
-join in,<br>
-sway your body.<br>
-One, two, three, let's go!"
-
-> Heh, hah, agítala,<br>
-> jala por aquí, jala por allá,<br>
-> levanta la mano y mueva la cintura,<br>
-> salta! Dale pa'que vuelv'a 'mpezar.
-
-- **Grammar:** The last sentence is hard to translate. It starts with *dale* (literally "give it"), a phrase that means "go for it", and then *pa'que* (*para que*, "for the reason that"), *vuelva* ("it comes back around") and *a empezar* ("to start").
-- **Translation:**<br>
-"Hey, hah, shake it,<br>
-pull over here, pull over there,<br>
-raise your hand and move your waist,<br>
-jump! Do it now, so we can start over."
-
-## Musicality
-The final excerpt describes a little dance routine which you can try to integrate into your dance. To get an idea, [here is Havana D'Primera](https://youtu.be/Rb2BwJwTIi0?t=150) performing the song in concert. It repeats four times back-to-back after the bridge, and you can have a lot of fun even with the *"salta!"* alone.
-
-# La Chica Chocolate (Barbaro Fines y su Mayimbe)
-This song is my all-time favourite rueda song. Barbaro Fines's drummer deserves an award for the insane energy he brings to this.
-
-According to ChatGPT:
-> This song is a tribute to a girl dubbed "la chica chocolate" (the chocolate girl), admired for her irresistible looks and seductive dance moves. (...) "Chocolate" refers to her skin tone -- it's a common, affectionate way to describe a beautiful black or brown-skinned woman.
-
-From what I can tell myself, this song's lyrics are either very explicitly sexual, or alternatively, they are trying to be funny by serenading an actual liquid-inside chocolate figure which they are about to consume. I made ChatGPT start doubting itself by asking about the sexual nature of the metaphors, so it did not help me figure out which interpretation is correct.
-
-## Key lyrics
-> Mamita ven,<br>
-> que tu esta' pa' chuparte toda, el chocolate ma' rico, mami.
-
-- **Pronunciation:** "tu esta'" is pronounced "twesta" here.
-- **Grammar:** *ven* is the imperative of *venir* ("to come") and "que" here is meant as "because". Interestingly, *chupar* ("to take in", "to suck") here has a direct pronoun *te* because *tu estas para chupar* would mean "you are (made) to take in", where *tu* becomes the subject of this *para*.
-- **Translation:**<br>
-"Come here, lil' momma,<br>
-because you're made to be taken in whole, the chocolate so very rich, mommy"
-
-> Salte del medio, demente.<br>
-> Mejor evit'un accidente.<br>
-> Dedicat' a tu musiquita, y a tun-tun-tun
-
-- **Translation:**<br>
-"Get out of the way, lunatic.<br>
-Better avoid an accident.<br>
-Dedicate yourself to your little music, and to tun-tun-tun."
-
-> Ella, lo que tiene 's chocolate en 'l cuerpo.
-
-- **Translation:**<br>
-"She, that which she has is chocolate in her body."
-
-> Que rico seria pasarte la lenguïta por tu barriguita, cosita rica.
-
-- **Translation:**<br>
-"How rich it would be to pass my tongue over your stomach, you savoury little thing."<br>
-
-## Musicality
-If you are the cantante for a rueda to this song, there are several moments you can exploit for extra effect. (All credit for this goes to [DJ El Guapo](https://www.instagram.com/el_guapo1906/), whom I suggested do a rueda to this song I had just discovered, and who proceeded to nail every single accent.)
-
-At 2:25, the music rests for 20 seconds so that it can come back with even more energy at 2:45. I recommend against calling any partner changes in these 20 seconds (keeping the rueda stagnant) and allow *guapea* in the truest sense of the word, which is to say, have everyone show off with their partner using the accents in the music. Then, at 2:45, you call any enchufla-based figure (like *festival de pelotas*) to ramp up the movement of the rueda.
-
-The same is true between 5:40 and 6:35 to prepare for the final minute of the song.
-
-At 3:35, I recommend you call *cintura*, i.e. the couples let go and rotate while girating the hips. You can keep doing this for all four phrases and then call a *dame*.
+- **Grammar:** *m'* is short for *me*. *hiciste* is the past 2nd singular of *hacer* ("to do").
+- **Translation:** "You did witchcraft to me."
 
 # Conclusion
 Practice these lyrics when listening to the songs. Close your position when the music is calmer (the start and the end, and sometimes during the bridge). And, whenever you can, dance like the protagonist in these songs.

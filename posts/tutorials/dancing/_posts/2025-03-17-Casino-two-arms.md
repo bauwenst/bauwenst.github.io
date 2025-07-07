@@ -5,41 +5,58 @@ title: "A Matrix Algebra that Models Dancing with Two Arms"
 description: And you thought I was done systematising.
 
 last_modified_at: 2025-05-11
+tags: [salsa, casino]
 ---
 
 I have written in the past about the [positional system](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-29-Casino-positional-systems/) that underlies casino dancing and [why it works so well](https://bauwenst.github.io/posts/tutorials/dancing/2025-04-07-Casino-caida-substitutes/) as a model that predicts what works and doesn't work. Such modelling [had already been done](https://youtu.be/vPlTwKLdgDI?t=37) even before I knew casino existed, probably because positions are mainly *footwork*, and footwork is what everyone, beginner or not, needs a good understanding of before anything else. Conversely, at higher levels, not much new footwork is learnt, and **armwork** becomes the focus. Since arms can move so freely, it would seem impossible to model them discretely at first glance, and so nobody has managed to do so. I will do exactly that, and integrate it into positional theory. Introducing *bibrachial theory*.
 
 1. dummy
-{.toc}
+{:toc}
 
 By the end of this article, you should have a fundamentally deeper insight into what you can and can't do when holding a follower's two hands at any given time.
 
-<!--
-
-\"You did it. You crazy son of a bitch, you did it.\"
-
 # Related work
-As far as I have found, exactly two people have explored this otherwise uncharted territory of modelling armwork, but both created incomplete sets of holds and both failed to make them numerical, making the relationship between these holds much muddier than they should be.
+As far as I have found, exactly two people have explored this otherwise uncharted territory of modelling armwork, but both created incomplete sets of holds and both failed to put them into an ordered space, making the relationship between these holds much muddier than they should be.
 
 One thing they both got right, however, is the observation that *arms rest in a finite amount of **holds***. This is exactly equivalent to how **positions** delimit footwork, and it means that every possible way two people could hold both hands is discretisable. Of course, whereas footwork between positions is [discretisable in 2D](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-11-Casino-101/), transitions between handholds are not, but we don't need detailed descriptions of these transitions because (1) the path travelled by an arm is much less important than the direction stepped by a foot, and (2) holding both hands severely restricts what the arms can do.
 
 ## M. Blais (2004)
-In chapter 6 of [Martin Blais's 2004 *Latin Dance Study Guide*](https://furius.ca/salsa-book/), he coins several 
+In chapter 6 of [Martin Blais's 2004 *Latin Dance Study Guide*](https://furius.ca/salsa-book/), he coins 10 types of two-armed holds:
+1. *Double, open*: both hands held without any arms crossing.
+2. *Double, crossed (and its reverse)*: one person crosses their arms and connects, but not the other.
+3. *Doubly-crossed (and its reverse)*: both people cross their arms and connect. Can be obtained from "double open" by having either person turn 360° clockwise or counterclockwise under both arms.
+4. *Wrapped*: like in Kentucky.
+5. *Front-to-back crossed*: like in Cubanito/-a.
+6. *Sombrero ("for leader" and "for follower")*: the crown after a sombrero and a montaña respectively.
+7. *Setenta (70)*: "double open" but after a hammerlock.
+8. *Cero-siete (07)*: the preparation for [Coca-Cola enroscala](https://www.youtube.com/watch?v=vmrwc_Vej24).
+9. *Back-to-back*: both people spread their arms, turn around to face away, and connect. I've only seen this happen momentarily in [Santiago](https://www.youtube.com/shorts/vlSqi-msy60).
+10. *Double backcrossed (and its reverse)*: like back-to-back, except one person crosses their arms. I have never seen this.
 
-TODO:
+Several things stand out from this list: firstly, some of these holds are very rare and/or transitional, so they can be removed. Secondly, the keyword "crossed" shows up whenever a right hand is connected to a right hand, which will turn out to be very important for us. Thirdly, some allusion is made to how many times the hands are crossed (open, crossed, doubly-crossed), which is a good start towards formalising arms numerically, although this angle is not quite right since the dance consists of *turns* rather than *crossing hands*. Lastly, note that basically all remaining holds have a mirror image, so there is some duality/symmetry in holds, which for footwork is not always the case (but, as we will see, the cases where there is duality in footwork can be viewed from the perspective of duality in armwork). 
+
+Notably however, in Martin's terminology, "reverse" has inconsistent meaning: for the double crossed hold, "reverse" means "left hand on top", whereas for the doubly-crossed hold, "reverse" means "right hand on top".
 
 ## M. Enchufa (2020)
 One other person, Marisol Enchufa,[^1] has since [published an actual book](https://www.amazon.com/Handbook-Salsa-Patterns-Marisol-Enchufa/dp/B093MQL6MV) on movement patterns in LA-style salsa. Because people who dance LA-style and people who dance casino (and bachata, and all other partner dances) have the same anatomy, holds defined in her book apply just as well to casino. Lucky for us, she explains them in a blog post [here](https://salsahandbook.github.io/output/salsa-handholds.html).
 
-TODO:
+She introduces naming, and letter-based shorthands to distinguish mirror images:
+1. *Parallel Hold: Martin's "double open".
+2. *Crosshold (`LRH/LLH` variant)*: Martin's "double crossed".
+3. *Reverse Crosshold (`LLH/LRH` variant)*: Martin's "reverse double crossed".
+4. *Reverse parallel hold (`LLH/LRH` variant)*: Martin's "doubly-crossed".
 
--->
+A fraction "LRH/LLH" means "Leader Right Hand *over* Leader Left Hand" and so on.
+
+Note that both aspects of her system fall short: the naming falls short because there is no name for Martin's "reverse doubly-crossed" because she still calls the doubly-crossed hold "parallel" (because they are indeed connected, but the intuition is applied incorrectly), and the shorthands fall short because apart from being constructed redundantly (the letters in `LLH/LRH` can be reduced to just `L/R`), they can't stand on their own and are more or less overridden by the term "reverse".
+
+I can do better.
 
 # Bibrachial theory
 Let me now introduce a new, arithmetical way of thinking about handholds.
 
 There are two families of holds: cis holds and trans holds. 
-- In a **cis hold**, each left hand is connected to the other's right hand (LoR and RoL), like the starting position in bachata. 
+- In a **cis hold**, each left hand is connected to the other's right hand (LoR and RoL), like Martin Blais's "double open" hold, or the starting position in bachata. 
 - In a **trans hold**, lefts are connected and rights are connected (LoL and RoR), like giving a normal handshake and then connecting the other hands after.
 
 As long as no regrip is done, the hold family stays the same throughout a sequence, no matter the figures. Cis and trans never turn into each other.
@@ -69,7 +86,7 @@ This number-based + position-aware version of the theory was not the first one I
 Figures are operations on the counter. Indeed, here are some two-handed transitions:
 
 - **DQN** is +0. The arms move in a plane.
-- **Coronala** as done e.g. in the middle of preciosa, is +0. You just wrap your arm around her neck, but that's merely styling. Any turn afterwards will at some point lift out of the coronala so it's just **C**.
+- **Coronala** as done e.g. in the [middle of preciosa](https://www.youtube.com/watch?v=L_iLcsZlxik), is +0. You just wrap your arm around her neck, but that's merely styling. Any turn afterwards will at some point lift out of the coronala so it's just **C**.
 
 Basic clockwise turns:
 - **Vuelta** with leader left and right high (LHRH) is a -2: it turns **C+2** into **C**, **C** into **C-2**, and **T+3** into **T+1**, **T+1** into **T-1**, and **T-1** into **T-3**.
@@ -91,7 +108,7 @@ Basic clockwise turns:
 Basic counterclockwise turns:
 - **Enchufla** LHRH is a +2.
 - **Peinala** on DQN is +2. In a rodeo inverso, it compensates the -2. An enchufla with peinala is +4.
-- **Rodeo** is also +2. The existence of peinala to compensate rodeo inverso implies that there exists a -2 "peinala inverso" (i.e. a vuelta) that compensates a rodeo in its second bar, and this is exactly what happens in setenta romantica: from hammerlock, enchufla (b1),  hold the right-handed enchufate (b2) in rodeo (b1), vuelta+coronala on the rodeo (b2), DQN. https://youtu.be/-kg-vC9k42c (The coronala is done "in" the vuelta, and is possible because the vuelta creates C by undoing the rodeo's +2 while happening in the second bar.)
+- **Rodeo** is also +2. The existence of peinala to compensate rodeo inverso implies that there exists a -2 "peinala inverso" (i.e. a vuelta) that compensates a rodeo in its second bar, and this is exactly what happens in [setenta romantica](https://youtu.be/-kg-vC9k42c): from hammerlock, enchufla (b1),  hold the right-handed enchufate (b2) in rodeo (b1), vuelta+coronala on the rodeo (b2), DQN. (The coronala is done "in" the vuelta, and is possible because the vuelta creates C by undoing the rodeo's +2 while happening in the second bar.)
 - Setenta's **enchufate arriba**, i.e. cis right-handed enchufate arriba without letting go of the left hand, is +2. (This is because that enchufate becomes a rodeo in setenta romantica by delaying your own rotation, and since rodeo is +2, the enchufate is too.)
 
 Some sequences are kept stable by alternating between incrementing and decrementing the counter:
@@ -126,23 +143,23 @@ First, here is a summary of the above in more compact form. All figures can be d
 
 To find out which position and hold a sequence of figures ends in (or to verify mathematically whether a sequence ends as predicted) we convert each figure expression of the above form into a matrix product
 
-$$F = X^{-1} Y e^{w\, z}$$
+$$F = X^{-1} Y\, e^{w\, z}$$
 
 where $$X, Y \in \mathbb{R}^{m\times m}$$ are invertible non-commuting matrices[^2] (of some arbitrary dimension $$m$$) representing the start and end position respectively, $$w \in \mathbb{Z}$$ represents the turn counter increment, $$e$$ is Euler's number, and $$z \in\{1, i\}$$ indicates the cis and trans holds respectively. In practice, since it is pointless to have two-arm theory for *posicion cerrada*, there will only ever be two matrices in play, namely $$A$$ for *abierta* and $$C$$ for *caída*, which are chosen such that no product consisting of any amount of $$A$$, $$C$$, $$A^{-1}$$ and $$C^{-1}$$ equals those inverses, unless the product trivially has them as the only factor.
 
 For example, say we start in abierta with a cis hold. First we do an enchufla, followed by one exhibela with a coronala. Then we do a DQN where we first decoronala but then also peinala. We then do a vacilala with a vuelta in the second bar. *Can we do an exhibela from this position?* Let's check:
 
 $$\begin{aligned}\text{end} &= A F_\text{enchufla} F_\text{exhibela} F_\text{coronala} F_\text{DQN} F_\text{peinala} F_\text{vacilala} F_\text{vuelta} \\
-    &= A (A^{-1}C e^{+2}) (C^{-1}C e^{-2}) (e^0) (C^{-1}A e^0) (e^{+2}) (A^{-1}C e^{-2}) (e^{-2}) \\
-    &= AA^{-1}CC^{-1}CC^{-1}AA^{-1}C (e^{+2}e^{-2}e^0e^0e^{+2}e^{-2}e^{-2}) \\
-    &= C e^{-2}
+    &= A (A^{-1}C\, e^{+2}) (C^{-1}C\, e^{-2}) (e^0) (C^{-1}A\, e^0) (e^{+2}) (A^{-1}C\, e^{-2}) (e^{-2}) \\
+    &= AA^{-1}CC^{-1}CC^{-1}AA^{-1}C\, (e^{+2}e^{-2}e^0e^0e^{+2}e^{-2}e^{-2}) \\
+    &= C\, e^{-2}
 \end{aligned}
 $$
 
 According to the operators, we end in caída ($$C$$) with the left arm over the right arm ($$e^{-2}$$), i.e. **C-2**. Doing an exhibela on this:
 
 $$
-    C e^{-2} F_\text{exhibela} = C e^{-2} (C^{-1}C e^{-2}) = Ce^{-4}
+    C\, e^{-2}\, F_\text{exhibela} = C\, e^{-2} (C^{-1}C\, e^{-2}) = C\,e^{-4}
 $$
 
 Since `C-4` doesn't exist, the answer is *no*, it is impossible to do an exhibela after this sequence.
@@ -196,17 +213,6 @@ It can be interesting to create a two-handed hold in the middle of a sequence ra
 After a one-handed first bar, you can grab a hand to have **C** in the second bar, equivalent to an enchufla after a **C** hammerlock. I know at least one rueda group where this is how "corona(la)" is called: one-handed enchufla in the first bar, and then grabbing the other hand in the second bar to do a coronala, followed by an exhibela and a coronate. I never do these kinds of regrips myself because they are not useful and have some risk of elbowing the follower.
 
 In RoR caída, you can offer your left hand (always underhanded) to create caT+1. This is my favourite way of doing exhibela, because it's a cheap way to get into a useful caT-1 crown.
-
-<!--
-
-# Without facing each other
-If interested in holds where leader and follower are not facing each other:
-180⁰ CW leader turn, ending with leader arms on either side of the head: CR2 -> CR (interestingly, it's not obvious which letter you should use here, because there are two options: either the leader uses a "sarcophagus hold" or uses an "Arnold hold". If the former, then the follower's arms are straight and the cross happens in front of the leader, where it is left-over-right. If the latter, the cross happens behind the leader and is right-over-left; since it makes little sense to categorise holds that don't lie in between the couple, sarcophagus hold never assigns the name to the hold).
-
-If you're in T+1 on 1 (like the start of a sombrero, but perhaps you don't have tension), you can do a fully overhead clockwise leader vuelta, and then enchufate 180⁰ counterclockwise straight into Cubanito.
-
--->
-
 
 # Showcase
 I have compiled several videos which should not be so difficult to understand now that you know the above. Let's start slow: David Jascha absolutely understands arm theory, whether the understanding is in his mind or in his muscle. See [this video](https://youtube.com/shorts/YBUfTeb5QSw) and the second half of [this video](https://youtube.com/shorts/8uDyarmcRxM).
