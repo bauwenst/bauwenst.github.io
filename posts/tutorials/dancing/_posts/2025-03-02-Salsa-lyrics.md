@@ -66,77 +66,76 @@ The only source I could find for the lyrics was a [lyric video](https://www.yout
 <details>
   <summary>Show lyrics</summary>
 
-  ```text
-  te portaste mal
-  no te llevo mas
-  me debes una explicacion
-  te robaste el show que ridiculo
-  salimo en los periodico
+te portaste mal<br>
+no te llevo mas<br>
+me debes una explicacion<br>
+te robaste el show que ridiculo<br>
+salimo en los periodico<br><br>
 
-  por toxica, frenetica,
-  tu nota ya no mide el peligro
-  me agota la paeciencia
-  que pena
-  tu te portas mal
+por toxica, frenetica,<br>
+tu nota ya no mide el peligro<br>
+me agota la paeciencia<br>
+que pena<br>
+tu te portas mal<br><br>
 
-  vamo' a ver
-  si con el tiempo maduras
-  y retomas la postura
-  que necesito que tengas
-  para poder convivir
+vamo' a ver<br>
+si con el tiempo maduras<br>
+y retomas la postura<br>
+que necesito que tengas<br>
+para poder convivir<br><br>
 
-  y si te portas bien
-  ya lo valorare
-  ehhh, ehhh,
+y si te portas bien<br>
+ya lo valorare<br>
+ehhh, ehhh,<br><br>
 
-  (tu te salvas porque tu me gustas)
-  (pero no te vistas que estas castiga')
+(tu te salvas porque tu me gustas)<br>
+(pero no te vistas que estas castiga')<br><br>
 
-  (tu te salvas porque tu me gustas)
-  (pero no te vistas que estas castiga')
+(tu te salvas porque tu me gustas)<br>
+(pero no te vistas que estas castiga')<br><br>
 
-  (tu te salvas porque tu me gustas)
-  (pero no te vistas que estas castiga')
+(tu te salvas porque tu me gustas)<br>
+(pero no te vistas que estas castiga')<br><br>
 
-  (tu te salvas porque tu me gustas)
-  (pero no te vistas que estas castiga')
+(tu te salvas porque tu me gustas)<br>
+(pero no te vistas que estas castiga')<br><br>
 
-  y la lleve al aljibe
-  (y se comio to' el pollo)
-  la lleve a casa de Teresa
-  (se tomo la cerveza)
-  y la lleve al chachacha
-  (y no dejo na)
+y la lleve al Aljibe<br>
+(y se comio to' el pollo)<br>
+la lleve a casa de Teresa<br>
+(se tomo la cerveza)<br>
+y la lleve al chachacha<br>
+(y no dejo na)<br><br>
 
-  por eso
-  por eso no vas
+por eso<br>
+por eso no vas<br><br>
 
-  por estar formando cosas
+por estar formando cosas<br><br>
 
-  cada vez que compartimos siempre formas un problema
-  que clase e' situacion
-  que clase e' tema
+cada vez que compartimos siempre formas un problema<br>
+que clase e' situacion<br>
+que clase e' tema<br><br>
 
-  pa que no me estes formando na te quedas
-  pa que no me estes formando na te quedas
+pa que no me estes formando na te quedas<br>
+pa que no me estes formando na te quedas<br><br>
 
-  hey
-  coge un stop
-  y mirama de frente
-  deja el papelazo
-  mira la gente
-  no te pongas imprudente
-  no empeores
-  y no me pongas
-  el ambiente caliente
+hey<br>
+coge un stop<br>
+y mirama de frente<br>
+deja el papelazo<br>
+mira la gente<br>
+no te pongas imprudente<br>
+no empeores<br>
+y no me pongas<br>
+el ambiente caliente<br><br>
 
-  por eso
-  por eso no vas
+por eso<br>
+por eso no vas<br><br>
 
-  oye deja ya la crisis
-  oye deja el papelazo
+oye deja ya la crisis<br>
+oye deja el papelazo<br><br>
 
-  aye tu te quedas, no vas
+aye tu te quedas, no vas
 ```
 
 </details>
@@ -527,6 +526,29 @@ The key lyric for this song also feature prominently at the end of *La Reventaya
 "Oh, sir<br>
 this one doesn't fail.<br>
 Yes, the dance floor finds itself hot when N'Taya sounds."
+
+# Bla Bla Bla (Los Van Van)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/040HqiPVJWyRe6Ba13trmR?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+[Lyrics](https://www.musixmatch.com/lyrics/Formell-y-los-Van-Van/Bla-Bla-Bla)
+
+## Key lyrics
+> Hay una pila de gente que and' hablando,
+> que esta comentando,
+> pero nosotros seguimos cantando.
+
+- **Translation:**<br>
+"There is a bunch of people that are in a state of talking,<br>
+that are commenting,<br>
+but we keep on singing."
+
+> Bla bla bla, bla bla bla, bla bla bla...<br>
+> Deja que comenten, q'aqui no pasa nada.
+
+- **Translation:**<br>
+"Bla bla bla, bla bla bla, bla bla bla...<br>
+Let it be that they talk, because here nothing happens."
+
 
 # Conclusion
 Practice these lyrics when listening to the songs. Close your position when the music is calmer (the start and the end, and sometimes during the bridge). And, whenever you can, dance like the protagonist in these songs.
