@@ -41,7 +41,7 @@ Notably however, in Martin's terminology, "reverse" has inconsistent meaning: fo
 One other person, Marisol Enchufa,[^1] has since [published an actual book](https://www.amazon.com/Handbook-Salsa-Patterns-Marisol-Enchufa/dp/B093MQL6MV) on movement patterns in LA-style salsa. Because people who dance LA-style and people who dance casino (and bachata, and all other partner dances) have the same anatomy, holds defined in her book apply just as well to casino. Lucky for us, she explains them in a blog post [here](https://salsahandbook.github.io/output/salsa-handholds.html).
 
 She introduces naming, and letter-based shorthands to distinguish mirror images:
-1. *Parallel Hold: Martin's "double open".
+1. *Parallel Hold*: Martin's "double open".
 2. *Crosshold (`LRH/LLH` variant)*: Martin's "double crossed".
 3. *Reverse Crosshold (`LLH/LRH` variant)*: Martin's "reverse double crossed".
 4. *Reverse parallel hold (`LLH/LRH` variant)*: Martin's "doubly-crossed".
@@ -76,16 +76,21 @@ As long as no regrip is done, the hold family stays the same throughout a sequen
 In this article, I will assume we are only concerned with holds where leader and follower are facing each other. (This is the case the majority of the time, and will lead to a model that easily extends to the rest of cases.) That means figures like Kentucky and Cubanita/-o are not modelled here. Also, since hammerlocks are also much more complicated, I will not cover them here either, but I will do it elsewhere eventually.
 
 ### Cis holds
-There are three possible cis holds, not counting hammerlocks:
-- Open: LoR and RoL (**C**) with no crossing.
-- Double-crossed: LoR over RoL (**C-2**) and RoL over LoR (**C+2**).
+There are three possible cis (**C**) holds, not counting hammerlocks:
+- **C-2**: LoR over RoL, doubly-crossed. 
+- **C+0** (abbreviated **C**): open arms, LoR and RoL with no crossing.
+- **C+2**: RoL over LoR, doubly-crossed.
 
 Although there is usually duality in holds (every hold has a mirror image), there is no dual for **C** (which would be "RoL and LoR"). This is related to the fact that leader and follower always have the same upper hand: when a leader's right is over his left and follower's left is over her right, or when leader's left is over his right and follower's right is over her left, there is no knot and you end up with **C** (try it).
 
 ### Trans holds
-Meanwhile, trans holds can never be open, but can still be double-crossed. So, there are four possible trans holds, not counting hammerlocks:
-- Single-crossed: LoL over RoR (**T-1**) and RoR over LoL (**T+1**). 
-- Double-crossed: LoL over RoR (**T-3**) and RoR over LoL (**T+3**). These are harder to hold, but just feasible.
+Meanwhile, trans (**T**) holds can never be open, but can still be double-crossed. So, there are four possible trans holds, not counting hammerlocks:
+- **T-3**: LoL over RoR, doubly-crossed.
+- **T-1**: LoL over RoR, singly-crossed.
+- **T+1**: RoR over LoL, singly-crossed.
+- **T+3**: RoR over LoL, doubly-crossed.
+
+Although harder to hold, **T-3** and **T+3** are still feasible, unlike the non-existent **C-4** and **C+4**.
 
 ### Why numbers?
 The reason for all of the above names is the fundamental insight that *the resting position of two connected arms is a counter of (counter)clockwise entanglement.* Just like you can count to 10 on your fingers, you can count within a certain range by entangling and disentangling your arms. The counter can go up and down within limits. Figures (or half-figures) are operations on this counter.
@@ -111,7 +116,7 @@ Basic clockwise turns:
     - You can undo the -2 with a peinala on the rodeo inverso.
 - **Enchufate atras** RHLH, as done by the leader in montaña, is -2.
     - Interestingly, this means that a clockwisse 360° turn is -2 no matter if it is the leader or the follower receiving it.
-- **Bayamo arriba** is (or depending on your definition, starts with) the T equivalent of a rodeo inverso, i.e. it's a caT-abT -2 operator. It most often turns caT+1 into abT-1 (and caT+3 into abT+1). So it's like sombrero, except the positions are switched. You can put a peinala on the Bayamo to turn it into abT+1, from which you can do a sombrero that turns it into caT-1.
+- **Bayamo arriba** is (or depending on your definition, starts with) the T equivalent of a rodeo inverso, i.e. it's a **caT-abT -2** operator. It most often turns **caT+1** into **abT-1** (and **caT+3** into **abT+1**). So it's like sombrero, except the positions are switched. You can put a peinala on the Bayamo to turn it into **abT+1**, from which you can do a sombrero that turns it into **caT-1**.
 
 Basic counterclockwise turns:
 - **Enchufla** LHRH is a +2.
@@ -120,8 +125,8 @@ Basic counterclockwise turns:
 - Setenta's **enchufate arriba**, i.e. cis right-handed enchufate arriba without letting go of the left hand, is +2. (This is because that enchufate becomes a rodeo in setenta romantica by delaying your own rotation, and since rodeo is +2, the enchufate is too.)
 
 Some sequences are kept stable by alternating between incrementing and decrementing the counter:
-- **Montaña** is +0: starting in T+1, you do -2 sombrero, +2 enchufla, -2 enchufate, +2 enchufla. You end in T+1 and crown. As noted below, this crown is different from The crown after sombrero.
-- **Balsero** is -2: starting in T+1, you do -2 sombrero, +2 rodeo, -2 sombrero. 
+- **Montaña** is +0: starting in **T+1**, you do -2 sombrero, +2 enchufla, -2 enchufate, +2 enchufla. You end in **T+1** and crown. As noted below, this crown is different from the crown after sombrero.
+- **Balsero** is -2: starting in **T+1**, you do -2 sombrero, +2 rodeo, -2 sombrero. 
 	- **[Helicoptero](https://www.youtube.com/shorts/mAZoSMjFsxs)** is the RLLH version of balsero. Analogous to how *Bayamo abajo* is the hammerlocking version of Bayamo arriba, you could call helicoptero a *balsero abajo*. (But once again, hammerlocks are more complex.)
 
 ## Mathematically
@@ -204,23 +209,25 @@ A good example of this happens in *doce*, which starts with a Cubanita (a trans 
 - If you let go of your **left** hand and let *her* slide down *your* back to regrip, you turn **T-1** into **T+1**. It feels natural to do any Bayamo on the DQN after this: Bayamo arriba will take **T+1** caída into **T-1** abierta. Bayamo arriba with a gets you into `abT+1`.
 
 The following trans sequence is infinitely repeatable: 
-- Sombrero (abT+1 -> caT-1) 
-- Left regrip (caT-1 -> caT+1)
-- Bayamo arriba with peinala (caT+1 -> abT+1).
+- Sombrero (**abT+1 -> caT-1**) 
+- Left regrip (**caT-1 -> caT+1**)
+- Bayamo arriba with peinala (**caT+1 -> abT+1**).
 
 Alternatively, you can replace the left regrip with 
-- Right regrip (caT-1 -> caT-3)
-- DQN with peinala (caT-3 -> abT-1)
-- Enchufla (abT-1 -> caT+1).
+- Right regrip (**caT-1 -> caT-3**)
+- DQN with peinala (**caT-3 -> abT-1**)
+- Enchufla (**abT-1 -> caT+1**).
 
 Either way: this means that the natural follow-up to a Bayamo+peinala is a sombrero. That also means that on the 8 of a Bayamo+peinala, you should swivel clockwise to open up the position immediately and create tension towards yourself.
 
 ## Starting with one hand
 It can be interesting to create a two-handed hold in the middle of a sequence rather than at the start in open position.
 
-After a one-handed first bar, you can grab a hand to have **C** in the second bar, equivalent to an enchufla after a **C** hammerlock. I know at least one rueda group where this is how "corona(la)" is called: one-handed enchufla in the first bar, and then grabbing the other hand in the second bar to do a coronala, followed by an exhibela and a coronate. I never do these kinds of regrips myself because they are not useful and have some risk of elbowing the follower.
+- After any left-handed first bar, you can grab a hand to have **C** in the second bar, equivalent to an enchufla after a **C** hammerlock. I know at least one rueda group where this is how "corona(la)" is called: one-handed enchufla in the first bar, and then grabbing the other hand in the second bar to do a coronala, followed by an exhibela and a coronate. I never do these kinds of regrips myself because they are not useful and have some risk of elbowing the follower.
 
-In RoR caída, you can offer your left hand (always underhanded) to create caT+1. This is my favourite way of doing exhibela, because it's a cheap way to get into a useful caT-1 crown.
+- In right-handed caída, you can offer your left hand (always underhanded) to create **caT+1**. This is my favourite way of doing exhibela, because it's a cheap way to get into a useful **caT-1** crown.
+
+- In right-handed abierta, you can do either a vuelta or a vacilala where you tuck your elbow into your chest and point your palm up like in a gancho, elbow and wrist each forming a 90° angle. If she stays close enough to you, her arm will form the same shape, and you have a square window between the two of you. You can stick your left hand through this window (and perhaps wiggle your fingers so she sees it) and grab her left hand. This creates **T-3**.
 
 # Showcase
 I have compiled several videos which should not be so difficult to understand now that you know the above. Let's start slow: David Jascha absolutely understands arm theory, whether the understanding is in his mind or in his muscle. See [this video](https://youtube.com/shorts/YBUfTeb5QSw) and the second half of [this video](https://youtube.com/shorts/8uDyarmcRxM).
