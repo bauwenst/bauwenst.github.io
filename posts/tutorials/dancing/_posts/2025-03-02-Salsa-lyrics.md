@@ -66,6 +66,7 @@ The only source I could find for the lyrics was a [lyric video](https://www.yout
 <details>
   <summary>Show lyrics</summary>
 
+<i>
 te portaste mal<br>
 no te llevo mas<br>
 me debes una explicacion<br>
@@ -136,7 +137,7 @@ oye deja ya la crisis<br>
 oye deja el papelazo<br><br>
 
 aye tu te quedas, no vas
-```
+</i>
 
 </details>
 
@@ -527,14 +528,14 @@ The key lyric for this song also feature prominently at the end of *La Reventaya
 this one doesn't fail.<br>
 Yes, the dance floor finds itself hot when N'Taya sounds."
 
-# Bla Bla Bla (Los Van Van)
+# Bla, Bla, Bla (Los Van Van)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/040HqiPVJWyRe6Ba13trmR?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 [Lyrics](https://www.musixmatch.com/lyrics/Formell-y-los-Van-Van/Bla-Bla-Bla)
 
 ## Key lyrics
-> Hay una pila de gente que and' hablando,
-> que esta comentando,
+> Hay una pila de gente que and' hablando,<br>
+> que esta comentando,<br>
 > pero nosotros seguimos cantando.
 
 - **Translation:**<br>

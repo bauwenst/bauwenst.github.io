@@ -19,7 +19,7 @@ It's not obvious that you could deduce anything about dance; in fact, the "it's 
 What I mean by "substituting" caída is not avoiding figures that end in caída. So then, how will we circumvent caída, if followers can't anticipate that we don't want to end up in it? The solution is that there are figures which start from the assumption that the follower is walking into caída, whereas the leader alters his movement so the dance doesn't halt (or more precisely, reverses direction) in caída.
 
 ## Enchufate
-We have already seen one form of caída substitute: the three types of enchufate that create sencillas (arriba, atras, abajo), of which most famously the right-handed enchufate arriba in the middle of setenta.
+We have [already seen](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-28-Casino-sencilla-vacilala/) one form of caída substitute: the three types of enchufate that create sencillas (arriba, atras, abajo), of which most famously the right-handed enchufate arriba in the middle of setenta.
 
 You can do these enchufates any time you are about to end in caída. You can also do them with either hand.
 
@@ -108,7 +108,7 @@ Here is an overview in tabular form that shows how enchufates and rodeos relate.
 | Enchufate inverso abajo   | turns 180° CW | walks and turns 180° CCW | 2 | moving into abierta | caída | / |
 
 ## Bayamo
-Again, this article is not about two-handed figures, but it's worth pointing out that Bayamo is just a rodeo inverso in essence. It is the counterclockwise equivalent of balsero.
+Again, this article is not about two-handed figures, but it's worth pointing out that Bayamo is just a rodeo inverso in essence. Bayamo arriba is the counterclockwise equivalent of balsero (which itself is enough duality to be explored in future articles).
 
 # Conclusion
 From the existence of rodeo, its mirror image rodeo inverso, and the three enchufates, we extrapolated two things: we recognised that these figures are a positional substitute (a caída substitute and an abierta subtitute) and found several existing figures that fit the same idea, and we predicted how to do several novel figures from looking at symmetries, among which the enchufate inverso.
