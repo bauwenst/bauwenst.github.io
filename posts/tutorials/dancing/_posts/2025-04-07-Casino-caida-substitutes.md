@@ -1,11 +1,11 @@
 ---
 layout: post
-
-title: "Deducing casino figures through symmetry"
-description: "How do I make caída more interesting? Here is an answer based on a scientific treatment of casino: from observation, to model, to hypothesis, to pratical knowledge."
-
+title: Deducing casino figures through symmetry
+description: "How do I make caída more interesting? Here is an answer based on a scientific treatment of casino: from observation, to model, to hypothesis, to practical knowledge."
 last_modified_at: 2025-04-09
-tags: [salsa, casino]
+tags:
+  - salsa
+  - casino
 ---
 
 As I have explored in [previous articles](https://bauwenst.github.io/posts/tutorials/dancing/2024-12-29-Casino-positional-systems/), all casino figures transition between three positions. One of those, *caída*, is rather starved compared to the other two (and certainly *abierta*, from which most figures start); the choice is basically between doing an exhibela or a DQN. There are two ways to alleviate this: by **substituting** caída with a figure, and by **substituting** the last bar of DQN. There is a very nice relationship between both, and in fact, by assuming symmetry between them, you can logically deduce the existence of new figures.
