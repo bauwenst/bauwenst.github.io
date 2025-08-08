@@ -26,14 +26,14 @@ First, let's see the typical application of a (cis) hammerlock: you create the h
 8. **Gancho**, then ungancho, then throw (**71 al reves**): same as above, except rather than keeping the arms in a plane, you throw your right hand over her head (see [this](https://www.youtube.com/watch?v=W71_7hKbgyQ)).
 9. **Double gancho**, then let go: same as 71 except you also do it with your left arm.
 10. **Double gancho**, then hold it (**setenta y dos / 72**): same as above except you don't let go of the ganchos and you walk around in an adios (see [this](https://youtube.com/shorts/e-qg1RDEXIo)).
-11. **Gancha[^†]** ([definitely not](https://www.spanishdict.com/translate/gancha) the actual name): turn the fingers of your right hand such that they point down and the  back of your hand faces you. Now press her fingers onto her shoulder and push your elbow inward. She will naturally put her elbow over your elbow pit. You now have a gancho done by the follower. If you follow this up with an exhibela, lay this connection behind her neck for as long as possible.
+11. **Gancha[^1]** ([definitely not](https://www.spanishdict.com/translate/gancha) the actual name): turn the fingers of your right hand such that they point down and the  back of your hand faces you. Now press her fingers onto her shoulder and push your elbow inward. She will naturally put her elbow over your elbow pit. You now have a gancho done by the follower. If you follow this up with an exhibela, lay this connection behind her neck for as long as possible.
 12. **Coronala:** drape your right hand over her head, ending on her right shoulder.
 13. **Coronate:** drape your right hand over your head, ending on your left shoulder.
 14. **Rodeo** two-handed front: same as coronate, except you lead her past your right side, and then move your left hand from your right shoulder to your left shoulder.
 15. **Rodeo** two-handed back: lead her past your right side, move your left hand to your left shoulder, and only then your right hand from your right shoulder to your left shoulder (under her left arm).
-16. **Nudo pa'mi[^†]:** do an enchufate atras LLRH, then lead her around you in a rodeo where you hold your right hand to your neck, stretch your left arm from hammerlock and pass it over your head to the front, over your elbow. Then do [this](https://youtu.be/MgjgpZl2lxc?t=42).
-17. **Yoandy coronala[^†]:** do an enchufate atras LLRH, then put your right hand on her right shoulder, then duck -- without any turning -- under her right arm, do an enchufla, and then walk into caída. You end up with a regular coronala (see [this](https://youtu.be/hLyxGgsIC9c?si=CmEH-kSe7wavwwpz&t=224)).
-18. **Do nothing**: you'll end in **caC+0** from which you can e.g. do a DQN or an exhibela. From the exhibela, you end in **caC+2**, which can be followed by a DQN, a coronate, or a rodeo where you kneel (I use **rodeo rodillas[^†]** for this).
+16. **Nudo pa'mi[^1]:** do an enchufate atras LLRH, then lead her around you in a rodeo where you hold your right hand to your neck, stretch your left arm from hammerlock and pass it over your head to the front, over your elbow. Then do [this](https://youtu.be/MgjgpZl2lxc?t=42).
+17. **Yoandy coronala[^1]:** do an enchufate atras LLRH, then put your right hand on her right shoulder, then duck -- without any turning -- under her right arm, do an enchufla, and then walk into caída. You end up with a regular coronala (see [this](https://youtu.be/hLyxGgsIC9c?si=CmEH-kSe7wavwwpz&t=224)).
+18. **Do nothing**: you'll end in **caC+0** from which you can e.g. do a DQN or an exhibela. From the exhibela, you end in **caC+2**, which can be followed by a DQN, a coronate, or a rodeo where you kneel (I use **rodeo rodillas[^1]** for this).
 
 # Playing with the hammerlock
 Enchufla is not the only figure that can follow a hammerlock. Here are some more options for when you are about to end in one:
@@ -51,7 +51,7 @@ Enchufla is not the only figure that can follow a hammerlock. Here are some more
 	- 7: right foot forward.
 	- Repeat until you get out with an enchufla.
 5. **Enchufla abajo:** after hammerlocking, do the downwards enchufla that starts a Cubanita (or [this](https://www.youtube.com/shorts/RmXSJy7UZHo) or [this](https://www.youtube.com/shorts/uBeWoYX0YsI)). Note that because you have a **C** hold and not a **T** hold, her arms are now crossed behind her back. To end this cis Cubanita, you will have to use your right hand in the second bar to make her turn clockwise while you put her arm over her head. The best execution I've seen of this figure is in [this video by Kevin Cano](https://www.instagram.com/reel/C-kL5NSCR5-/).
-6. **Excavadora[^†]:** after hammerlocking, you pull her into you so that her right armpit sits between your neck and your right shoulder. Then, using your right arm, you scoop up the hammerlocked arm by stretching it and then turning her elbow the other way, so that you can put it over your head. In my experience, this is *very* difficult and requires compatible body proportions. Here are some examples of videos where it happens:
+6. **Excavadora[^1]:** after hammerlocking, you pull her into you so that her right armpit sits between your neck and your right shoulder. Then, using your right arm, you scoop up the hammerlocked arm by stretching it and then turning her elbow the other way, so that you can put it over your head. In my experience, this is *very* difficult and requires compatible body proportions. Here are some examples of videos where it happens:
 	- [Maykel Fonts](https://www.youtube.com/watch?v=FL8rU7kSMaQ&t=96s)
 	- [Simone Di Giacomo](https://www.tiktok.com/@simoneyangy/video/7371816770937605408)
 	- [Fredy Aguirre](https://youtube.com/shorts/9nvqbrWJrbQ?t=32)
@@ -64,4 +64,4 @@ Enchufla is not the only figure that can follow a hammerlock. Here are some more
 This entire article describes ways to fill a mere 8 counts in the dance, right after a hammerlock. Imagine how many possible sequences you could now create across an entire song.
 
 
-[^†]: This is an unofficial name I made up just to have a label to use when referring to this movement. If you know what this is called elsewhere, contact me.
+[^1]: This is an unofficial name I made up just to have a label to use when referring to this movement. If you know what this is called elsewhere, contact me.
