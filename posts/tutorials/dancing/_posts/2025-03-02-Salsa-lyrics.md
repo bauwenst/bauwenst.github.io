@@ -297,6 +297,71 @@ Open the door for me, because I come with force."
 - **Translation:**
 "Knock knock. Who's there?"
 
+# Nube Pasajera (Charanga Habanera)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1vqojH8o4mxfyP2qJF0vyb?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+Note that you will find many covers of this song out there, including by Alexander Abreu. The one by Michel Maza is the one played most in practice, as far as I know.
+
+- [Michel Maza](https://open.spotify.com/track/1vqojH8o4mxfyP2qJF0vyb?si=e05f2f30a1e0416d)
+- Charanga Habanera has three versions on Spotify: [5:34](https://open.spotify.com/track/11wbqVQmTuGgS97mmAHxfh?si=51419a12e11f4449) [5:32](https://open.spotify.com/track/3vLgdI8n2uZjbQmimNfQg9?si=7c9b71c6ae414d49) [5:30](https://open.spotify.com/track/5feHm2s7yfcaTEpaF0ia1T?si=d8a5470da41844b8)
+- [Azucar negra](https://open.spotify.com/track/24lZnHcT2fX8x9DNuQ8WHd?si=eb370035628c45d9)
+- [Alexander Abreu](https://open.spotify.com/track/0NHX9OnyJhEhks0Tc0pBYc?si=775cd81a13034ea1)
+
+## Story
+According to ChatGPT:
+> The song revolves around sexual tension and playful flirtation, with water imagery used metaphorically to describe desire. The male voice alternates between playful teasing and admiration for the woman, describing her as “agua mala”, a metaphor for an irresistible woman.
+
+## Key lyrics
+
+> porque tú eres así<br> 
+> como una nube pasajera<br>
+> que moja cualquiera
+
+- **Translation:**<br>
+"Because you are that way,<br>
+like a cloud passing overhead<br>
+that drenches anyone."
+
+> si ya me mojaste, chin chin<br>
+> por qué no me tiras la toalla, por qué?
+
+- **Translation:**<br>
+"If you're already soaking me, _chin chin_,<br>
+why not get me a towel, why?"
+
+> mójame, mátame<br>
+> pa'que s'entere L'Habana, agua mala.
+
+- **Translation:**<br>
+"Drench me, kill me,<br>
+so that Havana is made aware, _agua mala_."
+
+The term _agua mala_ is a name for jellyfish-like creatures (like the [Portuguese man-of-war](https://en.wikipedia.org/wiki/Portuguese_man_o%27_war)) that are more dangerous than ordinary jellyfish (which would be called _medusa_). It literally means "bad water", as in "if you swim in that water, it will be bad for you". According to ChatGPT, calling someone "agua mala" is not an insult (as in "you are toxic and hence bad for me, even if I can't resist") but a teasing compliment (as in "you have a powerful impact that is intoxicating").
+
+# Se Sigue Comentando (Elito Revé y su Changaron)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2Lix6qWnGTqXTDZbHv32eS?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+## Story
+According to ChatGPT:
+> It’s less about a linear story and more about celebrating rhythm, performers, and the festive atmosphere. The singers are calling attention to different characters, musicians, and dancers while encouraging everyone to join in the fun.
+
+About the title:
+> Constructions like "se sigue comentando" are usually impersonal/passive, here meaning "it continues to be commented on" rather than "one keeps commenting." If you wanted the active "one keeps commenting," you’d more often see something like "la gente sigue comentando" – "people keep commenting." It translates roughly as “People Keep Talking About It” or “It’s Still Being Talked About.” reflecting the lively and talk-of-the-town nature of the party atmosphere.
+
+## Key lyrics
+> Uy uy uy, qué veo?<br>
+> Tremendo jala jala, tremendo traqueteo.<br>
+> Qué'sta pasando mamita (que ya no bailas que no te mueves)?
+
+- **Translation:**<br>
+"Oh oh oh, what am I seeing?<br>
+Tremendous shaking, tremendous rattling.<br>
+What is happening, lil' momma, such that you are not dancing, that you're not moving yourself?"
+
+According to ChatGPT:
+> "Tremendo jala jala" — literally “tremendous pull-pull.” Here, it’s figurative: describing intense, energetic dancing, like people moving forcefully on the dance floor or shaking in rhythm.<br>
+> "Tremendo traqueteo" — literally “tremendous rattling” or “clattering.” In the party context, it refers to the lively percussion, rhythmic movement, or the general noisy energy of the crowd.<br>
+> Both are a musical onomatopoeias as much as a description. It’s not about literal pulling or rattling—think of it as the sound and motion of a Cuban timba party captured in words.
+
 # Marcando la Distancia (Manolito y su Trabuco)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/70BDblSjPfj6Pe24avWzK2?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
@@ -512,7 +577,7 @@ The key lyric for this song also feature prominently at the end of *La Reventaya
 > Del changüí, yo soy el presidente.
 
 - **Translation:**<br>
-"Of changüí, I am the president.
+"Of changüí, I am the president."
 
 
 # N'Taya No Falla (Nic N'Taya)

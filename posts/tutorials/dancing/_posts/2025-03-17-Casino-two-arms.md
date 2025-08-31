@@ -189,11 +189,11 @@ The difference between the two is that **T+1** crowns (crowns starting from your
 You can turn such an impoverished **T+1** crown into a **T-1** crown by uncrowning, doing an exhibela, and re-crowning.
 
 # Hook turns
-**Hook turns** are only possible from cis holds, never trans holds. Indeed, you can't hook turn from Cubanita, Cubanito, sombrero, ... Like crowns, they only happen on second bars, which means the hooking is always done with the right foot. Unlike crowns, hook turns are chiral, i.e. it is possible that a hook turn is made impossible by the hold.
+**Hook turns** are only possible from cis holds, never trans holds. Indeed, you can't hook turn from Cubanita, Cubanito, sombrero, ... Like crowns, they only happen on second bars, which means the hooking is always done with the right foot. Like crowns, there are two variants of hook turns, each preferring one end of the cis spectrum: clockwise hook turns are done from **C+2**, counterclockwise hook turns are done from **C-2**. Unlike for trans holds, there also exists a cis hold from which both can be done, namely **C**.
 
-Basically all hook turns are clockwise, i.e. an enchufate atras, hooking *behind* your left leg. These start in **C+2**. You cannot do them from **C** nor from **C-2**. As one example: if you cut out the back-and-forth part of Kentucky, it is essentially just an enchufla (**C** into **C+2**), followed by a hook. Correct styling for the arms is to put your right arm on your left shoulder with your elbow on your chest, move your left arm from your left shoulder to your right shoulder, and then to either let go of the right hand or move it from your left shoulder to your right shoulder after the other arm has moved.
+In practice, basically all hook turns you'll do are clockwise, i.e. an enchufate atras, hooking your right leg *behind* your left leg. You _cannot_ do them from **C-2**, and usually you'll do them from **C+2**. As one example: if you cut out the back-and-forth part of Kentucky, it is essentially just an enchufla (**C** into **C+2**), followed by a hook. Correct styling for the arms is to put your right arm on your left shoulder with your elbow on your chest, move your left arm from your left shoulder to your right shoulder, and then to either let go of the right hand or move it from your left shoulder to your right shoulder after the other arm has moved.
 
-Counterclockwise hook turns, where you hook in front of your left leg, must necessarily start in **C-2**, but I have not found a good use for this.
+Counterclockwise hook turns, where you hook your right leg _in front_ of your left leg, preferably start in **C-2**. Since transitioning to **C-2** always happens in the second bar except in a vacilala, the only use for such a hook turn is to do a vacilala LHRH and then immediately undo it.
 
 # Regrips
 ## Starting with two hands
