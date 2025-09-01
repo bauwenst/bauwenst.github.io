@@ -2,8 +2,10 @@
 layout: blog
 title: Home
 description: >
-    Official GitHub Pages website for ir. Thomas Bauwens.
-last_modified_at: 2023-07-17
+    Official GitHub Pages website for drs. ir. Thomas Bauwens, MSc.
+
+last_modified_at: "{{ site.time }}"
+
 no_link_title: false 
 no_excerpt: false 
 hide_image: false
