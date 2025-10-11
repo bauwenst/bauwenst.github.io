@@ -262,6 +262,45 @@ The same is true between 5:40 and 6:35 to prepare for the final minute of the so
 
 At 3:35, I recommend you call *cintura*, i.e. the couples let go and rotate while girating the hips. You can keep doing this for all four phrases and then call a *dame*.
 
+# Tres Dias (Havana D'Primera)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/33hjoPb45TjMp0TGYDawsv?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+[Lyrics](https://genius.com/Havana-dprimera-tres-dias-lyrics)
+## Story
+According to ChatGPT:
+> This one is a **romantic lament**, very different in tone from the playful or street-style lyrics we looked at earlier. (...) The singer received a letter three days ago in which his partner ended their relationship. She says her patience has run out, forgiveness isn’t enough, and her life has moved on. (...) Now he begs her to reconsider. (...) Later lines (_“déjate querer, métete en mi playa”_, _“te sigue gustando el negrito”_) lighten the mood — moving from despair to seduction and trying to win her back.
+
+Me personally, I find this one of the most beautiful songs in this entire genre.
+
+## Key lyrics
+
+> T' amor es com' un boumerang<br>
+> que se va y regresa.<br>
+> T' amor es un rompecabezas<br> 
+> que yo no puedo resolver,<br>
+> porque le faltan piezas.
+
+- **Translation:**<br>
+"Your love is like a boomerang<br>
+that goes away and comes back.<br>
+Your love is a puzzle<br>
+that I cannot solve,<br>
+because it's missing pieces."
+
+> Aún te brillan los ojitos,<br>
+> aún te brillan los ojitos.<br>
+> Y como 'l que no quiere las cosas<br>
+> te sigue gustando 'l negrito.
+
+"Still, your little eyes shimmer,<br>
+still your little eyes shimmer.<br>
+And like he who doesn't like anything<br>
+you keep wanting the black boy."
+
+## Musicality
+There are few songs that are so suitable for putting musicality into practice as _Tres Dias_. All of its accents are very clear and predictable, and it has multiple sections where the music invites a closed position.
+
+Also, you better polish up on your bachata skills. Between 1:45 and 2:10, you have 8 phrases (and thus, 8 back-and-forths) of fast-paced bachata. Make sure that leading up to this section in the music, you make it easy to switch to a bachata grip. You can get creative with how you transition back to casino count afterwards.
+
 # Abre Que Voy (Miguel Enriquez)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1v0749CQ2jCJwY9NF48u6R?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
@@ -615,6 +654,26 @@ but we keep on singing."
 "Bla bla bla, bla bla bla, bla bla bla...<br>
 Let it be that they talk, because here nothing happens."
 
+# Mover Caderas (Leonardo Diago y la Nueva Era)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2RFzbQY0Jh3wVGINXQCWwT?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+## Key lyrics
+> Salta, brinca y menea!
+
+- **Translation:**<br>
+"Jump, skip, and wiggle!"
+
+
+> La mano 'n la cabeza, la otra 'n el tobillo.<br>
+> Dam' un meneíto... Cómo dice m' estribillo?<br>
+> Vam' a hacerle cas' a 'te corito, tan sencillo.<br>
+> Oye que salta, tírat' un pasillo!
+
+- **Grammar:** *hacer caso a* is a phrase that means "to pay attention to". The *le* in *hacerle* refers to *este corito* and is similar to the _te_ in both _chuparte_ and _pasarte_ which we saw in La Chica Chocolate. *tirarse un paso* [means](https://forums.tomisimo.org/showthread.php?t=17128) something like "to pull off a dance move".
+- **Translation:**<br>
+"One hand on your head, the other on your ankle.<br>
+Give me a small wiggle... How does the chorus go?<br>
+Let's pay attention to this little choir, so simple.<br>
+Yeah, jump, make a move!"
 
 # Conclusion
 Practice these lyrics when listening to the songs. Close your position when the music is calmer (the start and the end, and sometimes during the bridge). And, whenever you can, dance like the protagonist in these songs.
