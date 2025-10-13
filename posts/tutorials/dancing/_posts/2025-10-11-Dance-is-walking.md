@@ -5,7 +5,7 @@ tags:
   - salsa
   - casino
   - son
-last_modified_at: 2025-10-12
+last_modified_at: 2025-10-13
 layout: post
 ---
 My friend Vuk Vuković, whom I met through dance and who has taught me to be bold about the philosophy of dance, once gave a one-minute speech on a square in my home town summarising the essence of _son_ dance. [I happened to film it.](https://drive.google.com/file/d/1T58CjRZGt7Zxxrt4TYCIlVlUeEEpgXqc/view?usp=drive_link) As he reflected later, it was actually a perfect summary of all partner dances worth their salt. I have since spread his sermon to many people, and it ties into some other thoughts experiences I've had recently.
@@ -25,6 +25,13 @@ The above is an essential mechanical mindset when learning to dance. My personal
 Yet, you will struggle to find a single casino teacher who teaches either of the above mindsets. This is where most beginners' problems originate.
 
 # You already know how to walk.
+## An anecdote
+A couple months ago, I danced with a middle-aged woman who had been dancing for 14 years. Yet, her casino was mediocre. Chaotic. Imbalanced. Tense.
+
+She came to me after we had danced and confessed that she struggled coordinating her feet with the rest of her body. I then compelled her to forget that there ever existed precise step patterns, because thinking that there was anything to "coordinate" was exactly the problem: when you walk around your house eating a bowl of cereal, your feet don't stop working despite moving a spoon with one hand and balancing a bowl of milk in the other. There is no "coordination" to do because you are not conscious of the pattern traced by your feet. I then asked her to instead (1) walk like she would otherwise walk, (2) be aware of the fact that she could walk to my left or to my right, and (3) to keep a frame so I could communicate with her where to walk. 
+
+The very next dance we did -- actually, I just stopped talking and kept leading to the song that was already playing -- shocked me. It was like dancing with a completely different person. From being lost on the floor to dancing textbook-perfect casino. I have never seen someone improve by an order of magnitude this fast, and she was herself so surprised by this newfound ease that she invited me to dinner to show her gratitude.
+
 ## How is this even acceptable?
 Inevitably -- it doesn't have to be, but it is -- you will see people on the dance floor, in class or at socials, who move their legs as if they are recent stroke victims or a baby giraffe, despite having taken weeks or months or even years of classes. 
 
@@ -37,7 +44,9 @@ And yet, minutes earlier, _these same people walked into the room with upright p
 
 It looks unnatural because their mindset is precisely that they _want_ to do something unnatural. In their mind, if they would just walk, they would not be doing the thing they learnt in class, because they go to class to learn something they don't know yet, and they know that they know how to walk, so walking cannot be the correct thing to do.
 
-The hallmark of a bad dance teacher is that after their students have attended their classes, the students dissociate on the dance floor and forget the walking that they have trained their entirely lives. In this psychosis, you will observe all of the above-mentioned ailments that plague beginners: they have no balance, they pull on their partners, they take large steps backwards, they hop, they hesitate, they lack periodicity, and so on.
+The hallmark of a bad dance teacher is that they make you forget something you have been doing longer than speaking: they make you forget you can walk. After their students have attended their classes, they dissociate on the dance floor and forget what they once knew. In this psychosis, you will observe all of the above-mentioned ailments that plague beginners: they have no balance, they pull on their partners, they take large steps backwards, they hop, they hesitate, they lack periodicity, and so on.
+
+Imagine if I spelled out this deal: over there is a building. When you go in, they tell you a bunch of things. When you come out, there are now places on this planet (dance floors) where you will lose the ability to remember how to walk. Who would take this deal?
 
 ## Culture-induced psychosis
 We can also blame modern culture for this tendency to see dance as "its own thing".
