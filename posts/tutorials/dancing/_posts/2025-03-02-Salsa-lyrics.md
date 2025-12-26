@@ -675,6 +675,23 @@ Give me a small wiggle... How does the chorus go?<br>
 Let's pay attention to this little choir, so simple.<br>
 Yeah, jump, make a move!"
 
+# La Gorda (David Calzado y Charanga Habanera)
+## Story
+From what I gather, the singer finds himself attracted to an overweight white woman, and despite being surprised by his own feelings, defends her from criticism.
+
+## Key lyrics
+
+> Mi novia tien' una onda<br>
+> ancha y redonda.<br>
+> Blanca ternura,<br>
+> rara locura.
+- **Translation:**<br>
+"My girlfriend has a vibe to her;<br>
+she's wide and round.<br>
+White tenderness,<br>
+unusual madness."
+
+
 # Conclusion
 Practice these lyrics when listening to the songs. Close your position when the music is calmer (the start and the end, and sometimes during the bridge). And, whenever you can, dance like the protagonist in these songs.
 
