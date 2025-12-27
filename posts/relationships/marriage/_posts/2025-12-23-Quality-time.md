@@ -12,25 +12,28 @@ If you are a married 21st-century Westerner, it's likely that your marriage was 
 
 If someone fails these challenges, you stop striving to spend more time together. When they don't fail them, you stay together, and your lives intertwine: eventually you move in together, eat the same food, drive the same car, sleep in the same bed, and so on.
 
-Obviously, there can be only one motivation for transitioning from a dating situation to this kind of situation: "We like spending time with each other, we want to spend even more time with each other than we already do, and the only way to do so is to also be together outside of our dates." And this seems fine on the surface. But there is a problem.
+Obviously, there can be only one motivation for transitioning from a dating situation to this kind of situation: _"We like spending time with each other. We want to spend even more time with each other than we already do. The only way to do so, is to also be together outside of our dates."_ And this seems fine on the surface. But there is a problem.
 
 # Dating is an end, not a phase
 As discussed above, we view dating as a test to be passed before moving on to other activities. It is an early station on the conveyor belt of a relationship. I think this view is wrong.
 
-We decide whether _spending more time_ with someone would be fun when _dating them more_ would be fun. It is as if we assign the joy of dating someone merely to the person, rather than to the act of dating with that person, because after all, dating supposedly only measures the person.
+We decide whether _spending more time_ with someone would be fun when _dating them more_ would be fun. It is as if we assign the joy of dating someone merely to the person, rather than to the act of dating with that person, because we think of dating as qualifying a person, rather than qualifying them in that specific activity.
 
 And that may be true _when we reject someone_. Indeeed, if someone is not fun to date, spending time with them outside of dates certainly cannot be more fun, because they are still the same person. But when you don't reject someone, you are measuring two things: firstly, that you cannot be certain about this person being unenjoyable (so far, you have enjoyed them), and secondly, that you can be certain about enjoying dates with them.
 
-We forget this last part and generalise it to daily life. The logical fallacy goes something like this:
+We forget this last part and generalise it to daily life. The logical fallacy goes something like this: we correctly deduce that
 
 $$\begin{aligned}
 &\text{dating her} &&\Rightarrow &&\text{spending time with her}\\
 &\text{dating her} &&\Rightarrow &&\text{joy} \\
 \end{aligned}$$
-therefore
+
+and yet, we then feel that
+
 $$
 \text{spending time with her} \Rightarrow \text{joy}
 $$
+
 which is indeed an incorrect deduction.
 
 Of course, nobody is denying here that it should be a goal to spend your life with someone you can have fun with in casual moments (this would be a second[^1] logical fallacy). It's perfectly possible to be playful with each other in everyday life. But it isn't why you got together originally.
@@ -43,7 +46,7 @@ Let's make this concrete. My friend and I like having long conversations, where 
 And what was the result of spending all this extra time with each other? We felt bored and missed each other. Why? Because the one thing we were not doing anymore, since we were under the impression that we were now budgetting more time for each other than before, was being together for no other purpose than sitting down to have a conversation. The many more interactions we were having were of lower quality. Functional. Dry. Quotidian. Never enough time or privacy to have any meaningful conversation for the sake of the conversation. Talking was now just a tool: "I'm writing that report for my machine design class." "Hurry up, we'll be late." "If you do this exercise with a cable, the resistance path is better." "I asked the DJ for a good song, let's dance the next one." "I like the red bra more than the black one."
 
 # Wife deserves more than life
-Mind you, I came to this conclusion after one month of structuring our lives in this way. Not a year, not a decade. The estrangement started after a month. And this was not even in the context of a marriage, but a friendship. Now imagine how long and hard you could miss someone if your entire lives are intertwined -- giving you 24/7 what you supposedly wanted -- for a decade of being married.
+Mind you, I came to this conclusion after one month of structuring our lives in this way. Not a year, not a decade. The estrangement started after a month. And this was not even in the context of a marriage, but a friendship. Now imagine how long and hard you could miss someone if your entire lives are intertwined: you may be together 24/7, but  what you supposedly wanted -- for a decade of being married.
 
 As a future husband, the conclusion is clear: **if you love your wife, do more with her than just spend your life with her.**
 
@@ -52,6 +55,6 @@ I am specifically not saying this in the cucky rom-com servant sense of "every m
 # This is not cliché
 Finally: yes, it is fairly common advice given to married couples that they should go on dates to "keep the spark alive". But this is never actually framed the way I have above. It is framed as "it's important to spend time together" because your jobs and errands have made even physical presence scarce. Or it is framed as "you should treat yourselves to something special every so-often" because the responsibilities of adulthood have stressed you out so much that you need to spend money on yourself to briefly feel like a person again, like a child that needs to receive a lollipop to digest the horror of a routine doctor's visit.
 
-None of these framings refer to my perspective, which is that **when you feel that you want to spend more time with someone, prioritise spending that time in the way that caused that feeling**. As explained above, there is no other activity where this applies more universally than dating: if you still want to hang out after a sequence of dates, the only possible reason is specifically that sequence of dates, and since any relationship involves a sequence of dates, the motivating reason all relationships start is because two people liked the activity of dating the other person.
+None of these framings refer to my perspective, which is that **when you feel that you want to spend more time with someone, prioritise spending that time in the way that caused that feeling**. As explained above, there is no other activity where this applies more universally than dating: if you still want to hang out after a sequence of dates, the only possible reason is specifically that sequence of dates, and since any relationship involves a sequence of dates, the motivating reason behind all relationships start is because two people liked the activity of dating the other person.
 
-[^1]: If $$P \Rightarrow Q$$ is false, that does not mean $$P \Rightarrow \neg Q$$ is true. Let $$P$$ be "has four legs" and $$Q$$ be "is a dog". Then the fact that "has four legs $$\Rightarrow$$ is a dog" is false (it might be a cat, or an elephant, or a giraffe, or ...) does not mean that "is a dog $$\Rightarrow$$ doesn't have four legs".
+[^1]: If $$P \Rightarrow Q$$ is false, that does not mean $$P \Rightarrow \neg Q$$ is true. Let $$P$$ be "has four legs" and $$Q$$ be "is a dog". Then the fact that "has four legs $$\Rightarrow$$ is a dog" is false (it might be a cat, or an elephant, or a giraffe, or ...) does not mean that "has four legs" $$\Rightarrow$$ "is not a dog" (or the converse:  "is a dog $$\Rightarrow$$ doesn't have four legs").
