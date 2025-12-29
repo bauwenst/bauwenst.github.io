@@ -286,6 +286,17 @@ Your love is a puzzle<br>
 that I cannot solve,<br>
 because it's missing pieces."
 
+> Me mand' una carta donde dice que ya no me quiere,<br>
+> que no puede más,<br>
+> pero yo sé qu' es' e' por gusto,<br>
+> por qu' est' enamora'a.
+
+- **Translation:**
+"She sends me a card where she says that she doesn't want me anymore,<br>
+that she can't take it anymore,<br>
+but I know that this is for pleasure,<br>
+because she's in love."
+
 > Aún te brillan los ojitos,<br>
 > aún te brillan los ojitos.<br>
 > Y como 'l que no quiere las cosas<br>
