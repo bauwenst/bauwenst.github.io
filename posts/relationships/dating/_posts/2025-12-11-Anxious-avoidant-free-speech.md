@@ -1,0 +1,115 @@
+---
+title: Only free speech can save anxious-avoidant relationships
+description: A look at attachment styles from the perspective of self-censorship.
+last_modified_at: 2025-12-31
+tags:
+  - Attachment
+layout: post
+---
+Breakdown in communication is probably the most common reason for breakups. I have, however, had two short-lived relationships where by the end, breakdown in communication was the reason I didn't break up sooner. Having recently read a book on attachment styles, I think I can now piece together why.
+
+1. dummy
+{:toc}
+
+# Attachment theory
+For the uninitiated: there exists a quadrant model of how humans react to receiving romantic affection, called _[attachment theory](https://en.wikipedia.org/wiki/Attachment_in_adults#Styles)_. It categorises people's behaviour (not necessarily the people themselves) into at least three archetypes: _securely attached_, _anxiously attached_ and _avoidantly attached_. If you have ever had an uncomfortable relationship or recurrent patterns in your relationships, you might want to consider applying the latter two archetypes to you and your partners to see if there's a match.
+
+<!-- 2024-12-17 -->
+
+## What is an anxious person like?
+In [Adam Lane Smith's book "Exhausted Wives, Bewildered Husbands"](https://www.goodreads.com/book/show/43866615-exhausted-wives-bewildered-husbands), he describes insecure attachment (but it seems to mostly apply to the anxiously attached) as the feeling that "people will actively fall out of love with them every moment they are not refilling the person's pleasure meter". In other words, they feel that their spouse's love is held in a leaky bucket -- a [Danaidal tub](https://en.wikipedia.org/wiki/Dana%C3%AFdes) -- which they are doomed to attend to indefinitely so as to not be abandoned. In a sense, they don't believe a relationship can just be alive, since they're performing CPR on its unconscious body from day one, constantly checking its pulse and breathing and sending shocks through it just to get some semblance of it being there. You can liken it to impostor syndrome, where, despite sustained evidence of a state you find yourself in, you refuse to believe you are in it.[^1]
+
+What are these people like in a relationship? Their behaviour is classifiable into two categories: stress and damage control. The stress of their anxiety expresses itself as emotional volatility, drama, and panic. To an anxiously attached person, a relationship is like dry sand slipping through their fingers, so they can never be at peace. To defend against this perceived looming breakup, they are persistently in crisis management, squeezing the sand tightly: showing jealousy about people of the same sex who appear in the other person's life, being clingy (over text or physically) so the other doesn't forget about them, and being very sexual very quickly -- because they know that as long as the pleasure hormones keep flowing, they will stay. It has also been said that drama may serve a similar role as sex: as [one person on the attachment theory subreddit](https://www.reddit.com/r/attachment_theory/s/vMHUZ3A4cK) recounted, "I was looking for emotional connection, and since I did not get it during normal times, the very few moments I felt we were both present in the moment and emotionally involved was either when we made love or when we fought."
+
+Anxiously attached people can regulate themselves with cognitive behavioural therapy, and raising their standards: love is not earned, it is just present, and staying emersed in relationships where this is not the case will condition the mind. I am reminded of a quote David Meessen sometimes raises: "If it's meant to be, there is nothing you can do to cause it to fail. And if it's not meant to be, there is nothing you can do to prevent it from failing."
+
+From introspection, I think I personally have some anxious tendencies, but they mostly remain in my head: I don't love-bomb, I am not dramatic or volatile, and I don't try to lure people in with sex. I do get stressed about someone losing interest when I'm dating them, probably because I take it as condemnation of my personality, and because we will then miss the opportunity to explore our full potential together looking past our differences, and because I'm not convinced I'll have another chance with someone else if this doesn't work out. If a relationship ends, I must know that at least we didn't leave anything on the table that "could have been" by making the impulsive mistake of separating. My anxiety manifests as overthinking about all possible futures I could have with people after our very first interaction -- you know, when I know as little as possible about them or about whether their interest is reciprocal -- since I want to choose the one path that has the most to offer. (To guard myself against this rather unpleasant preoccupation, I try to tamp down my interest and forget about them, i.e., forcing myself to be avoidant e.g. by not becoming addicted to texting them.) _Fear of scaring away_ is why I'm hesitant to speak up critically against a person I'm dating, despite being an extremely disagreeable person in every other aspect of life.
+
+## What is an avoidant person like?
+At the base of avoidance (which I am also familiar with), as with all dysfunctional attachment styles, is insecurity. For me, I struggle with a crippling fear of disappointing others, wronging them, and generally doing or saying anything that makes them want to cut me off -- the equivalent of kids no longer wanting to play with me on the playground. And, importantly, the way I mitigate against these things is not by constantly proving that I am worthy of someone's love, but rather keeping enough distance so that such things just never start becoming possible.
+
+Indeed, the driving force underneath avoidant and anxious attachment is fear. Perhaps I should nuance that the fear I feel has less to do with the feeling "their love is slipping away" and more to do with dreading sudden antisocial embarrassments. A fear of ostracisation;[^2] a fear of having blind spots that brand me as an "unfit" human for future relationships; a fear of being exposed to the community; not a fear of abandonment. Anxious people also tie their self-worth to their fitness in relationships, but they are much less preoccupied with "people will think I am bad if I ruin this" and much more with "I will be bad if I ruin this". They see the _relationship_ as potentially doomed, whereas as an avoidant, I see _myself_ as potentially doomed.
+
+That part of me which is avoidant is much more about not wanting to be a bad person. _Fear of disappointing_ is why I'm hesitant to express anything I like about someone I date, because in the (likely?) event it doesn't work out with her, I can't take those words back and I will have built up false hope. So, to avoid building false hope as much as possible, I basically starve the other person of any sign that tells them I'm "bought in". And, the more avoidant someone is by nature, the less their behaviour is conditioned on the other person: if they are a true maximiser, they will never be satisfied by the other person's qualities. They will never let a person come too close because there is *always* someone better out there.
+
+There is a second reason for avoidance which derives from the same insecurity as the anxiously attached may have: "If you just knew me well enough, you wouldn't want to be with me..." An anxious person is someone who then concludes they have to manipulate you into thinking they're actually great by serving all your needs, distracting you enough to never start doubting your love. An avoidant person is someone who, rather than concluding that they should construct a mask, concludes they should just withhold enough information so it's never clear who they are, what they think of the other person, and at what stage they feel the relationship is.
+
+In my case, I am actually quite well-aware of which parts of my upbringing and past social situations all of these fears stem from (there's nothing coincidental about any of the above) and it's my responsibility to tell myself antidotal stories to be better-regulated.
+
+# Anxious-avoidant relationships
+## Why would these people get together?
+To start: it is sometimes said that anxiously attached people and avoidantly attached people are _attracted_ to each other. This does not really make that much sense to me: the last thing an avoidant person would want is somebody with high emotional needs, and at the same time, an anxious person discovering their partner to be avoidant will be devastating rather than sexy, since they will chase their validation forever. According to [Therapy Jeff](https://www.therapyjeff.com/videos/why-anxious-and-avoidant-partners-are-attracted-to-each-other-how-to-make-it-work), the anxious-avoidant dynamic is attractive because it supposedly stems from some kind of need to verify that we really do have the attachment style we somehow know we have. A needy person, somehow self-aware of their neediness, seeks to confirm this by finding somebody who definitely cannot satisfy those needs. A distant person seeks to confirm their detachment by finding somebody for whom no amount of intimacy (emotional or sexual) suffices, and this feeling of "never being enough" reinforces the story they tell themselves.
+
+I only half buy this explanation. I believe that the inception of these dynamics, i.e. why these people _enter_ relationships with each other, is mostly just a statistically likely coincidence: many women have anxious attachment issues (because avoidant fathers fail to show their daughters unconditional love) and many men have avoidant attachment issues (because anxious mothers dominate their husbands and sons with nuclear meltdowns that threaten the end of the relationship when they sense disagreement). What I want to focus on is why these dynamics sustain themselves, not how they are created. 
+
+Part of it is that humans can be addicted to strong emotions and to validation chasing. However, more interesting to me is to point out the absence of an essential value between these couples, which keeps them stuck in their personal hell. I am talking about freedom of speech.
+
+<!--
+Anxious-avoidant relationships are sometimes portrayed like we do ionic bonds in chemistry: a positive particle is attracted to a negative particle due to electrostatic force, so they will come together and then stick together.
+
+I will argue, however, that a better analogy is that the anxious-avoidant bond is like the bond between two positively charged particles, like two protons: at a distance, they will stay far away from each other due to electrostatic repulsion, and yet if you bring them close enough, the repulsion is overcome by the residual strong force, making them stick together into an atomic nucleus with a lot of energy needed to separate them. This, I believe, is a better model of anxious-avoidant relationships.
+-->
+
+<!-- 2025-12-11 -->
+
+## Conflict between anxious and avoidant
+Let us put these two people together. To make it as applicable as possible on average, let's assume we have an avoidant(ly attached) man and an anxious(ly attached) woman.
+
+At the start of the relationship, the man has no idea whom he is dealing with, so naturally, he will try to keep his affection neutral so the woman doesn't get her hopes up more than needed. She senses that he is slipping away from her, so she becomes stressed and exhibits her two behaviours: the stress makes her less happy company, and to fix it, she will start trying to get his attention more. This will feel invasive to him and make him uneasy. Then, because he holds truth in high esteem and because the idea of boundaries sounds fantastic to him, there comes a point at which for the first time, he opens up about something she does which he doesn't like.
+
+She hears this as deep rejection; as if the heart monitor of her relationship just flatlined, beeping loudly. She may also carry either perfectionism or an aggrandized ego, which make her even more unable to cope with his observation -- which he has delivered from a place of love and a hope for mutual communication. She is taken over by her panic, anger and sadness, loses control of herself, and has a meltdown. She might say things she doesn't mean, act out physically, or whatever else the more reflexive mammals do when they are upset. Alternatively, she sees this as an inroad to final inject some emotional aliveness into her relationship, and riles herself up voluntarily.
+
+Any normal person would be taken aback by their conversational partner, letalone their significant other, losing control of themselves. It is difficult to deal with by default: it is unexpected and uncomfortable, you feel guilty for causing it, and yet you seem powerless since you were probably never taught [hostage negotiation tactics](https://youtu.be/q8CHXefn7B4). An avoidant person, in addition to this general shock, is stimulated to become more avoidant, regardless of the underlying cause of his avoidance.
+
+If he fears attachment because he believes the relationship will be doomed once she discovers his true self, he interprets the outburst exactly like that: he showed a bit of his authentic self, and it indeed has put the relationship under threat.
+
+If he fears attachment because past experiences have convinced him that stable, trustworthy, unconditional love isn't real, he interprets the outburst as proof that whatever peace he thought existed was once again a lie. The fact that he still feels affected, despite "knowing" things were always "too good to be true", is a sign to him that he was too invested and thus he must pull back more.
+
+If he fears attachment because he is a doubter who doesn't want to hurt her by building her up, then the fact that she is now hurt anyway makes him draw two conclusions: first, he has personally failed in his goal of protecting her feelings, and the reason for this must be that he was not avoidant enough to keep her from attaching. Second, the outburst confirms that indeed he is dealing with a person whose feelings are easily hurt, justifying the need for avoidance. 
+
+## Self-censoring hostage
+Speaking his authentic concerns thus gives him feedback that pushes him towards being more distant, opaque, estranged, dry, cold, closed-off, unauthentically agreeable, ... Even outside of conflict, he will now self-censor. 
+
+Consider this: a hostage is someone who stays alive if and only if the demands of another person are obeyed. As noted by Adam Smith, you could similarly say that the love and peace in this kind of relationship -- and perhaps the relationship itself -- are [hostages of the anxious person's volatility](https://www.instagram.com/reel/C_vYyJJO94_/): they cannot live unless the other person pays with his silence.
+
+<!-- 2025-12-31 -->
+
+I should be careful blaming _avoidance_ for this reluctance to speak when speaking is met with distress. [As pointed out by Alison Armstrong,](https://www.instagram.com/reel/DM8nzF1yCp6/) if somebody blows up persistently whenever an authentic but uncomfortable truth is shared, then the person who shared it will just naturally figure out the uselessness of being honest. In the best case, the volatile person will blow up because they have no control over their internal state; in the worst case, they blow up to manipulate the other into abdicating the truth and agreeing with them. In either case, when the other has a conviction about something in the relationship, what can he do? He cannot control having his conviction; he could change it of course, but he cannot know which of the two she agrees with. So, he has two choices. One is that he has the conviction in his head, doesn't speak it, and the peace is kept. The other is that he has the conviction in his head, speaks it, and either the peace is kept or a meltdown ensues whose ripples could be felt for an arbitrary amount of time afterwards. The upside he sees of sharing his conviction cannot outweigh such a cost, so he retreats, and the couple grows disconnected.
+
+What is true, is that an avoidant will view all of this through a distorted lens and blame himself. Each meltdown, and the broader situation of terror, is a deep personal failure. A secure person would simply see things for what they are externally, without letting them influence his internal frame.
+
+It is actually quite ironic that the hostage-taker, that is, the one to threaten the relationship, is the person with the attachment style that otherwise chases to try to get as close as possible. It should clearly be the avoidant who is pushing away, yet he's now passively being pushed away.
+
+## Why do they stay together?
+An anxious person will already do quite a lot of the heavy lifting to keep a relationship going. You might even break up with them and find out that they think a breakup requires consent from both parties (yes, this is something that actually happened to me).
+
+The reason the relationship lasts even longer with an avoidant person is simply that he will self-censor himself out of the breakup talk. If you are terrorised into not bringing up small inconveniences, then the earth-shattering inconvenience of "I don't want to be with you anymore, and the decision is final" is off-limits. So you just stay. Unhappy and silent.
+
+## What is love?
+Jimmy On Relationships has a video where he models [how to bring up the hard truth of not being able to bring up hard truths to a person to whom you cannot bring up hard truths](https://www.instagram.com/reel/DDHpYciMTAI/). I think his model conversation sounds good on paper, and indeed it would be a good attempt at making someone introspect, but it requires that the listener is open to perceived criticism, so in practice this will be futile. However, what he does get right, at the end of the video, is what the consequences are of not being able to share what is on your heart: lack of trust and emotional connection, and therefore a lack of friendship, intimacy, and sense of safety. 
+
+I would define "love" as _the commitment to not run away from someone when they reveal their imperfections._ This is reminiscent of [one of my favourite videos about relationships](https://www.tiktok.com/@thespanishchick/video/7357365331700059435), which advises that _"you could have a good time with anyone; marry some you can have a bad time with"._ This has become unclear in a time of frivolous divorce (and thus frivolous marriage), but theoretically, the idea that ["love means not running away"](https://youtu.be/IRCZ1Mt2a8M?t=2632) is baked into the ritual of marriage. When two people love each other, the culmination of that love is to engage in a ritual (which we call a wedding) that could revolve around any part of their relationship. Yet, the ritual centers around the idea that they will, officially, never run away from each other.
+
+So then, you could wonder whether a relationship without honesty is a relationship at all; if you are met with pure contempt and intolerance every time you reveal something which collides with the other person, there is no love there from their side. Some would say love _is_ trust, but arguably, trust is a symptom of love -- if the _other_ person won't run away (they have love), then _you_ can trust them (you have trust) -- and therefore a lack of trust is a symptom of a lack of love.
+
+<!-- 2025-12-11 -->
+
+# Free speech is the antidote to disordered attachment
+Both attachment styles are based on fear of authentic speech: avoidance makes one fearful to share and receive positive opinions, anxiety makes one fearful to share and receive negative opinions, and it pushes the other into the same fear. The result is inauthenticity. Self-censorship. Being emotionally closed-off. Pretending to be indifferent. 
+
+Both attachment styles prevent building anything long-term. The anxious will tear down whatever is built with her impostor syndrome. The avoidant will try to prevent any building in the first place due to his indecision and fear of disappointing.
+
+<!-- 2025-12-31 -->
+
+The only way to break the cycle is to learn to speak your mind and to agree to hold space for the other to speak their mind: the avoidant must learn that people are resilient[^3] enough to cope with the inevitable hurt of a potential breakup, and the anxious must learn that raising problems comes from a place of love, good faith, and wanting connection.
+
+This culture of free speech[^4] is the only way. It won't be easy. The avoidant will feel like quitting because he does not trust that the minefield he is walking across is safe. The anxious will feel like crying. In both cases, what is necessary is showing self-awareness of the threatening behaviour, and reassurance of the other's safety. The avoidant might say: "I'm feeling uneasy in this conversation, but it's not your fault. I know you're trying to be receptive to what I have to say. Can we separate for 15 minutes? I promise I'm not resentful, I promise that I love you, and let's pick up where we left off after that." The anxious might say: "These tears are not your fault. I'm just having a hard time. Can we hug and separate for 15 minutes so I can calm down? I promise I can handle it without affecting our peace."
+
+Finally, a note on sexual attraction: I can promise to avoidant men that women find it _sexy_ when a man dares to speak authentically, and I can promise to anxious women that men find it _sexy_ when a woman can be held accountable with grace. 
+
+
+
+[^1]: We are not concerned here with how someone _becomes_ like this. If I, an idiot, had to speculate, I'd say it is probably a combination of innate neuroticism and some kind of disordered parenting, both of which cause someone to be highly insecure about others actively wanting to be with them.
+[^2]: People who have known me for at least 5 years (since 2021 or before) may find my accounting above surprising, since I am sort of known in small and wide social circles as a disagreeable, controversial, against-the-grain, solitary person. I have a publicly documented history of not following crowds, and it has made me _persona non grata_ in many places. The difference is that I don't _need_ nor _care about_ any of the countless acquaintances who think I am an insensitive asshole. Sure, all conflicts and social rejections give me a knot in my stomach, but I am not afraid of them before they happen. I guess I assign orders of magnitude more to losing respect and adoration of someone whom I respect and adore.
+[^3]: Yes, even the anxiously attached men and women who threaten to commit suicide when you break up with them. That is an actual hostage situation I had the misfortune to experience, and guess what, she is still alive.
+[^4]: Yes, technically the term "free speech" is reserved for the inability of the government to punish legal entities for expressing themselves, but you get the idea.
