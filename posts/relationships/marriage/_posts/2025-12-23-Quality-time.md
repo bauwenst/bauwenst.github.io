@@ -7,6 +7,9 @@ layout: post
 ---
 Recently, I have gotten closer with one of my female friends. We met through a shared activity, started having conversations, and since we both enjoyed those a lot, we started sharing more activities together. In the process, I learnt an important life lesson.
 
+1. dummy
+{:toc}
+
 # Why do couples get together?
 If you are a married 21st-century Westerner, it's likely that your marriage was not arranged and thus that you chose your spouse -- hopefully with discernment and from an abundance of options (but that's a different essay). To figure out whether someone should be chosen by you or not, you put them through a sequence of challenges which measure their character and compatibility, which altogether we call "dating them".
 
