@@ -5,10 +5,9 @@ last_modified_at: 2026-01-26
 layout: post
 tags:
 ---
+One of my worst fears is being stuck in a relationship where authentic speech is punished, which I have written about [in a previous article](https://bauwenst.github.io/posts/relationships/dating/2025-12-11-Anxious-avoidant-free-speech/). If you cannot say what is on your mind out of fear for the other person's reaction, you cannot solve the problems you see and you cannot assert your boundaries for self-preservation. So, is the solution to just say what you _want_ to say? Not quite.
 
 <!-- 2026-01-02 -->
-
-One of my worst fears is being stuck in a relationship where authentic speech is punished, which I have written about [in a previous article](https://bauwenst.github.io/posts/relationships/dating/2025-12-11-Anxious-avoidant-free-speech/). If you cannot say what is on your mind out of fear for the other person's reaction, you cannot solve the problems you see and you cannot assert your boundaries for self-preservation. So, is the solution to just say what you _want_ to say? Not quite.
 
 1. dummy
 {:toc}
@@ -40,15 +39,17 @@ I recently spoke with one of my close female friends about the topic of self-cen
 
 <!-- 2026-01-04 -->
 
-I will argue that there exist two classes of opinions: those that must be spoken, and those that should not be. Fearing the reaction of the other person will still indirectly play a role in classifying which of the two classes an opinion belongs to, but it will no longer be the main factor. Hear me out.
+Inspired by my close friend, I will thus build the case that there exist two classes of opinions: those that must be spoken, and those that should not be. Fearing the reaction of the other person will still indirectly play a role in classifying which of the two classes an opinion belongs to, but it will no longer be the main factor. Hear me out.
 
 ## Opinions that need to be spoken
-All opinions that have to do with actions of the other person that negatively affect you directly, **need** to be spoken as soon as appropriate. In particular, if they make a joke at your expense or denigrates you in the presence of others, it is not appropriate to call them out on the spot: the joke or slight has already been made, and you can hold them accountable in exactly the same way with and without an audience, except with an audience, it harms the reputation of your relationship and causes the other social embarassment. If you really loved them, you wouldn't want to curse your dynamic with either of the latter.
+All opinions that have to do with actions of the other person that negatively affect you directly, **need to be spoken**. 
 
-There is a second subset of opinions that **need** to be spoken, namely those that remain once subtracting all the ones that are described below. An example will follow there.
+The timing of when you speak such opinions does matter. In particular, imagine your spouse makes a joke at your expense in the presence of others, or even just denigrates you. It would be appropriate to call that person out on the spot: the joke or slight has already been made, and you can hold them accountable in exactly the same way with and without an audience. When you do it with an audience, it harms the reputation of your relationship and causes that person social embarrassment. You can communicate your opinion of what they did without any of this, and if you really loved them, you wouldn't want to curse your dynamic with either of the latter.
+
+There is a second subset of opinions that **need to be spoken**, namely those that remain once subtracting all the ones that are described below. An example will follow there.
 
 ## Opinions that needn't be spoken
-The gist for this class of opinions will basically be that they are (or, expressing them is) _unconsidered_. That is: there are things you should consider before expressing them which will make you realise that that is not a good idea.
+The gist for this class of opinions will basically be that they are (or, expressing them is) _unconsidered_. That is: there are things you should consider before expressing them which will make you realise that that is not a good idea, so that these opinions **should not be spoken**.
 
 Specifically, there are two questions to consider when you have an opinion you want to share:
 
@@ -67,7 +68,7 @@ As for the second question, one objection could again be that it gives room for 
 
 Say you are struggling with the idea that your husband or wife has become fat. To be more precise, you are worried for their long-term health (both because you want to be with them as long as possible, and even if you were to die early, you would want them to enjoy life as long and as qualitative as possible), and besides your concerns for their health, you find yourself no longer sexually attracted to the state they are in. Now, should you tell him or her what you are feeling?
 
-Bad reasons to self-censor here are cynical ideological slogans along the lines of "every body is equally beautiful" or "bodies change, accept it" or "it's their body, they can do what they want with it" or  or "if you have a problem with their body becoming unattractive, then you never cared about their personality in the first place". These are all morally relativistic nonsense[^1] and I won't be concerned with them. In other words: the spouse being fat is problematic.
+Bad reasons to self-censor here are cynical ideological slogans along the lines of "every body is equally beautiful" or "bodies change, accept it" or "it's their body, they can do what they want with it" or "if you have a problem with their body becoming unattractive, then you never cared about their personality in the first place". These are all morally relativistic nonsense[^1] and I won't be concerned with them. In other words: the spouse being fat is problematic.
 
 Now, back to the question. As an example of question 1, ask yourself: "Why do I want my husband/wife to know that I see their fatness, and that it makes me worried for them, and unattracted to them?" In all three subcases, the reason you would want to do it would be -- even if it is with the best of intentions possible! -- to guilt-trip them into making the change you want to see.
 
@@ -96,7 +97,7 @@ Instead, you decide to wait a little longer to gather more information: there ar
 ## Setting boundaries 
 In the three scenarios above, you have pinpointed in your head what you think is the obvious problem, and by doing so, you set yourself up for regrettable conversations. You should instead consider that _the thing is almost never the thing._
 
-There remains one set of potentially ill-received opinions we have not discussed: opinions about actions that do _not_ cause you measurable harm, which would _not_ be pointless when spoken and which can _not_ be traced back to some other thing. Let's call them _principled boundaries._
+There remains one set of potentially ill-received opinions we have not discussed: opinions about actions that do _not_ cause you measurable harm, which would _not_ be pointless when spoken and which can _not_ be traced back to some other thing. Let's call them _principled boundaries._ First we will look at two examples which are not like any of the above.
 
 ### "Respect my body."
 Let's say that when your girlfriend is annoyed with you, she slaps your arm, shoves your shoulder, and so on. You, an adult man, won't feel any lasting physical pain from this, so it's impossible to make the case that this harms you. Yet, as a mentally healthy man, you also have deep respect for the bodily integrity of your girlfriend, and you feel that this respect should be reciprocated.
@@ -118,7 +119,7 @@ Here is an example where there is truly zero harm, to make things even clearer t
 In plenty of cultures, bad-mouthing someone's family, and especially someone's mother, is a boundary which is understood to merit full-on physical violence when crossed. Yet, when I am having a 1-on-1 conversation with someone, them disrespecting my mother theoretically has nothing to do with me directly, so I am not suffering any harm, and since my mother is not there, she isn't either. And yet, you want to check this person on their behaviour.
 
 ### You should speak up
-The right thing to do in the above two cases is to speak authentically, at least if you believe in second chances. Why is this the rule, rather than self-censoring? Because a principled boundary is two things: it is an unspoken expectation, and it is a compatibility test. 
+The right thing to do in the above two cases is to be authentic, albeit with some care for how the message is delivered: your opinion **should be spoken**, at least if you believe in second chances. Why is this the rule, rather than self-censoring? Because a principled boundary is two things: it is an unspoken expectation, and it is a compatibility test.
 
 You expect your boundary to not be crossed, and if the other repeatedly does so, it will make you resentful at them, which is unfair if the relationship continues. Secondly, crossing some boundaries is a sign of fundamental incompatibility: you actually cannot spend your life with someone who crosses this boundary -- if you could, it would not be a boundary -- so it's not just your internal feeling that is threatened by the boundary being crossed, but the entire existence of the relationship. (It would be you who ends the relationship, but the other would be at fault.) This is the tricky part.
 
@@ -126,7 +127,7 @@ You expect your boundary to not be crossed, and if the other repeatedly does so,
 ### Two families of boundaries
 A _boundary_ is a pre-set rule that dictates what you will do in response to somebody else doing something to you. There are many actions you could undertake in response, and only a subset of those actually threatens the relationship, which means we have two families of boundaries. If a boundary does not have such a response, then you should not self-censor.
 
-A friend of mine gave the following example: let's say your spouse has a habit of waking you up at night to have sex. This is not a zero-stakes situation: rejecting her advances may hurt your sex life in the future, and you may fear her immediate reaction. So, the self-censorship approach is to just let it happen and be tired afterwards, because at least it saves you the conflict and disappointment. Yet, there are actually ways to assert your boundary without questioning the fact that you're still a team. You could tell her: _"I love you and I would gladly have sex with you at other times of the day, but I need my sleep. If you wake me up again to have sex, I will go sleep in the other bedroom for the rest of the night."_ You can easily enforce this boundary while everyone is reassured that the foundation of the relationship isn't threatened. 
+A male friend of mine gave the following example: let's say your spouse has a habit of waking you up at night to have sex. This is not a zero-stakes situation: rejecting her advances may hurt your sex life in the future, and you may fear her immediate reaction. So, the self-censorship approach is to just let it happen and be tired afterwards, because at least it saves you the conflict and disappointment. Yet, there are actually ways to assert your boundary without questioning the fact that you're still a team. You could tell her: _"I love you and I would gladly have sex with you at other times of the day, but I need my sleep. If you wake me up again to have sex, I will go sleep in the other bedroom for the rest of the night."_ You can easily enforce this boundary while everyone is reassured that the foundation of the relationship isn't threatened. 
 
 In turn, your reaction might cross a boundary she has about physical rejection, which could be part of the relationship-ending family of boundaries. Your rejection may indicate a fundamental incompatibility to her. For this family of boundaries, it becomes no longer obvious what she should and should not say, and I will explore why that is below.
 
@@ -153,7 +154,7 @@ In a previous essay I wrote about [asking your spouse to fulfil optional persona
 Now, in that same essay, I described the notion of "the relationship as a third entity" to be honoured even when spouses are temporarily frustrated.
 
 Imagine this third entity is a dog. One spouse is in charge of refilling the dog’s water bowl, the other of the food bowl. Now, clearly, both need to keep feeding the dog, or it will die. And moreover, just because your husband left his beard hairs in the sink, it isn’t justified to not feed the dog. And just because your wife left her shoes in the hallway causing you to trip over them, it still isn’t justified to not feed the dog. And it should go without saying that any ultimatum of the form “do this or I will shoot the dog” should be off the table. As one example (...), just because you're resentful of your wife for a while, that does not relieve you of the duty to stay in shape for her nor to deny her orgasms.
-{.note title="Relationship as third entity"}
+{:.note title="Relationship as third entity" .filled}
 
 It is basically always wrong to threaten this third entity, but now we have a paradox: you should somehow inform the other person about your boundary to preventatively protect the relationship from the currently unspoken threat you yourself pose to it, without explicitly threatening to end the relationship. In other words: you want to say "If you do this enough, I will shoot the dog." without saying you will shoot the dog. You don't want the situation to evolve into a "If I don't get my way, I will destroy everything we have." thing, where you are holding a gun to the dog's head at all times: assuming you don't intend to shoot it, it's not really reassuring to the other person to be made so aware of this possibility. 
 
