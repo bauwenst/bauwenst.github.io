@@ -44,7 +44,7 @@ Inspired by my close friend, I will thus build the case that there exist two cla
 ## Opinions that need to be spoken
 All opinions that have to do with actions of the other person that negatively affect you directly, **need to be spoken**. 
 
-The timing of when you speak such opinions does matter. In particular, imagine your spouse makes a joke at your expense in the presence of others, or even just denigrates you. It would be appropriate to call that person out on the spot: the joke or slight has already been made, and you can hold them accountable in exactly the same way with and without an audience. When you do it with an audience, it harms the reputation of your relationship and causes that person social embarrassment. You can communicate your opinion of what they did without any of this, and if you really loved them, you wouldn't want to curse your dynamic with either of the latter.
+The timing of when you speak such opinions does matter. In particular, imagine your spouse makes a joke at your expense in the presence of others, or even just denigrates you. It would not be appropriate to call that person out on the spot: the joke or slight has already been made, and you can hold them accountable in exactly the same way with and without an audience. When you do it with an audience, it harms the reputation of your relationship and causes that person social embarrassment. You can communicate your opinion of what they did without any of this, and if you really loved them, you wouldn't want to curse your dynamic with either of the latter.
 
 There is a second subset of opinions that **need to be spoken**, namely those that remain once subtracting all the ones that are described below. An example will follow there.
 
