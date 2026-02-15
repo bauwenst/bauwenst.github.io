@@ -51,7 +51,7 @@
       </div>
 
       <div class="post-wordcount">
-        {{ post.content | number_of_words | number_with_delimiter: '&thinsp;' }} words • {{ post.content | number_of_words | divided_by: 200 }} min. read
+        {{ post.content | number_of_words }} words • {{ post.content | number_of_words | divided_by: 200 }} min. read
       </div>
     </div>
 
@@ -65,7 +65,7 @@
       {% assign alt = '' %}
     {% endif %}{% endunless %}
 
-    {% include components/message.html text=post.description hide=hide_description alt=alt %}
+    {% include components/message.html text=post.description hide=hide_description alt=alt class="note-sm post-description" %}
   </header>
 
   {% if no_excerpt %}
