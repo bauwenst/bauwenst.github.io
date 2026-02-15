@@ -210,10 +210,6 @@ h1, h2, h3, h4 {
   margin-bottom: 4rem;
 }
 
-.post-date {
-  margin-bottom: 0rem;
-}
-
 .post-subtitle {
   margin: 0rem 0rem 0.85rem 0rem;  // Top-right-bottom-left; you probably want to change top.
   color: var(--gray);
@@ -221,4 +217,13 @@ h1, h2, h3, h4 {
   line-height: 1.6;
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading);
+}
+
+.post-date {
+  margin-bottom: 0rem;
+}
+
+.post-wordcount {
+  justify-self: right;
+  line-height: 0.25;
 }
