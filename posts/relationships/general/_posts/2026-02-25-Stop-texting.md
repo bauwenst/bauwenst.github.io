@@ -55,25 +55,17 @@ Yet, this lack of signal can basically be relieved if you become skilled enough 
 # The vulnerability of bids for connection
 As a quick aside, let me zoom out from texting to generalise its fundamental problem to many other social situations.
 
-When you extend your hand to give someone a handshake, or raise your hand for a high-five, you are putting yourself in a vulnerable position: you give them the full power to reject you openly by "leaving you hanging".
+- When you extend your hand to give someone a handshake, or raise your hand for a high-five, you are putting yourself in a vulnerable position: you give them the full power to reject you openly by "leaving you hanging".
+- When you tell a joke in a group setting, you give the rest of the group the power to let themselves laugh, or to [purposefully stay silent](https://en.wikipedia.org/wiki/Shunning) in order to signal to you that either the content of your joke is socially unacceptable, or that you are just not welcome more generally.
+- When you are a small child and you show your mum or dad a shitty drawing you made, the quality of the drawing is completely irrelevant to you and to them. You could show up with an empty sheet of paper and the situation would be unchanged. _The thing is never the thing._ Instead, all you are doing is going to your parent and asking them _"Do you love me?"_ but indirectly, giving them the full power to ignore you, or break your heart, or reward you.
+- When you spend some effort coming up with a material thing you expect somebody would like to receive, then go out of your way to make or buy that thing, and then you give that to them as a gift, you give them the full power to dismiss all of your effort. This is why the gift giver sits in anticipation while the gift is being opened: he is vulnerable and bracing for rejection.
+- When your wife tries to cook a new meal hoping you will like it, and she comes to you with this, she gives you the power to reward her for going out of her way for you, or ignore it, or even punish her for whatever the quality may be.
+- When your husband squeezes your butt while walking by, he gives you the power to pull away and swipe his hand off of you in disgust, ignore him, or start chasing him around the couch.
+- When your wife scoots her butt into you while lying in bed, she gives you the power to break her heart by turning away.
+- When you cold-approach a woman in the street, you -- at least in these modern uncivilised times -- give her the power to pretend you are air, or even castigate you for daring to interrupt her day.
+- And, finally: when you text someone, you are handing them the power to ignore you or to connect with you. You put yourself in an inherently vulnerable position, and this is understood by both of you. Perhaps the mere act of putting yourself in that position, regardless of what happens next, already results in some amount of discredit with the other person.
 
-When you tell a joke in a group setting, you give the rest of the group the power to let themselves laugh, or to [purposefully stay silent](https://en.wikipedia.org/wiki/Shunning) in order to signal to you that either the content of your joke is socially unacceptable, or that you are just not welcome more generally.
-
-When you are a small child and you show your mum or dad a shitty drawing you made, the quality of the drawing is completely irrelevant to you and to them. You could show up with an empty sheet of paper and the situation would be unchanged. _The thing is never the thing._ Instead, all you are doing is going to your parent and asking them _"Do you love me?"_ but indirectly, giving them the full power to ignore you, or break your heart, or reward you.
-
-When you spend some effort coming up with a material thing you expect somebody would like to receive, then go out of your way to make or buy that thing, and then you give that to them as a gift, you give them the full power to dismiss all of your effort. This is why the gift giver sits in anticipation while the gift is being opened: he is vulnerable and bracing for rejection.
-
-When your wife tries to cook a new meal hoping you will like it, and she comes to you with this, she gives you the power to reward her for going out of her way for you, or ignore it, or even punish her for whatever the quality may be.
-
-When your husband squeezes your butt while walking by, he gives you the power to pull away and swipe his hand off of you in disgust, ignore him, or start chasing him around the couch.
-
-When your wife scoots her butt into you while lying in bed, she gives you the power to break her heart by turning away.
-
-When you cold-approach a woman in the street, you -- at least in these modern uncivilised times -- give her the power to pretend you are air, or even castigate you for daring to interrupt her day.
-
-And, finally: when you text someone, you are handing them the power to ignore you or to connect with you. You put yourself in an inherently vulnerable position, and this is understood by both of you. Perhaps the mere act of putting yourself in that position, regardless of what happens next, already results in some amount of discredit with the other person.
-
-All of the above are **bids for connection**. They are a question. A question makes you vulnerable, because the answer can be unlike what you wanted or it can be ignored altogether.
+All of the above are [**bids for connection**](https://freudly.ai/blog/bids-for-connection-gottman-explained/). They are a question. A question makes you vulnerable, because the answer can be unlike what you wanted or it can be ignored altogether.
 
 And, since you are often not actually texting as a bid for connection, and since there are other ways of communicating other than texting, perhaps you should not make yourself unnecessarily vulnerable by texting this way.
 
