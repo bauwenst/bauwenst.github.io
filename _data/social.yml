@@ -1,4 +1,6 @@
 # This file contains meta data for various social media sites
+# The icons refer to IcoMoon identifiers, see e.g. www.presslabs.com/particles/
+# They are coded at https://github.com/hydecorp/hydejack/blob/c78296b369e12e40ef30210a8818915c3700a2bd/assets/icomoon/style.css
 email:
   name: Email
   icon: icon-mail
@@ -16,6 +18,10 @@ google-plus:
 google-drive:
   name: Google Drive
   icon: icon-google-drive
+google-scholar:
+  name: Google Scholar
+  icon: icon-trophy
+  prepend: 'https://scholar.google.com/citations?user='
 facebook:
   name: Facebook
   icon: icon-facebook

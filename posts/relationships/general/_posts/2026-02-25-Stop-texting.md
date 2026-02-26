@@ -10,8 +10,13 @@ I recently took a week-long break from texting. It allowed me to take a step bac
 1. dummy
 {:toc}
 
+# How I realised I needed change
+This started more as a kind of "digital detox" and "monk mode" in light of a busy workweek, but reflecting on the experience made me realise something profound: I know I'm not an [anxiously attached person](https://bauwenst.github.io/posts/relationships/dating/2025-12-11-Anxious-avoidant-free-speech/), but texting (at least with some people) makes me feel like one. 
+
+I mean that in two ways: I think in some cases I (incorrectly) feel like one to others, and I've noticed that I have adopted some of the feelings of anxiously attached people despite being very sure that this is not my personality. I have no need in my life for these feelings nor for this image, because this is not who I am. Since they both went away with the texting, I figured that the way I otherwise do it is pathogenic.
+
 # The Fundamental Problem
-The fundamental problem with text messaging is that it is an **instant asynchronous channel** of communication.
+I will now make the case that the fundamental problem with text messaging is that it is an **instant asynchronous channel** of communication.
 
 ## Asynchronous channels
 An _asynchronous channel_ does not require the sender and the receiver to be present at the same time. Asynchronous channels have existed in history as long as writing has: instead of needing two people to be present in the same place at the same time talking to each other (a _synchronous channel_), you can write something down, put it in an agreed-upon place, leave, and have someone else go to that place to read what you wrote down, as if you are still there. An upgrade on this may be that you have an animal or a person physically carry your message for some distance. All of this is very primitive compared to the insane feats of engineering that were needed to create new synchronous channels (other than [two cans on a string](https://en.wikipedia.org/wiki/Tin-can_telephone)), like morse code transmission, phone calling, and nowadays video calling over the internet (perhaps even with screensharing).
