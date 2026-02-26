@@ -11,9 +11,8 @@ On the 21st of July, my wonderful home country of Belgium (autonymously *België
 
 In other European countries, such a day finds the streets filled with celebrations, with citizens proudly singing the anthem while waving the one flag under which they all unite. Belgium is not like this. Flying the nation's flag is met with scrutiny (*"Why do you feel the need to fly the flag? What are you trying to say?"*), and in fact, there is so little enthusiasm surrounding the National Day that the citizenry has outright forgotten why we celebrate it on the date we do. Exactly one year ago, on our National Day, my brother and I drove into the city centre of the academic capital of Belgium to ask passersby exactly that question.
 
-<span style="display:inline-block; white-space: nowrap; width:100%;">
-    <iframe width="100%" src="https://www.youtube.com/embed/jKvAbPUxDFE?si=IBwy1G2XOgAEZayT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</span>
+
+<iframe width="100%" height=400px src="https://www.youtube.com/embed/jKvAbPUxDFE?si=IBwy1G2XOgAEZayT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 1. dummy
 {:toc}
