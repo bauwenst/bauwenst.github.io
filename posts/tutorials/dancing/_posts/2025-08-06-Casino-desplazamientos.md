@@ -22,7 +22,7 @@ _Caminala_ involves the follower walking along a box while the leader walks back
 Positionally, what happens in caminala is that you start in abierta, walk the couple forwards (staying in abierta), and then, by mirroring your own position, you _instantly put the couple into caída_ so that the follower can walk back into abierta even though you were just there an instant ago.
 
 # Cuban CBL: abierta, caída, abierta
-There is almost no difference between caminala and an open cross-body lead (CBL), except that the follower does not walk in the first line, so she traces only the DQN line rather than tracing a square. When done in linear salsa, CBL starts with the couple facing each other as abierta, and the leader turning only 90° counterclockwise to make space for the follower to walk. In casino, the leader has to turn more because the couple is facing away at some angle.
+There is almost no difference between caminala and an open cross-body lead (CBL), except that in a CBL the follower does not walk the first line and stays in place before tracing the DQN line, moving on a line rather than a square. In linear salsa, a CBL starts with the couple facing each other as abierta, and so the leader only has to turn 90° counterclockwise to make space for the follower to walk. In casino, the couple is facing away at some angle in abierta, and so the leader has to turn somewhere between 90° and 180°.
 
 As I have discussed previously, this is one of the basic steps of [Cuban Santa](https://bauwenst.github.io/posts/tutorials/dancing/2025-01-19-Casino-without-guapea/#cbl). As always, Salsaficion uses a different figure's name for this figure, namely [paséala](https://www.youtube.com/shorts/fnH4DfqYHEE).
 

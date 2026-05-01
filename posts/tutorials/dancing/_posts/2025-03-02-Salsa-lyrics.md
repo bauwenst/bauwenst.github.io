@@ -412,6 +412,69 @@ According to ChatGPT:
 > "Tremendo traqueteo" — literally “tremendous rattling” or “clattering.” In the party context, it refers to the lively percussion, rhythmic movement, or the general noisy energy of the crowd.<br>
 > Both are a musical onomatopoeias as much as a description. It’s not about literal pulling or rattling—think of it as the sound and motion of a Cuban timba party captured in words.
 
+# Rosa La Peligrosa (Havana D'Primera)
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/6baTLph9xndllWPV7k5dxS?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+There are two versions of this song: one is on the _La Vuelta Al Mundo_ album, the other is on the single above. There are subtle differences between the two (which you will notice if you are dancing to one version but think it's the other), but I would recommend listening to the single by default, because the vocals have nicer production and there is a stronger electric guitar.
+
+## Story
+According to ChatGPT:
+
+> The song tells the story of a woman nicknamed "Rosa, la Peligrosa" ("Rosa, the dangerous"). There are two voices in tension. The narrator's voice is serious and almost tragic, explaining Rosa’s background: emotional neglect, wealth without affection, broken family, early trauma, and how that pushed her into a dangerous lifestyle at a young age. The crowd's voice is mocking: pushing back on her reputation, saying she’s only "dangerous" because of image, infamy, and attitude, rather than real danger, turning her into a spectacle (filming her dancing for social media). So the song both sympathizes with her but puts her reputation in perspective.
+
+## Key lyrics
+
+> Cómo quisiera que llevaras esa vida diferente,<br>
+> que fueras más inteligente;<br>
+> quizás así La Habana te respeta.<br>
+> Per' e' qu' a ti no se te da 'sa vida de muñeca.<br>
+> Tú vives en el peligro,<br>
+> y n'hay quién cambie 'sa faceta.
+
+- **Translation:**<br>
+"How I wished that you led that life differently,<br>
+that you were more intelligent;<br>
+perhaps that way, Havana (would) respect(s) you.<br>
+But things are such that that life of a doll does not give itself to you.<br>
+You live in danger,<br>
+and there is not anyone who changes that aspect."
+
+
+
+> Que se dice?<br>
+> Dicen qu' ella e' mala, cantidad,<br>
+> que no la puede' ni mirar.<br>
+> Dicen que se llama Rosa;<br>
+> Rosa, La Peligrosa.
+
+- **Translation:**<br>
+"What is said?<br>
+They say that she is bad, very much so,<br>
+that you can't even look at her.<br>
+They say she's called Rosa;<br>
+Rosa, The Dangerous."
+
+
+> Peligrosa, de que?<br>
+> Tu ere' ma fama qu' otra cosa, nene.
+
+- **Translation:**<br>
+"Dangerous, in what way?<br>
+You're more reputation than anything else."
+
+
+> Voy a subir tu video a Facebook,<br>
+> moviendote 'n el escenario.<br>
+> Cuando la gente lo vea,<br>
+> me voy a hacer millonario.
+
+- **Translation:**<br>
+"I am going to submit your video to Facebook,<br>
+moving yourself on stage.<br>
+When the people see it,<br>
+I'm going to make myself a millionaire."
+
+
 # Marcando la Distancia (Manolito y su Trabuco)
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/70BDblSjPfj6Pe24avWzK2?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 

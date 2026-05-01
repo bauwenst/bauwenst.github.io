@@ -80,7 +80,7 @@ With the installation out of the way, I still needed to do at least two more thi
 ## Implementing
 Apparently, FA2 is implemented with serialised batches. Usually, code expects tokens to have a 2D index (one vertical to select the example and one horizontal to select the position) and a 2D mask to tell which tokens are not padding, both of which are $$N\times L$$. Meanwhile, FA2 expects the $$T \leq N\cdot L$$ non-padding tokens to be serialised into one long 1D tensor, with the boundaries between examples given by another 1D cumulative index tensor.
 
-It is the model backbone which is supposed to make the conversation, _not_ the data collator. And if your backbone does this conversation, any code beyond that which expects a batch dimension to be present, will break. For example, in my code, I very explicitly had an assignment `N, L = input_ids.shape` which broke because `input_ids` had become a long 1D tensor.
+It is the model backbone which is supposed to make the conversion to this 1D format, _not_ the data collator. And if your backbone does this conversion, any code beyond that which expects a batch dimension to be present, will break. For example, in my code, I very explicitly had an assignment `N, L = input_ids.shape` which broke because `input_ids` had become a long 1D tensor.
 
 ## Configuring
 You must let `transformers` know that your model's implementation supports such serial batches by setting the `_supports_flash_attention` class property to True, and, for some reason, another class property `_supports_flash_attention_2` too. The class on which you should set this, is the class which the user gives the config to (most likely in a `.from_pretrained()` call, although not in my case), not any of its contained classes.
