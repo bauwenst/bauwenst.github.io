@@ -57,6 +57,7 @@ MSD sort starts with a counting sort of the most important position, and then sp
 $$
 \sum_{i=0}^{\log_R N - 1} (N+R^{i+1}) = N\log_R N + \sum_{i=0}^{\log_R N - 1} R^{i+1} = N\log_R N + O\left(\sum_{i=0}^{\log_R N - 1} R^{({\log_R N - 1})+1} \right) = O(N\log_R N).
 $$
+
 Of course, if you run out of positions to compare before reaching sets of size 1, your sort is already finished, and thus really the complexity is limited to $$O\left(N\min(\log_RN,W)\right)$$.
 
 Whether LSD and MSD are themselves truly _linear_ sorts depends on how $$W$$ behaves as a function of $$N$$. If strings stay the same length regardless of how many there are, then both are clearly $$O(N)$$. If strings grow just as much as how many there are ($$W = c\cdot N$$), then LSD sort is quadratic and MSD sort is just another linearitmic sort.
@@ -96,6 +97,7 @@ Bucket sort is a kind of single-step MSD sort. First all items are partitioned i
 $$
 O\left(\frac Nk\log\left(\frac Nk\right)\right)
 $$
+
 per bucket and thus 
 
 $$
@@ -113,9 +115,11 @@ For numbers, why not always apply bucket sort? Just find the length $$N$$, the m
 
 ## Why it fails
 Indeed, although the amount of buckets scales up with $$N$$, the mapping is $$O(1)$$ and the buckets are ordered, the buckets are not equally probable in the general case. The worst case of bucket sort is that a small amount of buckets $$b$$ dominates the rest, which happens for basically all non-uniform distributions of numbers (e.g. a normal distribution, which occurs a lot more than uniformly random numbers in practice due to the central limit theorem). In that case, the cost of sorting is really just
+
 $$
 O\left(b\cdot\frac Nb \log\left(\frac Nb\right)\right) = O\left(N\log \left(\frac Nb\right)\right) = O(N\log N)
 $$
+
 which is the same cost as sorting a single bucket with all the elements inside and thus not having buckets at all.
 
 Of course, we could define the bucket boundaries not uniformly spaced, but spaced according to the known distribution of the numbers, using quantiles. But then it is no longer a general-purpose algorithm for any set of numbers. (And indeed, we can't even deduce empirical quantiles from the numbers, because that first requires sorting them.)
@@ -135,9 +139,11 @@ Use $$k$$-ary merge sort with $$k\to N$$ so that the tree becomes as shallow as 
 There will be only one layer in the tree, where every element is the maximum of $$N$$ elements. This is just selection sort, and indeed then the complexity simplifies to $$O((N-1)N \log_N N) = O(N^2)$$.
 
 One could wonder what the optimal $$k$$ is, then. Converting $$\log_kN = \ln N/\ln k$$ the optimal $$k$$ would be the solution to
+
 $$
 0 = \frac{\textrm d}{\textrm d k}\Big((k-1)\cdot N\cdot \log_kN\Big) = N\ln N\cdot\frac{\textrm d}{\textrm d k}\left(\frac{k-1}{\ln k}\right) = N\ln N\cdot\frac{\ln k - (k-1)/k}{(\ln k)^2}
 $$
+
 and since $$k\geq 2$$, this can be simplified to
 $$
 k\ln k = k-1
