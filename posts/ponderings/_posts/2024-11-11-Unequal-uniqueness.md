@@ -1,0 +1,26 @@
+---
+title: Not everyone is equally unique
+layout: post
+last_modified_at: 2024-11-11
+description: "\"NPCs don't exist!\" said the NPC."
+tags:
+---
+Back when I was using dating apps, I often complained about how, tragically, a majority of the women's profiles were carbon copies of the same boring template. And that's where the controversy starts.
+
+# Snowflakes are indistinguishable in practice
+Indeed, it was almost like thousands of women[^1] had coordinated to advertise themselves in the free-form text fields using the least distinguishing information possible. This held true across at least three different apps, and it had me frustrated out of sheer intellectual boredom: you can only read the same boilerplate phrase so many times until you get the idea. Yes, you _like to travel_, yes, you _like to eat pasta_, yes, you _take naps_ and _listen to music_. Now tell me something that would distinguish you from literally any other person. 
+
+Actually, this is frustrating for one more reason, both as an optimist and as a pessimist: optimistically, I would like to think that there is more to every woman than meets the eye, and so I see it as a huge wasted opportunity to use the five-ish text fields that could be used to deliver high-quality information to potential mates to instead blabber about mundane generalities that aren't relevant for a good relationship, that don't hook compatible people, and don't even filter out incompatible people. Pessimistically, I think these people are genuinely as shallow as they present themselves to be, and so the despair dawns on me that I have to sift through an ocean of genuine NPCs to find even just one person with a life.
+
+I once aired this frustration online and received the pushback that it was incorrect for me to write off these people with identical surface-level thoughts as actually being identical, in the spirit of _"every person is like a snowflake; no two are alike"_. While I understand that everyone [experiences their own lives with the incumbent complexities](https://en.wiktionary.org/wiki/sonder) life brings, that does not mean everyone's life is equally unique or interesting. Just because you exist in a society doesn't mean you contribute equally to it; going based off of dating app bios, you would think that being a consumer is all that makes up many people's personality, and we don't make [biopics](https://en.wikipedia.org/wiki/Biographical_film) about people who sit on the couch watching television (or TikTok) every night and weekend. And although I'm not claiming anything about where the profundity of [my own life](https://en.wiktionary.org/wiki/main_character_syndrome) ranks on a global scale, I am not ashamed to contend that the most interesting things about me are not what I consume. This is not arrogance.
+
+Somebody who practices 20 different hobbies consistently is clearly more unique because their experience is shared by few and they have developed their abilities in a variety of ways. They can do things others can't do. They know more things than others. They are also clearly more curious and persevering than others.
+
+# We don't have to live like this.
+One person held that it is irrational to be surprised at the fact that the average person has the same interests on average,[^2] because, well, "that's what makes them average". However, I contended that this hinges on flawed logic: it's not necessary for the average person to not be unique. I can perfectly well imagine a world where all the women I see on dating apps pride themselves in at least one creative discipline: they write fiction or essays philosophising about life, they draw, they paint, they do woodworking, they compose music, they experiment with baking recipes, they write classic poetry, they dance, they practice any subcategory of photography, they sculpt, they sew costumes, they build apps, they spray graffiti, they do stand-up comedy, ... To posit that such a world could not exist, would be to assume that most people have no imagination, which is a highly pessimistic view of what humans are capable of. The fact that we don't live in such a world is not proof that we couldn't, and I would be delighted if swiping through dating app profiles would be a revolving showcase of "I made this" posts. It would be fun and even educational. 
+
+Such a world would have the average person being unique without contradiction. Creative work has endless possibilities, and there is no reason why one person having a rich imagination necessitates that another person must not. A lot of the disciplines mentioned above also require no or barely any equipment and none require more than a couple hours of time per week to practice, so there is no excuse not to develop yourself creatively. Unfortunately, the world of addiction we find ourselves in has women instead writing that their favourite activity is to "bed rot" while they dement themselves with 12 hours of TikTok videos.
+
+
+[^1]: Don't get me wrong: I have heard the exact same said about men. But I cannot speak on this since it is not my lived experience.
+[^2]: It makes much more sense to speak in terms of the mode rather than the average here, but oh well.
