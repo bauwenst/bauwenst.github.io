@@ -25,6 +25,7 @@ From my own life, I can recount plenty of times CUDA led to me making an instant
 * At the shoe store, you're looking for multiple specifications (is this shoe in this colour, does that shoe come in this size, ...), but all the requests keep coming back negative and hence you're about to leave.
 * At a café, you and a girl are sitting across from each other reading a book, and a guy walking past your table trips over his own feet and barely sticks the landing. You both look up, make eye contact ("WTF just happened?") and smile ("Aren't you glad neither of us is that guy!").
 * On the sidewalk, a [schizophrenic woman starts talking nonsense](https://www.youtube.com/watch?v=jKvAbPUxDFE&t=580) to you and another bystander, and then swims away.
+* You're studying at a table outside and the wind is trying to blow away the papers of the girl at the table next to you.
 
 CUDA also features in dating coach content:
 * Two examples given by [Jack Denmo](https://youtu.be/w2qO8WWwE-M?t=1008):  you're both looking for a place to sit but realise that all the park benches are wet; or you're at a thrift store looking at mugs when you spot a mug with a mug printed on it, in the peripheral vision of a girl next to you.
