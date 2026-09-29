@@ -182,6 +182,24 @@ table.center-table {
 }
 
 
+// Centered figure class
+figure.center-figure {
+	margin-inline: auto;
+	text-align: center; 
+	max-width: 100%;
+}
+
+
+figure.center-figure img {  // The max width/height go onto the img tags because if you limit their wrapper and not them, you'll get a huge img in a small wrapper, causing either a crop or a scrollbar.
+	display: block;
+	margin-inline: auto;
+	max-width:  min(100%, 40rem);
+	max-height: min(70vh, 36rem);
+	width: auto;
+	height: auto;
+}
+
+
 // Filled note box.
 .note.filled {
     background: var(--gray-bg);  // Nice light-gray. Using a variable so it supports night mode.
@@ -194,8 +212,8 @@ table.center-table {
 }
 
 
-// Images with box feather
-.feathered {
+// To put a white border with a feather around something like an image. (Not a feather of the things itself.)
+.lightbox-feathered {
 	background: #f4f4f5;
 	padding: 1.3rem;
 	border-radius: 18px;
