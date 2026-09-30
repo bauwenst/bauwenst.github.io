@@ -81,15 +81,20 @@ copyright:             © 2025. All rights reserved.
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
 
-# Pagination configuration (used by the `blog` layout)
-paginate:              10
+# Pagination (used by the `blog` layout / homepage)
+# ---------------------------------------------------------------------------------------
+# How many posts to show per page on the homepage.
+# Comment out `paginate` (or set it to null) to list all posts on one page with no
+# pagination controls. Do not use 0 — jekyll-paginate cannot paginate by zero;
+# omit the key instead.
+# paginate:              10
 paginate_path:         /:num/
 
 
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 

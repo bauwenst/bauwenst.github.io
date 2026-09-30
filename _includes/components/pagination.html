@@ -1,0 +1,24 @@
+{% comment %}
+  Local override of Hydejack pagination:
+  - Previous (newer posts) on the left, Next (older posts) on the right
+  - Only render a control when that direction exists (no disabled stubs)
+{% endcomment %}
+{% if paginator.previous_page or paginator.next_page %}
+<h2 class="sr-only">{{ site.data.strings.pagination | default:"Pagination" }}</h2>
+<nav class="pagination heading" role="navigation" aria-label="{{ site.data.strings.pagination | default:'Pagination' }}">
+  {% if paginator.previous_page %}
+    <a
+      class="pagination-item pagination-prev"
+      rel="prev"
+      href="{{ paginator.previous_page_path | relative_url }}"
+    >{{ site.data.strings.previous | default:"Previous" }}</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a
+      class="pagination-item pagination-next"
+      rel="next"
+      href="{{ paginator.next_page_path | relative_url }}"
+    >{{ site.data.strings.next | default:"Next" }}</a>
+  {% endif %}
+</nav>
+{% endif %}

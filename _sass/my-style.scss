@@ -247,7 +247,6 @@ h1, h2, h3, h4 {
   line-height: 1.6;
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading);
-//  display: grid;  // Otherwise justify-self doesn't work on Firefox (TODO: actually, this is not really a fix for Firefox, and it breaks other browsers, so better not do it)
 }
 
 .post-date {
@@ -256,7 +255,8 @@ h1, h2, h3, h4 {
 }
 
 .post-wordcount {
-  justify-self: right;
+  // text-align works in both Chrome and Firefox; justify-self only applies in grid/flex.
+  text-align: right;
   line-height: 0.25;
 }
 
@@ -264,4 +264,78 @@ h1, h2, h3, h4 {
   margin-top: -0.65rem;
   margin-bottom: -0.75rem;
 }
+
+// Pagination controls (override Hydejack / Poole defaults)
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin: 2.5rem 0 3rem;
+  color: var(--body-color);
+  text-align: inherit;
+  font-family: var(--font-family-heading);
+  font-size: 1.15rem;
+  font-weight: var(--font-weight-heading);
+  line-height: 1.2;
+
+  > ul {
+    display: none; // unused; kept harmless if an old markup path appears
+  }
+}
+
+.pagination-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  float: none;
+  width: auto;
+  margin: 0;
+  padding: 0.6rem 1.15rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+  color: var(--body-color);
+  text-decoration: none;
+  line-height: 1.2;
+  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color-highlight, var(--gray-bg));
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+}
+
+.pagination-next {
+  margin-left: auto;
+}
+
+.pagination-prev {
+  margin-right: auto;
+}
+
+@media (min-width: 23.5em) {
+  .pagination-item {
+    float: none;
+    width: auto;
+
+    &:first-child,
+    &:last-child {
+      margin: 0;
+      border-radius: 0.25rem;
+    }
+  }
+
+  .pagination-next {
+    margin-left: auto;
+  }
+
+  .pagination-prev {
+    margin-right: auto;
+  }
+}
+
 

@@ -1,0 +1,22 @@
+---
+# Local override of Hydejack's blog layout.
+# Supports disabling pagination by omitting `paginate` in `_config.yml`.
+
+layout: base
+---
+
+{% assign plugins = site.plugins | default:site.gems %}
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}
+{% endif %}
+
+{% for post in posts %}
+  {% include_cached components/post.html post=post no_link_title=page.no_link_title no_excerpt=page.no_excerpt hide_image=page.hide_image %}
+{% endfor %}
+
+{% if paginator and paginator.total_pages > 1 %}
+  {% include components/pagination.html %}
+{% endif %}

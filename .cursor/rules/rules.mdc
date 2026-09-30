@@ -1,0 +1,11 @@
+---
+alwaysApply: true
+description: Core conventions for this website.
+---
+
+This is a personal website, https://bauwenst.github.io/. It is built with Jekyll and published using GitHub Pages. 
+
+The general layout of the site is built on top of the HydeJack theme (https://github.com/hydecorp/hydejack). A lot of the source code of the site actually lives in that repo.
+
+All the articles written by the user live under posts/. DO NOT EVER edit anything under posts/.
+

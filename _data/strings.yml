@@ -25,6 +25,8 @@ links_icon:            'icon-link'
 pagination:            Pagination
 newer:                 Newer
 older:                 Older
+previous:              Previous
+next:                  Next
 forward:               Forward
 back:                  Back
 permalink:             Permalink
