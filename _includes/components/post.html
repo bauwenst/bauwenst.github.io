@@ -13,45 +13,63 @@
     </h1>
 
     <div class="post-subtitle">
-      <div class="post-date">
-      {% capture foobar %}
-        {%- unless site.hydejack.hide_dates -%}
-          {%- assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" -%}
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:post_format }}</time>
-        {%- else -%}
-          {{- site.data.strings.posted | default:"Posted" -}}
-        {%- endunless -%}
-        {{ ' ' }}
-        {%- assign category_start     = site.data.strings.category_start     | default:"in " -%}
-        {%- assign category_separator = site.data.strings.category_separator | default:" / " -%}
-        {%- include components/tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator -%}
-        {{ ' ' }}
-        {%- assign tag_start          = site.data.strings.tag_start          | default:"on " -%}
-        {%- assign tag_separator      = site.data.strings.tag_separator      | default:", "  -%}
-        {%- include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator -%}
-      {% endcapture %}
-      <span class="ellipsis mr1">
-        {{ foobar }}
-      </span>
-      {% unless site.hydejack.hide_dates or site.hydejack.hide_last_modified or post.hide_last_modified %}
-        {% if post.last_modified_at %}
-          {% assign d1 = post.date             | date:"%Y-%m-%d" %}
-          {% assign d2 = post.last_modified_at | date:"%Y-%m-%d" %}
-          {% if d1 != d2 %}
-            {% assign label = site.data.strings.last_modified_at | default:"Last modified at" %}
-            {% assign last_modified_at_format = site.data.strings.date_formats.last_modified_at | default:"%Y-%m-%d" %}
-            <span class="ellipsis" data-tippy-content="{{ label }}{{ site.data.strings.colon }} {{ post.last_modified_at | date:post_format }}">
-              <span class="sr-only">{{ label }}{{ site.data.strings.colon }}</span>
-              <span class="{{ site.data.strings.last_modified_icon | default:'icon-history' }}"></span>
-              <time datetime="{{ post.last_modified_at | date_to_xmlschema }}">{{ post.last_modified_at | date:last_modified_at_format }}</time>
-            </span>
-          {% endif %}
-        {% endif %}
-      {% endunless %}
-      </div>
+      <div class="post-date post-meta">
+        {% assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" %}
 
-      <div class="post-wordcount">
-        {{ post.content | number_of_words }} words • {{ post.content | number_of_words | divided_by: 200 }} min. read
+        {% capture post_meta_date %}
+          {%- unless site.hydejack.hide_dates -%}
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:post_format }}</time>
+          {%- else -%}
+            {{- site.data.strings.posted | default:"Posted" -}}
+          {%- endunless -%}
+        {% endcapture %}
+
+        {% capture post_meta_path %}
+          {%- assign category_start     = site.data.strings.category_start     | default:"in " -%}
+          {%- assign category_separator = site.data.strings.category_separator | default:" / " -%}
+          {%- include components/tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator -%}
+        {% endcapture %}
+        {% assign post_meta_path = post_meta_path | strip %}
+
+        {% capture post_meta_tags %}
+          {%- assign tag_start     = site.data.strings.tag_start     | default:"on " -%}
+          {%- assign tag_separator = site.data.strings.tag_separator | default:", "  -%}
+          {%- include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator -%}
+        {% endcapture %}
+        {% assign post_meta_tags = post_meta_tags | strip %}
+
+        <div class="post-meta-main ellipsis mr1">
+          <span class="post-meta-date">{{ post_meta_date | strip }}</span>
+          {% if post_meta_path != blank %}
+            <span class="post-meta-path">{{ post_meta_path }}</span>
+          {% endif %}
+          {% if post_meta_tags != blank %}
+            <span class="post-meta-tags">{{ post_meta_tags }}</span>
+          {% endif %}
+        </div>
+
+        {% unless site.hydejack.hide_dates or site.hydejack.hide_last_modified or post.hide_last_modified %}
+          {% if post.last_modified_at %}
+            {% assign d1 = post.date             | date:"%Y-%m-%d" %}
+            {% assign d2 = post.last_modified_at | date:"%Y-%m-%d" %}
+            {% if d1 != d2 %}
+              {% assign label = site.data.strings.last_modified_at | default:"Last modified at" %}
+              {% assign last_modified_at_format = site.data.strings.date_formats.last_modified_at | default:"%Y-%m-%d" %}
+              <span class="post-meta-modified ellipsis" data-tippy-content="{{ label }}{{ site.data.strings.colon }} {{ post.last_modified_at | date:post_format }}">
+                <span class="sr-only">{{ label }}{{ site.data.strings.colon }}</span>
+                <span class="{{ site.data.strings.last_modified_icon | default:'icon-history' }}"></span>
+                <time datetime="{{ post.last_modified_at | date_to_xmlschema }}">{{ post.last_modified_at | date:last_modified_at_format }}</time>
+              </span>
+            {% endif %}
+          {% endif %}
+        {% endunless %}
+
+        <!-- Narrow flex wrap: force taxonomy/wordcount onto the line below date+modified -->
+        <span class="post-meta-break" aria-hidden="true"></span>
+
+        <div class="post-wordcount">
+          {{ post.content | number_of_words }} words • {{ post.content | number_of_words | divided_by: 200 }} min. read
+        </div>
       </div>
     </div>
 
@@ -82,4 +100,3 @@
     </footer>
   {% endif %}
 </article>
-

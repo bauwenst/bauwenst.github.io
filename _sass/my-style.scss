@@ -16,9 +16,8 @@
 
 // Article typography: justify + hyphenate on comfortable widths only.
 // Narrow columns left-align — CSS justify without TeX-quality breaking looks gappy.
-// Lora’s x-height reads small; bump prose only (h1–h6 stay rem-based on root).
+// Lora’s x-height reads small on desktop; skip the bump on phone-width columns.
 main {
-  font-size: calc(1rem + 2px);
   line-height: 1.6; // default root is 1.75; slightly tighter for Lora prose
 }
 
@@ -30,6 +29,10 @@ main li {
 }
 
 @media (min-width: 42em) {
+  main {
+    font-size: calc(1rem + 2px);
+  }
+
   main p,
   main li {
     text-align: justify;
@@ -37,6 +40,10 @@ main li {
     -webkit-hyphens: auto;
     hyphenate-limit-chars: 6 3 3;
   }
+}
+
+.sidebar-about > p {
+  line-height: 1.6;
 }
 
 
@@ -367,6 +374,16 @@ h3, .h3 {
   font-size: 1.35rem;
 }
 
+// HydeJack shrinks .content h1 to 1.7rem below 42em — that lands under our h2.
+// Keep the base 2rem floor on narrow screens.
+.content h1,
+.content .h1 {
+  @media screen and (max-width: 42em) {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+}
+
 .mb6 {
   margin-bottom: 4rem;
 }
@@ -380,21 +397,154 @@ h3, .h3 {
   font-weight: var(--font-weight-heading);
 }
 
-.post-date {
-  margin-bottom: 0rem;
+// Wide: [date + path + tags …] …… [last modified]
+//       …………………………… [word count]
+// Narrow: [date] …… [last modified]
+//         under path …… [about tags …… word count]
+//         (path alone if path+tags don't fit; word count shares tags line when possible)
+.post-subtitle .post-date.post-meta {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "main modified"
+    "wordcount wordcount";
+  column-gap: 0.5rem;
+  row-gap: 0.35rem;
+  align-items: baseline;
+  height: auto;
+  min-height: 0;
   margin-top: -0.4rem;
+  margin-bottom: 0;
+}
+
+.post-meta-main {
+  grid-area: main;
+  min-width: 0; // allow ellipsis inside grid
+}
+
+// Spaces between date / path / tags on the wide single ellipsis line
+.post-meta-path::before,
+.post-meta-tags::before {
+  content: "\00a0";
+}
+
+.post-meta-modified {
+  grid-area: modified;
+}
+
+.post-meta-break {
+  display: none; // wide: unused
 }
 
 .post-wordcount {
-  // text-align works in both Chrome and Firefox; justify-self only applies in grid/flex.
+  grid-area: wordcount;
   text-align: right;
-  line-height: 0.25;
+  line-height: 1.3;
+  white-space: nowrap;
 }
 
+@media (max-width: 42em) {
+  .post-subtitle .post-date.post-meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    column-gap: 0.5rem;
+    row-gap: 0.15rem;
+  }
+
+  // Flatten so date / path / tags / modified / wordcount are flex items
+  .post-meta-main {
+    display: contents;
+  }
+
+  .post-meta-date {
+    order: 1;
+    margin-right: auto; // date …… modified on line 1
+  }
+
+  .post-meta-modified {
+    order: 2;
+  }
+
+  // Full-width zero-height flex item → always wrap after date+modified.
+  // Must kill line-height/min-height or this phantom item still eats a text line;
+  // also cancel one row-gap (gap applies before and after the break line).
+  .post-meta-break {
+    display: block;
+    order: 3;
+    flex-basis: 100%;
+    width: 100%;
+    height: 0;
+    min-height: 0;
+    margin: -0.15rem 0 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+  }
+
+  .post-meta-path {
+    order: 4;
+    flex: 0 0 auto;
+    max-width: 100%;
+    overflow: visible;
+    text-overflow: unset;
+  }
+
+  .post-meta-tags {
+    order: 5;
+    // Keep "about …" atomic so it drops as a unit below the path when needed
+    flex: 0 0 auto;
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: unset;
+  }
+
+  .post-meta-path::before,
+  .post-meta-tags::before {
+    content: none;
+  }
+
+  .post-wordcount {
+    order: 6;
+    flex: 0 0 auto;
+    margin-left: auto; // hfill beside tags (or path if no tags), or alone when wrapped
+    text-align: right;
+  }
+}
+
+// Post/page deck under the title — subtitle band, not a labeled note-sm
+.page > header > .note-sm,
 .post-description {
-  margin-top: -0.65rem;
-  margin-bottom: -0.75rem;
-  font-size: 1rem; // note-sm defaults to `smaller`; bring closer to body
+  margin: 0.35rem 0 0.15rem;
+  padding: 0.7rem 0.9rem;
+  font-size: 1rem; // note-sm defaults to `smaller`
+  line-height: 1.45;
+  color: var(--gray);
+  background-color: var(--gray-bg); // follows theme (incl. prefers-color-scheme dark)
+  border-left: none;
+  border-radius: 0.25rem;
+}
+
+// Darker fill in light mode only. Don't use :not(.dark-mode) — dynamic dark
+// mode sets vars via prefers-color-scheme without adding .dark-mode on body.
+@media screen and (prefers-color-scheme: light) {
+  body:not(.dark-mode) .page > header > .note-sm,
+  body:not(.dark-mode) .post-description {
+    background-color: rgba(0, 0, 0, 0.055);
+  }
+}
+
+body.light-mode .page > header > .note-sm,
+body.light-mode .post-description {
+  background-color: rgba(0, 0, 0, 0.055);
+}
+
+.page > header > .note-sm::before,
+.post-description::before {
+  content: none !important;
 }
 
 // Pagination controls (override Hydejack / Poole defaults)
@@ -468,6 +618,38 @@ h3, .h3 {
   .pagination-prev {
     margin-right: auto;
   }
+}
+
+
+// Navbar controls: slightly wider than the default square-ish hit target;
+// clear sticky mouse-focus chrome without killing :hover after a click.
+.nav-btn {
+  width: 3.75rem; // theme default: 3.25rem
+}
+
+a.nav-btn:focus:not(:focus-visible),
+button.nav-btn:focus:not(:focus-visible) {
+  outline: none;
+}
+
+// Theme paints the hover gradient on :focus too; suppress only while focused
+// and not hovered, otherwise a post-click :focus blocks later :hover.
+a.nav-btn:focus:not(:focus-visible):not(:hover),
+button.nav-btn:focus:not(:focus-visible):not(:hover) {
+  background-image: none;
+}
+
+a.nav-btn:hover,
+button.nav-btn:hover,
+a.nav-btn:focus-visible,
+button.nav-btn:focus-visible {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+}
+
+a.nav-btn:focus-visible,
+button.nav-btn:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: -2px;
 }
 
 
