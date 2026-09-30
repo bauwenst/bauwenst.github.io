@@ -14,9 +14,29 @@
 }
 
 
-// Justify article text
-main p, main li {
-  text-align: justify;
+// Article typography: justify + hyphenate on comfortable widths only.
+// Narrow columns left-align — CSS justify without TeX-quality breaking looks gappy.
+// Lora’s x-height reads small; bump prose only (h1–h6 stay rem-based on root).
+main {
+  font-size: calc(1rem + 2px);
+  line-height: 1.6; // default root is 1.75; slightly tighter for Lora prose
+}
+
+main p,
+main li {
+  text-align: left;
+  hyphens: none;
+  -webkit-hyphens: none;
+}
+
+@media (min-width: 42em) {
+  main p,
+  main li {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
+  }
 }
 
 
@@ -337,6 +357,16 @@ h1, h2, h3, h4 {
   margin: 2rem 0 0.25rem 0;
 }
 
+// Theme h3 is 1.2em of body — after the Lora size bump it reads like prose.
+// Pin below h2 but clearly above body. Raise h2 so it stays distinct from h3.
+h2, .h2 {
+  font-size: 1.8rem;
+}
+
+h3, .h3 {
+  font-size: 1.35rem;
+}
+
 .mb6 {
   margin-bottom: 4rem;
 }
@@ -364,6 +394,7 @@ h1, h2, h3, h4 {
 .post-description {
   margin-top: -0.65rem;
   margin-bottom: -0.75rem;
+  font-size: 1rem; // note-sm defaults to `smaller`; bring closer to body
 }
 
 // Pagination controls (override Hydejack / Poole defaults)
