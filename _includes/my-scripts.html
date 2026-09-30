@@ -1,27 +1,48 @@
-<!-- 
-  Add a scroll-to-top button in the nav bar.
-  The first function is based on https://stackoverflow.com/a/5298684 to remove any fragments (#title) from the URL.
-  The second function is based on https://stackoverflow.com/a/55926067. 
-  In the third function, note that there's no need to make the button as an object. You can just insert its raw hardcoded HTML, see https://stackoverflow.com/a/46994943/9352077.
-  Finally, we use an event listener since the nav bar is apparently constructed AFTER scripts with 'defer' are run, so to ensure it exists, we need to delay the execution of our function with an event listener.
+<!--
+  Scroll-to-top + client-side site search (navbar).
+  Nav bar is built after deferred scripts, so we wait for DOMContentLoaded.
 -->
 <script>
-function removeHash() { 
-    history.pushState("", document.title, window.location.pathname + window.location.search);
+function removeHash() {
+  history.pushState("", document.title, window.location.pathname + window.location.search);
 }
-    
+
 function scrollBackUp() {
-    window.scrollTo({top: 0, behavior: "smooth"});
-    removeHash();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  removeHash();
 }
 
 function addScrollButton() {
-    var parent   = document.querySelector(".nav-btn-bar");
-    var children = parent.getElementsByTagName("button");
-    var lastButton = children[children.length-1];
+  var parent = document.querySelector(".nav-btn-bar");
+  if (!parent) return;
+  var children = parent.getElementsByTagName("button");
+  var lastButton = children[children.length - 1];
+  if (!lastButton) return;
 
-    lastButton.insertAdjacentHTML("afterend", "<button id='_scrolltop' onclick='scrollBackUp()' class='nav-btn no-hover'> <span class='sr-only'>Scroll to Top</span> <span style='font-family: FontAwesome; font-size: 14pt;'></span> </button>");
+  lastButton.insertAdjacentHTML(
+    "afterend",
+    "<button id='_scrolltop' type='button' onclick='scrollBackUp()' class='nav-btn no-hover'> <span class='sr-only'>Scroll to Top</span> <span style='font-family: FontAwesome; font-size: 14pt;'></span> </button>"
+  );
 }
 
-document.addEventListener("DOMContentLoaded", (event) => addScrollButton());
+window.SiteSearchConfig = {
+  indexUrl: {{ "/assets/search-index.json" | relative_url | jsonify }},
+  strings: {
+    search: {{ site.data.strings.search | jsonify }},
+    placeholder: {{ site.data.strings.search_placeholder | jsonify }},
+    hintShort: {{ site.data.strings.search_hint_short | jsonify }},
+    hintVague: {{ site.data.strings.search_hint_vague | jsonify }},
+    empty: {{ site.data.strings.search_empty | jsonify }},
+    more: {{ site.data.strings.search_more | jsonify }},
+    loading: {{ site.data.strings.search_loading | jsonify }},
+    fieldTitle: {{ site.data.strings.search_field_title | jsonify }},
+    fieldDescription: {{ site.data.strings.search_field_description | jsonify }},
+    fieldBody: {{ site.data.strings.search_field_body | jsonify }}
+  }
+};
+
+document.addEventListener("DOMContentLoaded", function () {
+  addScrollButton();
+});
 </script>
+<script src="{{ '/assets/js/site-search.js' | relative_url }}" defer></script>

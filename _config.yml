@@ -109,6 +109,14 @@ paginate_path:         /:num/
 # unpublished:           false
 
 
+# Client-side site search (navbar)
+# ---------------------------------------------------------------------------------------
+site_search:
+  # Characters of post body to keep in the search index (after strip_html).
+  # Omit or set to null/0 for exhaustive full-body matches.
+  content_truncate: null
+
+
 # Theme
 # ---------------------------------------------------------------------------------------
 # GitHub Pages cannot install jekyll-theme-hydejack as a gem. Use remote_theme there.
