@@ -315,9 +315,10 @@
       var a = document.createElement("a");
       a.href = doc.url;
       a.className = "site-search-result";
-      a.addEventListener("click", function () {
-        // Let hy-push-state handle the navigation; just dismiss the overlay.
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
         closeSearch();
+        navigate(doc.url);
       });
 
       var title = document.createElement("span");
@@ -444,6 +445,15 @@
     renderResults(scored.slice(0, MAX_RESULTS), total);
   }
 
+  function navigate(url) {
+    var pushState = document.getElementById("_pushState");
+    if (pushState && typeof pushState.assign === "function") {
+      pushState.assign(url);
+      return;
+    }
+    window.location.href = url;
+  }
+
   function ensureDom() {
     if (root) return;
 
@@ -468,9 +478,9 @@
       '  <ul class="site-search-results" id="site-search-results"></ul>' +
       "</div>";
 
-    // Inside hy-push-state so result clicks get the same fade navigation as other links.
-    var mount = document.getElementById("_pushState") || document.body;
-    mount.appendChild(root);
+    // Mount on body so position:fixed is viewport-relative (hy-push-state
+    // creates a containing block / overflow context that breaks this on mobile).
+    document.body.appendChild(root);
     input = root.querySelector("#site-search-input");
     resultsEl = root.querySelector("#site-search-results");
     statusEl = root.querySelector("#site-search-status");
@@ -503,7 +513,12 @@
     input.value = "";
     resultsEl.innerHTML = "";
     setStatus(strings.hintShort || "Type at least 2 characters…");
-    input.focus();
+    // preventScroll avoids jumping to a wrongly-positioned input on mobile
+    try {
+      input.focus({ preventScroll: true });
+    } catch (err) {
+      input.focus();
+    }
     loadIndex().catch(function () {
       /* shown on first query */
     });
@@ -522,8 +537,9 @@
   }
 
   function addSearchButton() {
+    if (document.getElementById("_sitesearch")) return true;
     var parent = document.querySelector(".nav-btn-bar");
-    if (!parent || document.getElementById("_sitesearch")) return;
+    if (!parent) return false;
 
     var btn = document.createElement("button");
     btn.id = "_sitesearch";
@@ -548,11 +564,37 @@
     } else {
       parent.appendChild(btn);
     }
+    return true;
   }
 
-  document.addEventListener("DOMContentLoaded", function () {
-    addSearchButton();
+  function ensureSearchButton(attempts) {
+    if (addSearchButton()) return;
+    if (attempts <= 0) return;
+    window.setTimeout(function () {
+      ensureSearchButton(attempts - 1);
+    }, 100);
+  }
+
+  function onReady(fn) {
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", fn);
+    } else {
+      fn();
+    }
+  }
+
+  onReady(function () {
+    // PWA / late nav: retry if .nav-btn-bar is not ready yet
+    ensureSearchButton(20);
   });
+
+  // Re-add after theme chrome finishes inserting (e.g. dark-mode button)
+  var pushStateEl = document.getElementById("_pushState");
+  if (pushStateEl) {
+    pushStateEl.addEventListener("hy-push-state-load", function () {
+      ensureSearchButton(5);
+    });
+  }
 
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && open) {

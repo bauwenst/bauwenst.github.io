@@ -442,13 +442,19 @@ h1, h2, h3, h4 {
 
 // Client-side site search overlay
 .site-search {
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10000;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 4.5rem 1rem 1rem;
+  padding: calc(4.5rem + env(safe-area-inset-top, 0px)) 1rem 1rem;
+  padding-left: calc(1rem + env(safe-area-inset-left, 0px));
+  padding-right: calc(1rem + env(safe-area-inset-right, 0px));
+  box-sizing: border-box;
 }
 
 .site-search[hidden] {
@@ -503,7 +509,7 @@ h1, h2, h3, h4 {
 }
 
 .site-search-results {
-  list-style: none;
+  list-style: none !important;
   margin: 0.5rem 0 0;
   padding: 0;
   overflow-y: auto;
@@ -511,6 +517,7 @@ h1, h2, h3, h4 {
 }
 
 .site-search-results > li {
+  list-style: none !important;
   margin: 0;
   padding: 0;
   border-top: 1px solid var(--border-color);
