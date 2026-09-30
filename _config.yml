@@ -91,10 +91,32 @@ permalink:             /:categories/:year-:month-:day-:title/
 paginate_path:         /:num/
 
 
+# Publishing posts
+# ---------------------------------------------------------------------------------------
+# Posts under posts/**/_posts/ are built when present on disk (even if not pushed).
+# To keep a finished draft out of local (and production) builds, add this to its
+# YAML front matter:
+#
+#   published: false
+#
+# Remove that line (or set published: true) when you are ready to ship it.
+# Preview unpublished posts intentionally with:
+#   bundle exec jekyll serve --unpublished
+#
+# Future-dated posts are also withheld by default (same mechanism you already saw).
+# To include them: bundle exec jekyll serve --future
+# future:                false
+# unpublished:           false
+
+
 # Theme
 # ---------------------------------------------------------------------------------------
-
-theme: jekyll-theme-hydejack
+# GitHub Pages cannot install jekyll-theme-hydejack as a gem. Use remote_theme there.
+# Locally, remote_theme is fetched via the jekyll-remote-theme plugin (see Gemfile).
+# For a fully offline local build you can temporarily swap to:
+#   theme: jekyll-theme-hydejack
+# and comment out remote_theme — but do not leave `theme:` enabled when pushing to Pages.
+# theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 
@@ -347,6 +369,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jekyll-include-cache
+  - jekyll-remote-theme
   - jekyll-last-modified-at
 
 
@@ -405,6 +428,13 @@ compress_html:
 
 sass:
   style:               compressed
+  # Hydejack's theme SCSS still uses Dart Sass legacy APIs (@import, darken/fade-out, …).
+  # Those warnings are upstream; silence them so local builds stay readable.
+  quiet_deps:          true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
 
 # Jekyll Compose Defaults
 # ---------------------------------------------------------------------------------------
