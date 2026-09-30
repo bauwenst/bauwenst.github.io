@@ -1,45 +1,30 @@
 ---
-# This layout is for listing all available tags. No posts are featured.
-
+# Nested category + tag tree for /tags/.
 layout: page
 ---
 
 {{ content }}
 
 {% assign documents = site.documents %}
-{% assign featured_categories = documents | where: "type", "category" | sort %}
-{% assign featured_tags = documents | where: "type", "tag" | sort %}
+{% assign featured_categories = documents | where: "type", "category" | sort: "url" %}
+{% assign featured_tags = documents | where: "type", "tag" | sort: "title" %}
+{% assign categories = site.categories %}
+{% assign tags = site.tags %}
 
-{% assign categories = site.categories | sort %}
-{% assign tags = site.tags | sort %}
-
-<h1 id="all">
-    <a href="/posts/" class="flip-title">All posts</a>
-    <span class="faded fine">{{ site.posts | size }}</span>
-</h1>
-
-{% for category in featured_categories %}
-    <h2 id="{{ category.slug }}" class="hr">
-        <a href="{{ category.url | relative_url }}" class="flip-title">{{ category.title }}</a>
-        {% for site_category in categories %}
-            {% if site_category[0] == category.slug %}
-                <span class="faded fine">{{ site_category | last | size }}</span>
-            {% endif %}
-        {% endfor %}
-    </h2>
-    <ul class="related-posts">
-        {% for tag in featured_tags %}
-            {% if tag.category == category.slug %}
-                <li class="h6">
-                    <a href="{{ tag.url | relative_url }}" class="flip-title">{{ tag.title }}</a>
-                    {% for site_tag in tags %}
-                        {% if site_tag[0] == tag.slug %}
-                            <span class="faded fine">{{ site_tag | last | size }}</span>
-                            {% break %}
-                        {% endif %}
-                    {% endfor %}
-                </li>
-            {% endif %}
-        {% endfor %}
-    </ul>
-{% endfor %}
+<div class="foldertree tags-tree">
+  <ul>
+    <li class="folder tags-tree-root">
+      <a href="{{ '/posts/' | relative_url }}" class="flip-title">All posts</a>
+      <span class="faded fine">{{ site.posts | size }}</span>
+      <ul>
+        {% include tags-category-branch.html
+          parent_path=""
+          featured_categories=featured_categories
+          featured_tags=featured_tags
+          categories=categories
+          tags=tags
+        %}
+      </ul>
+    </li>
+  </ul>
+</div>

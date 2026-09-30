@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Posts
+title: All posts
 description: >
   Everything I have ever posted on this website, in reverse chronological order.
 grouped: true

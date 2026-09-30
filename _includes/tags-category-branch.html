@@ -1,0 +1,106 @@
+{% comment %}
+  Recursively render featured category nodes whose path is a direct child of parent_path.
+  parent_path "" => top-level categories (no slash in collection path).
+  Category path is derived from permalink /categories/:path/.
+{% endcomment %}
+
+{% for category in include.featured_categories %}
+  {% assign cat_path = category.url
+    | relative_url
+    | replace: "/categories/", ""
+    | split: "/"
+    | compact
+    | join: "/"
+  %}
+
+  {% assign is_direct_child = false %}
+  {% if include.parent_path == "" %}
+    {% unless cat_path contains "/" %}
+      {% assign is_direct_child = true %}
+    {% endunless %}
+  {% else %}
+    {% assign prefix = include.parent_path | append: "/" %}
+    {% assign suffix = cat_path | remove_first: prefix %}
+    {% if suffix != cat_path and suffix != blank %}
+      {% unless suffix contains "/" %}
+        {% assign is_direct_child = true %}
+      {% endunless %}
+    {% endif %}
+  {% endif %}
+
+  {% if is_direct_child %}
+    {% assign child_count = nil %}
+    {% for site_category in include.categories %}
+      {% if site_category[0] == category.slug %}
+        {% assign child_count = site_category | last | size %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign has_subcats = false %}
+    {% assign sub_prefix = cat_path | append: "/" %}
+    {% for other in include.featured_categories %}
+      {% assign other_path = other.url
+        | relative_url
+        | replace: "/categories/", ""
+        | split: "/"
+        | compact
+        | join: "/"
+      %}
+      {% assign other_suffix = other_path | remove_first: sub_prefix %}
+      {% if other_suffix != other_path and other_suffix != blank %}
+        {% unless other_suffix contains "/" %}
+          {% assign has_subcats = true %}
+          {% break %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign has_tags = false %}
+    {% for tag in include.featured_tags %}
+      {% if tag.category == category.slug %}
+        {% assign has_tags = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    <li class="folder">
+      <a href="{{ category.url | relative_url }}" class="flip-title">{{ category.title }}</a>
+      {% if child_count %}
+        <span class="faded fine">{{ child_count }}</span>
+      {% endif %}
+
+      {% if has_subcats or has_tags %}
+        <ul>
+          {% if has_subcats %}
+            {% include tags-category-branch.html
+              parent_path=cat_path
+              featured_categories=include.featured_categories
+              featured_tags=include.featured_tags
+              categories=include.categories
+              tags=include.tags
+            %}
+          {% endif %}
+
+          {% for tag in include.featured_tags %}
+            {% if tag.category == category.slug %}
+              {% assign tag_count = nil %}
+              {% for site_tag in include.tags %}
+                {% if site_tag[0] == tag.slug %}
+                  {% assign tag_count = site_tag | last | size %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+              <li class="tag">
+                <a href="{{ tag.url | relative_url }}" class="flip-title">{{ tag.title }}</a>
+                {% if tag_count %}
+                  <span class="faded fine">{{ tag_count }}</span>
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endif %}
+{% endfor %}
