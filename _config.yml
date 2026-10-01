@@ -14,6 +14,8 @@ url: https://bauwens.dev
 
 # Absolute links to these hosts (plus site.url) become root-relative at build time,
 # so that you can use full hyperlinks when writing your source files. See _plugins/internalize_urls.rb
+# Requires a full Jekyll build (local `bundle exec jekyll` or .github/workflows/deploy-pages.yml).
+# The stock "Deploy from a branch" Pages builder ignores custom plugins.
 internalize_urls:
   hosts:
     - bauwenst.github.io
