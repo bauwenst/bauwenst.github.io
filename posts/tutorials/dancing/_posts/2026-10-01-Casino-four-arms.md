@@ -7,7 +7,7 @@ tags:
   - casino
   - salsa
 ---
-In a [previous article](https://bauwenst.github.io/posts/tutorials/dancing/2025-03-17-Casino-two-arms/), I introduced a mathematically grounded system for discretising positions of two pairs of connected arms. As I pointed out there, the theory did not include support for common casino holds like hammerlocks, crowns etc. because they are asymmetrical: they are done on one side of the body at a time, on one person at a time, and it is not obvious how all these positions relate to each other using mathematical operations. I have developed a better model that solves this: _quadripunctual theory (QT)_.
+In a [previous article](https://bauwenst.github.io/posts/tutorials/dancing/2025-03-17-Casino-two-arms/), I introduced mathematical labels for the different ways two people could connect their arms. As I pointed out there, my theory did not include support for common casino holds like hammerlocks, crowns etc. because they are asymmetrical: they are done on one side of the body at a time, on one person at a time, and it is not obvious how all these holds relate to each other using mathematical operations. I have developed a better model that solves this: _quadripunctual theory (QT)_.
 
 1. dummy
 {:toc}
@@ -313,12 +313,16 @@ Double **X**-hammerlock transitions.
 {:.figcaption}
 
 ## Total
-Since all hammerlocks should be accessible in some way when led well, there are 3 parallel hammerlocks and 4 crossed hammerlocks on each hip of each person, as well as 2 joint parallel hammerlocks (in practice), 4 joint crossed hammerlocks, and 2 double crossed hammerlocks, yielding a total of $$2\cdot (2\cdot (3 + 4) ) + 2 + 4 + 2 = 36$$ hammerlock positions we have modelled above. (This is not counting decorations on top of hammerlocks, like coronas, cuernos and ganchos, which we cover below.)
+Since all hammerlocks should be accessible in some way when led well, there are 3 parallel hammerlocks and 4 crossed hammerlocks on each hip of each person, as well as 2 double crossed hammerlocks per person and (in practice) 2 joint parallel hammerlocks and 5 joint crossed hammerlocks, and, yielding a total of 
+
+$$
+2\cdot (2\cdot (3 + 4) + 2) + (2 + 5) = 39
+$$ hammerlock positions we have modelled above. (This is not counting decorations on top of hammerlocks, like coronas, cuernos and ganchos, which we cover below.)
 
 ## A final note on equivariance
 We have already seen some forms of equivariance show up above, and indeed, applying equivariance will theoretically yield another set of the same diagrams, just with **F** and **L** exchanged. However, in practice there are some constraints on leading that make some transitions impossible, and conversely, there are some freedoms on leading that make some transitions much easier.
 
-An example of a constraint is that leaders don't do rodeos, so an equivariant of Bayamo won't exist. For a similar reason, a leader doesn't get into a double hammerlock by doing some kind of DQN/Coca-Cola, but he can do it by letting the follower do a rodeo around him when he is already hammerlocked. In fact, the leader can even avoid pal piso altogether by doing a rodeo, as is exemplified in a [_matrix_](https://www.instagram.com/reel/DLVAvtCxASi/?igsh=enlqZDlpdTc4aGZ): starting in **X-L,+1** (the base mirrored hammerlock), he lets the follower do a clockwise rodeo where eventually he dives under her arm. As we have seen in the previous article, a rodeo one way has the same effect as a turn the other way, so this is effectively a counterclockwise leader pal piso, and indeed, he ends up in **X-L,-1** ready to make her do a passbehind into **X+L,-1** (and usually he gets out with an enchufate into **X-1**).
+An example of a constraint is that leaders don't do rodeos, so an equivariant of Bayamo won't exist. For a similar reason, a leader doesn't get into a double hammerlock by doing some kind of DQN, but he can do it by letting the follower do a rodeo around him when he is already hammerlocked. In fact, the leader can even avoid pal piso altogether by doing a rodeo, as is exemplified in a [_matrix_](https://www.instagram.com/reel/DLVAvtCxASi/?igsh=enlqZDlpdTc4aGZ): starting in **X-L,+1** (the base mirrored hammerlock), he lets the follower do a clockwise rodeo where eventually he dives under her arm. As we have seen in the previous article, a rodeo one way has the same effect as a turn the other way, so this is effectively a counterclockwise leader pal piso, and indeed, he ends up in **X-L,-1** ready to make her do a passbehind into **X+L,-1** (and usually he gets out with an enchufate into **X-1**).
 
 An example of an extra freedom is that leaders can un-hammerlock their own arm without needing a signal and without risk of elbow injuries. This means that _échate_, the leader equivariant of _échala_ we saw above, is much easier to do than _échala_: indeed, you can just do a giro from **II-L,+2** into **II+2**, and because your body and brain are connected, you will know exactly how to bend your arm to not injure yourself. Similarly, performing a _salte_ is much easier than performing a _salgo_ (in fact, salgos are in my experience the one casino movement with the highest failure rate, even with experienced followers) because your muscles are infinitely more attuned to controlling _your_ joints than someone else's.
 
