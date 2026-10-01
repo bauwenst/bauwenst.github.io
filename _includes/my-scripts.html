@@ -41,9 +41,27 @@ window.SiteSearchConfig = {
   }
 };
 
+window.SiteShareConfig = {
+  author: {{ site.author.name | default: site.title | jsonify }},
+  strings: {
+    share: {{ site.data.strings.share | jsonify }},
+    copyLink: {{ site.data.strings.share_copy_link | jsonify }},
+    whatsapp: {{ site.data.strings.share_whatsapp | jsonify }},
+    instagram: {{ site.data.strings.share_instagram | jsonify }},
+    twitter: {{ site.data.strings.share_twitter | jsonify }},
+    bibtex: {{ site.data.strings.share_bibtex | jsonify }},
+    copied: {{ site.data.strings.share_copied | jsonify }},
+    bibtexCopied: {{ site.data.strings.share_bibtex_copied | jsonify }},
+    instagramHint: {{ site.data.strings.share_instagram_hint | jsonify }},
+    instagramHintMobile: {{ site.data.strings.share_instagram_hint_mobile | jsonify }},
+    copyFailed: {{ site.data.strings.share_copy_failed | jsonify }}
+  }
+};
+
 document.addEventListener("DOMContentLoaded", function () {
   addScrollButton();
 });
 </script>
 <script src="{{ '/assets/js/site-search.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/site-share.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/image-lightbox.js' | relative_url }}" defer></script>

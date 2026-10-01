@@ -70,8 +70,36 @@
         <!-- Narrow flex wrap: force taxonomy/wordcount onto the line below date+modified -->
         <span class="post-meta-break" aria-hidden="true"></span>
 
+        {% assign post_words = post.content | number_of_words %}
+        {% capture post_words_fmt %}
+          {%- if post_words >= 10000 -%}
+            {%- assign post_words_rest = post_words | modulo: 1000 -%}
+            {%- assign post_words_k = post_words | divided_by: 1000 -%}
+            {%- if post_words_rest < 10 -%}
+              {%- assign post_words_rest_s = post_words_rest | prepend: "00" -%}
+            {%- elsif post_words_rest < 100 -%}
+              {%- assign post_words_rest_s = post_words_rest | prepend: "0" -%}
+            {%- else -%}
+              {%- assign post_words_rest_s = post_words_rest -%}
+            {%- endif -%}
+            {{- post_words_k -}}&#8239;{{- post_words_rest_s -}}
+          {%- else -%}
+            {{- post_words -}}
+          {%- endif -%}
+        {% endcapture %}
+        {% assign post_read_mins = post_words | divided_by: 200 %}
+        {% capture post_read_fmt %}
+          {%- if post_read_mins > 60 -%}
+            {%- assign post_read_hrs = post_read_mins | divided_by: 60 -%}
+            {%- assign post_read_rem = post_read_mins | modulo: 60 -%}
+            {{- post_read_hrs }} hr. {{ post_read_rem }} min. read
+          {%- else -%}
+            {{- post_read_mins }} min. read
+          {%- endif -%}
+        {% endcapture %}
+
         <div class="post-wordcount">
-          {{ post.content | number_of_words }} words • {{ post.content | number_of_words | divided_by: 200 }} min. read
+          {{ post_words_fmt | strip }} words • {{ post_read_fmt | strip }}
         </div>
       </div>
     </div>

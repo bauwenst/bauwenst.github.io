@@ -507,6 +507,9 @@
 
   function openSearch() {
     ensureDom();
+    if (window.SiteShare && typeof window.SiteShare.close === "function") {
+      window.SiteShare.close();
+    }
     open = true;
     root.hidden = false;
     document.documentElement.classList.add("site-search-open");
@@ -555,9 +558,12 @@
       toggleSearch();
     });
 
-    // Place after .nav-span so it sits on the right (dark mode is left of the span).
+    // Place on the right: after share (if present), else after .nav-span.
+    var share = document.getElementById("_siteshare");
     var span = parent.querySelector(".nav-span");
-    if (span && span.nextSibling) {
+    if (share) {
+      parent.insertBefore(btn, share.nextSibling);
+    } else if (span && span.nextSibling) {
       parent.insertBefore(btn, span.nextSibling);
     } else if (span) {
       parent.appendChild(btn);

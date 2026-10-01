@@ -92,7 +92,7 @@
     if (!img || img.tagName !== "IMG") return false;
     if (img.closest(".image-lightbox")) return false;
     if (img.closest("a[href]")) return false; // keep real links
-    if (img.closest(".sidebar, .nav-btn-bar, .site-search")) return false;
+    if (img.closest(".sidebar, .nav-btn-bar, .site-search, .site-share")) return false;
     // Content images only
     return !!(img.closest("article") || img.closest(".content"));
   }

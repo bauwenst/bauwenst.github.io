@@ -7,7 +7,7 @@ tags:
   - casino
   - salsa
 ---
-In [a previous article](https://bauwenst.github.io/posts/tutorials/dancing/2025-03-17-Casino-two-arms/), I introduced a mathematically grounded system for discretising positions of two pairs of connected arms. As I pointed out there, the theory did not include support for common casino holds like hammerlocks, crowns etc. because they are asymmetrical: they are done on one side of the body at a time, on one person at a time, and it is not obvious how all these positions relate to each other using mathematical operations. I have developed a better model that solves this: _quadripunctual theory (QT)_.
+In a [previous article](https://bauwenst.github.io/posts/tutorials/dancing/2025-03-17-Casino-two-arms/), I introduced a mathematically grounded system for discretising positions of two pairs of connected arms. As I pointed out there, the theory did not include support for common casino holds like hammerlocks, crowns etc. because they are asymmetrical: they are done on one side of the body at a time, on one person at a time, and it is not obvious how all these positions relate to each other using mathematical operations. I have developed a better model that solves this: _quadripunctual theory (QT)_.
 
 1. dummy
 {:toc}
@@ -197,16 +197,16 @@ Not all transitions starting in hammerlocks require turns. There is a family of 
 A _salgo_ (literally "I exit") is when the leader frees the follower's hammerlocked arm by getting closer to the follower, pushing her arm down so that her elbow is loosened and can twist from pronation to supination, and moving it over her head. This is the most difficult mechanic to consistently pull off in casino, without question.
 
 Mathematically, salgo turns any "**F,**" into "**2**" (and adds that 2 to whatever valence the hold already has). The sign of the hammerlock is inherited, which means that salgo of the follower's left hand (always hammerlocked on her right hip) is a **+2** and of her right hand a **-2**. For example:
-- salgo(**II+F,**) = **II+2** by [Jorge Luis](https://www.instagram.com/reel/DX4TdZzsD2Q/) at 1:35.
-- salgo(**II-F,**) = **II-2** by symmetry.
-- salgo(**II-F,+2**) = **II-2+2** = **II** less commonly, although it exists.
+- _salgo_(**II+F,**) = **II+2** by [Jorge Luis](https://www.instagram.com/reel/DX4TdZzsD2Q/) at 1:35.
+- _salgo_(**II-F,**) = **II-2** by symmetry.
+- _salgo_(**II-F,+2**) = **II-2+2** = **II** less commonly, although it exists.
 
 This theory predicts that it is impossible to salgo from **II+F,+2** or **II-F,-2** since that would make **II+4** and **II-4** and those don't exist. You can verify experimentally that this is indeed impossible.[^7]
 
 A _bajo_ (literally "I lower") is the inverse of salgo: the leader takes an arm in front of the follower, moves it over her head and bends her elbow until she is in hammerlock, with no turning involved. Because it is the inverse of salgo, the math is also inverted: first isolate **2** from the current hold, then turn it into **F,** as it is consumed to get into the hammerlock. (It is that hammerlock which would result in the current hold after a salgo.) Some examples:
-- bajo(**II+2**) = **II+F,** by [Kevin Cano](https://www.instagram.com/reel/DZcCgaZxKt3/).
-- bajo(**II**) = bajo(**II+2-2**) = **II+F,-2** as seen [here](https://www.instagram.com/reel/DWQe6YQjM5J?igsh=MWd0ZXA0dmlrMjFmZA==).
-- bajo(**II+'F+2**) = **II+F,** by [Abel Pérez](https://www.instagram.com/reel/DZxAOK5u-QB/?igsh=dWtndG9sMnJmdGEw). (We will see more about the **+'F** ladder below.)
+- _bajo_(**II+2**) = **II+F,** by [Kevin Cano](https://www.instagram.com/reel/DZcCgaZxKt3/).
+- _bajo_(**II**) = _bajo_(**II+2-2**) = **II+F,-2** as seen [here](https://www.instagram.com/reel/DWQe6YQjM5J?igsh=MWd0ZXA0dmlrMjFmZA==).
+- _bajo_(**II+'F+2**) = **II+F,** by [Abel Pérez](https://www.instagram.com/reel/DZxAOK5u-QB/?igsh=dWtndG9sMnJmdGEw). (We will see more about the **+'F** ladder below.)
 
 I took the terms _salgo_ and _bajo_ Gastón Carvallo, who demonstrates both movements [here](https://www.instagram.com/reel/DMiYOOEow9F/?igsh=MTUwMmlkbDFkZmUydg==).
 
@@ -220,13 +220,13 @@ I took the terms _salgo_ and _bajo_ Gastón Carvallo, who demonstrates both move
 It occasionally happens that leaders in **II+L,** or **II-L,** contort their own arm out of hammerlock, which we will call a _salte_ (literally "let yourself out"): for example, at 4:05 in [this video](https://www.instagram.com/reel/DY3-qi-NVk8/), I pass through a **II+L,'** before doing a salte and then a candado.
 
 However, it is much more common for a leader to do a _moño_ to free himself, which is when he bends forwards and lets his hammerlocked arm glide over his back. This is very distinct from a salte, because the arm leaves from the other hip and the elbow is _flexed_ rather than _extended_. The mathematical effect of moño is identical to that of salgo/salte, turning "**L,**" into "**2**". The most relevant examples:
-- moño(**II+L,**) = **II+2** by [Yoandy](www.youtube.com/watch?v=hLyxGgsIC9c&t=223s), although in practice, this moño basically always ends in **II+'F+2** because it is much easier to do it with your right hand pressed to the follower's right shoulder.
-- moño(**II+L,-2**) = **II+2-2** = **II** by [Lucas Beluzo](https://www.instagram.com/p/DThenbriLDu/).
+- _moño_(**II+L,**) = **II+2** by [Yoandy](www.youtube.com/watch?v=hLyxGgsIC9c&t=223s), although in practice, this moño basically always ends in **II+'F+2** because it is much easier to do it with your right hand pressed to the follower's right shoulder.
+- _moño_(**II+L,-2**) = **II+2-2** = **II** by [Lucas Beluzo](https://www.instagram.com/p/DThenbriLDu/).
 
 I took the name moño ("bow") from Lucas Beluzo in the video above. It refers to the fact that the elbow looks like one of the ears of a ribbon bow during the moño.
 
 _Bajo_ does have a common equivariant -- when the leader contorts _his_ arm _into_ a hammerlock -- which I will call _bájate_ for consistency. We will see a special example of this below. One other example:
-- bájate(**II**) = **II+L,-2** as seen [here](https://www.youtube.com/watch?v=DS7JqAtOpbU&t=16s). It is natural to then do a moño since moño(**II+L,-2**) = **II+2-2** = **II**. This is very similar to what you lead to start a Santiago (see below), except without turning your body counterclockwise.
+- _bájate_(**II**) = **II+L,-2** as seen [here](https://www.youtube.com/watch?v=DS7JqAtOpbU&t=16s). It is natural to then do a moño since _moño_(**II+L,-2**) = **II+2-2** = **II**. This is very similar to what you lead to start a Santiago (see below), except without turning your body counterclockwise.
 
 ### Complicado
 In a hammerlock, the non-hammerlocked arm is still free to be manipulated. One thing that commonly happens with it, is to walk underneath it, as in _setenta complicado_, past the other person. Multiple different transitions exist after walking under the arm, and so it itself will just be called "a complicado". 
@@ -277,9 +277,9 @@ Finally, to get into **X+F,-3** or **X-F,+3** without an enchufla abajo (and wit
 
 ### Salgo, bajo, moño
 The same mathematics as with **II**-hammerlocks apply to salgo and bajo.
-- salgo(**X+F,+1**) = **X+2+1 = X+3** by [Gastón Carvallo](https://www.instagram.com/p/DU0re2YDZ_g/?img_index=1).
-- bajo(**X-3**) = bajo(**X-2-1**) = **X-F,-1** by [Jorge Luis](https://www.instagram.com/reel/DZc6sfgNvR2/?igsh=MTVqaDQ3azVremE5dw==) (at 0:35). Indeed, this is an extreme example, but as predicted by the math, it works![^9]
-- moño(**X-L,+1**) = **X-2+1** = **X-1** by [Salsaficion](https://www.youtube.com/shorts/mAZoSMjFsxs).
+- _salgo_(**X+F,+1**) = **X+2+1 = X+3** by [Gastón Carvallo](https://www.instagram.com/p/DU0re2YDZ_g/?img_index=1).
+- _bajo_(**X-3**) = _bajo_(**X-2-1**) = **X-F,-1** by [Jorge Luis](https://www.instagram.com/reel/DZc6sfgNvR2/?igsh=MTVqaDQ3azVremE5dw==) (at 0:35). Indeed, this is an extreme example, but as predicted by the math, it works![^9]
+- _moño_(**X-L,+1**) = **X-2+1** = **X-1** by [Salsaficion](https://www.youtube.com/shorts/mAZoSMjFsxs).
 
 The theory again predicts that it is impossible to salgo from **X+F,+3** and **X-F,-3**, since that would make **X+5** and **X-5** which don't exist.
 

@@ -47,6 +47,18 @@ search_field_title:    Title
 search_field_description: Description
 search_field_body:     Body
 
+share:                 Share
+share_copy_link:       Copy link
+share_whatsapp:        WhatsApp
+share_instagram:       Instagram DM
+share_twitter:         Twitter / X
+share_bibtex:          Copy BibTeX
+share_copied:          Copied to clipboard
+share_bibtex_copied:   BibTeX copied to clipboard
+share_instagram_hint:  Link copied — paste it in Instagram
+share_instagram_hint_mobile: Link copied — pick a chat in Instagram if needed
+share_copy_failed:     Could not copy
+
 loading:               Loading…
 redirecting:           Redirecting…
 
