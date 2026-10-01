@@ -1,16 +1,22 @@
 # Config
 # ========================================================================================
 
-# Uncomment and set the URL of your site (with protocol, e.g. `https://`)
-# NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url: https://bauwenst.github.io
-url: https://bauwens.dev
-
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
 baseurl: ""
+
+# Uncomment and set the URL of your site (with protocol, e.g. `https://`)
+# NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
+# url: https://bauwenst.github.io
+url: https://bauwens.dev
+
+# Absolute links to these hosts (plus site.url) become root-relative at build time,
+# so that you can use full hyperlinks when writing your source files. See _plugins/internalize_urls.rb
+internalize_urls:
+  hosts:
+    - bauwenst.github.io
 
 
 # General settings

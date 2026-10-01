@@ -38,15 +38,18 @@
         {% endcapture %}
         {% assign post_meta_tags = post_meta_tags | strip %}
 
-        <div class="post-meta-main ellipsis mr1">
-          <span class="post-meta-date">{{ post_meta_date | strip }}</span>
-          {% if post_meta_path != blank %}
-            <span class="post-meta-path">{{ post_meta_path }}</span>
-          {% endif %}
-          {% if post_meta_tags != blank %}
-            <span class="post-meta-tags">{{ post_meta_tags }}</span>
-          {% endif %}
-        </div>
+        <span class="post-meta-date">{{ post_meta_date | strip }}</span>
+
+        {% if post_meta_path != blank or post_meta_tags != blank %}
+          <div class="post-meta-main ellipsis mr1">
+            {% if post_meta_path != blank %}
+              <span class="post-meta-path">{{ post_meta_path }}</span>
+            {% endif %}
+            {% if post_meta_tags != blank %}
+              <span class="post-meta-tags">{{ post_meta_tags }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
 
         {% unless site.hydejack.hide_dates or site.hydejack.hide_last_modified or post.hide_last_modified %}
           {% if post.last_modified_at %}

@@ -397,17 +397,18 @@ h3, .h3 {
   font-weight: var(--font-weight-heading);
 }
 
-// Wide: [date + path + tags …] …… [last modified]
+// Wide: [date] [path + tags …] …… [last modified]
 //       …………………………… [word count]
 // Narrow: [date] …… [last modified]
 //         under path …… [about tags …… word count]
-//         (path alone if path+tags don't fit; word count shares tags line when possible)
+// Tippy targets .post-date > .ellipsis (.post-meta-main) — that node must keep a
+// real box (no display:contents), or the tooltip anchors to the viewport top.
 .post-subtitle .post-date.post-meta {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: auto minmax(0, 1fr) auto;
   grid-template-areas:
-    "main modified"
-    "wordcount wordcount";
+    "date main modified"
+    "wordcount wordcount wordcount";
   column-gap: 0.5rem;
   row-gap: 0.35rem;
   align-items: baseline;
@@ -417,13 +418,16 @@ h3, .h3 {
   margin-bottom: 0;
 }
 
+.post-meta-date {
+  grid-area: date;
+}
+
 .post-meta-main {
   grid-area: main;
   min-width: 0; // allow ellipsis inside grid
 }
 
-// Spaces between date / path / tags on the wide single ellipsis line
-.post-meta-path::before,
+// Space between path and tags on the wide ellipsis line (date is a separate cell)
 .post-meta-tags::before {
   content: "\00a0";
 }
@@ -453,11 +457,6 @@ h3, .h3 {
     row-gap: 0.15rem;
   }
 
-  // Flatten so date / path / tags / modified / wordcount are flex items
-  .post-meta-main {
-    display: contents;
-  }
-
   .post-meta-date {
     order: 1;
     margin-right: auto; // date …… modified on line 1
@@ -485,8 +484,23 @@ h3, .h3 {
     line-height: 0;
   }
 
-  .post-meta-path {
+  // Keep a layout box for Tippy (.post-date > .ellipsis). Path/tags wrap inside.
+  .post-meta-main {
     order: 4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0.5rem;
+    row-gap: 0.15rem;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+    overflow: visible;
+    white-space: normal;
+    text-overflow: unset;
+  }
+
+  .post-meta-path {
     flex: 0 0 auto;
     max-width: 100%;
     overflow: visible;
@@ -494,23 +508,20 @@ h3, .h3 {
   }
 
   .post-meta-tags {
-    order: 5;
-    // Keep "about …" atomic so it drops as a unit below the path when needed
     flex: 0 0 auto;
     white-space: nowrap;
     overflow: visible;
     text-overflow: unset;
   }
 
-  .post-meta-path::before,
   .post-meta-tags::before {
     content: none;
   }
 
   .post-wordcount {
-    order: 6;
+    order: 5;
     flex: 0 0 auto;
-    margin-left: auto; // hfill beside tags (or path if no tags), or alone when wrapped
+    margin-left: auto; // hfill beside taxonomy when it fits, else alone on the next line
     text-align: right;
   }
 }
@@ -545,6 +556,38 @@ body.light-mode .post-description {
 .page > header > .note-sm::before,
 .post-description::before {
   content: none !important;
+}
+
+// Footnotes: HydeJack switches marks to [n] below break-point-4 and drops superscript.
+// Keep real superscripts everywhere; colour the mark, don't underline the text baseline.
+a[href^="#fn:"],
+a[href^="#fnref:"] {
+  font-weight: var(--font-weight-bold);
+
+  &::before,
+  &::after {
+    content: none !important;
+  }
+}
+
+sup[id^="fnref"] {
+  vertical-align: super;
+  font-size: smaller;
+  line-height: 0;
+}
+
+.content a.footnote,
+.content a[href^="#fn:"]:not(.btn):not(.no-hover) {
+  color: var(--accent-color);
+  text-decoration: none;
+  border-bottom: none;
+
+  &:hover {
+    color: var(--accent-color);
+    text-decoration: none;
+    border-bottom: none;
+    text-decoration-color: transparent;
+  }
 }
 
 // Pagination controls (override Hydejack / Poole defaults)
