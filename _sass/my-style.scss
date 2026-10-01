@@ -63,6 +63,29 @@ main li {
   }
 }
 
+// ToC numbering depth (see hydejack.toc_numbered_depth in _config.yml).
+// Kramdown emits nested <ol id="markdown-toc">; hide markers below the depth.
+body.toc-numbered-depth-0 #markdown-toc,
+body.toc-numbered-depth-0 #markdown-toc ol,
+body.toc-numbered-depth-1 #markdown-toc ol,
+body.toc-numbered-depth-2 #markdown-toc ol ol,
+body.toc-numbered-depth-3 #markdown-toc ol ol ol {
+  list-style: none;
+}
+
+body.toc-numbered-depth-0 #markdown-toc,
+body.toc-numbered-depth-1 #markdown-toc ol,
+body.toc-numbered-depth-2 #markdown-toc ol ol,
+body.toc-numbered-depth-3 #markdown-toc ol ol ol {
+  // Keep indent after removing "1." markers.
+  padding-left: 1.25rem;
+}
+
+body.toc-numbered-depth-0 #markdown-toc {
+  // Top-level had extra padding for decimal markers; tighten when unnumbered.
+  padding-left: 1.25rem;
+}
+
 // LaTeX-like list indent (theme default is only 1.25rem, markers sit flush)
 article ul,
 article ol {
@@ -75,12 +98,15 @@ article ol {
 // Can be done in two ways:
 //  - Using CSS's "background" property for the a-tag (like http://xahlee.info/js/css_add_icon_to_link.html);
 //  - Using CSS's "content" property for the ::after tag (like Hydejack does by default);
+// Gap before each mark is U+2002 (en space ≈ 0.5em), a fixed-width space.
+// Do not use U+00A0/nbsp here: with text-align:justify it is stretchable glue.
 // For the icons, you can either:
+
 //  - Use a font that has them (Hydejack's default, using the icomoon font);
 //  - Pull them from the CDNs of big companies;
 //  - Upload them yourself;
 a[href*="twitter.com/"]:not(.no-mark-external):not(.no-mark)::after {
-    content: "\00a0\f099";
+    content: "\2002\f099";
     color: #26a7de;
 
     font-family: "FontAwesome" !important;
@@ -90,7 +116,7 @@ a[href*="twitter.com/"]:not(.no-mark-external):not(.no-mark)::after {
 }
 
 a[href*="facebook.com/"]:not(.no-mark-external):not(.no-mark)::after {
-    content: "\00a0\f082" !important;
+    content: "\2002\f082" !important;
     color: #1877F2 !important;
 
     font-family: "FontAwesome" !important;
@@ -100,7 +126,7 @@ a[href*="facebook.com/"]:not(.no-mark-external):not(.no-mark)::after {
 }
 
 a[href*="youtube.com/"]:not(.no-mark-external):not(.no-mark)::after {
-    content: "\00a0\f16a" !important;
+    content: "\2002\f16a" !important;
     color: red !important;
 
     font-family: "FontAwesome" !important;
@@ -110,7 +136,7 @@ a[href*="youtube.com/"]:not(.no-mark-external):not(.no-mark)::after {
 }
 
 a[href*="youtu.be/"]:not(.no-mark-external):not(.no-mark)::after {
-  content: "\00a0\f16a" !important;
+  content: "\2002\f16a" !important;
   color: red !important;
 
   font-family: "FontAwesome" !important;
@@ -120,7 +146,7 @@ a[href*="youtu.be/"]:not(.no-mark-external):not(.no-mark)::after {
 }
 
 a[href*="wikipedia.org/"]:not(.no-mark-external):not(.no-mark)::after {
-    content: "\00a0\f266" !important;
+    content: "\2002\f266" !important;
     color: darkblue !important;
 
     font-family: "FontAwesome" !important;
@@ -130,7 +156,7 @@ a[href*="wikipedia.org/"]:not(.no-mark-external):not(.no-mark)::after {
 }
 
 a[href*="wiktionary.org/"]:not(.no-mark-external):not(.no-mark)::after {
-  content: "\00a0\f266" !important;
+  content: "\2002\f266" !important;
   color: darkblue !important;
 
   font-family: "FontAwesome" !important;
@@ -140,7 +166,7 @@ a[href*="wiktionary.org/"]:not(.no-mark-external):not(.no-mark)::after {
 }
 
 a[href*="github.com/"]:not(.no-mark-external):not(.no-mark)::after {
-  content: "\00a0\f09b" !important;
+  content: "\2002\f09b" !important;
   color: rgb(0, 0, 0) !important;
 
   font-family: "FontAwesome" !important;
@@ -150,14 +176,51 @@ a[href*="github.com/"]:not(.no-mark-external):not(.no-mark)::after {
 }
 
 a[href*="aclanthology.org/"]:not(.no-mark-external):not(.no-mark)::after {
-  content: "......." !important;  // Terrific spacing bruh
-  color: rgba(0, 0, 0, 0) !important;
-  background: url(https://aclanthology.org/images/acl-logo.svg) no-repeat right center;
-  background-size: contain;
+  // Stay `inline` so text-decoration continues under the mark.
+  // Width must come from real characters (not padding) — padding is not underlined.
+  // U+2002 (fixed 1/2em) = gap — not U+00A0, which justify stretches; \2003+\2002 = logo width (68×46 → 1.4em × 0.95em).
+  content: "\2002\2003\2002" !important;
+  color: transparent !important;
+  background: url(https://aclanthology.org/images/acl-logo.svg) no-repeat right center / 1.4em 0.95em;
+}
+
+// PDF (generic). Site-specific marks below override when both match.
+a[href$=".pdf"]:not(.no-mark-external):not(.no-mark)::after,
+a[href*=".pdf?"]:not(.no-mark-external):not(.no-mark)::after,
+a[href*=".pdf#"]:not(.no-mark-external):not(.no-mark)::after {
+  content: "\2002\f1c1" !important;
+  color: #e5252a !important;
+  font-family: "FontAwesome" !important;
+  font-weight: normal;
+  padding-right: 2px;
+}
+
+a[href*="openreview.net/"]:not(.no-mark-external):not(.no-mark)::after {
+  // Their hosted "logo" is a heavy red icon mark that reads poorly at link size.
+  // Use a plain sheet (OpenReview = peer-review docs) in their brand burgundy.
+  content: "\2002\f0f6" !important; // Font Awesome file-text-o
+  color: #8c1b13 !important;
+  font-family: "FontAwesome" !important;
+  font-weight: normal;
+  padding-right: 2px;
+}
+
+a[href*="arxiv.org/"]:not(.no-mark-external):not(.no-mark)::after {
+  content: "\2002\e974" !important; // Academicons ai-arxiv
+  color: #b31b1b !important;
+  font-family: "Academicons" !important;
+  font-weight: normal;
+  padding-right: 2px;
+}
+
+a[href*="alphaxiv.org/"]:not(.no-mark-external):not(.no-mark)::after {
+  content: "\2002\2003" !important;
+  color: transparent !important;
+  background: url(https://www.alphaxiv.org/favicon.ico) no-repeat right center / 1em 1em;
 }
 
 a[href*="stackoverflow.com/"]:not(.no-mark-external):not(.no-mark)::after {
-  content: "\00a0\f16c" !important;
+  content: "\2002\f16c" !important;
   color: #F48024 !important;
 
   font-family: "FontAwesome" !important;
@@ -167,7 +230,7 @@ a[href*="stackoverflow.com/"]:not(.no-mark-external):not(.no-mark)::after {
 }
 
 a[href*="stackexchange.com/"]:not(.no-mark-external):not(.no-mark)::after {
-  content: "\00a0\f18d" !important;
+  content: "\2002\f18d" !important;
   color: #155397 !important;
 
   font-family: "FontAwesome" !important;
@@ -177,13 +240,59 @@ a[href*="stackexchange.com/"]:not(.no-mark-external):not(.no-mark)::after {
 }
 
 a[href*="instagram.com/"]:not(.no-mark-external):not(.no-mark)::after {
-  content: "\00a0\f16d" !important;
+  content: "\2002\f16d" !important;
   color: #ff0069 !important;
 
   font-family: "FontAwesome" !important;
   font-weight: normal;
 
   padding-right: 2px;
+}
+
+// Build-time redaction ({% redact %}…{% endredact %} → bars, no source text).
+.redacted {
+  display: inline;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+// Block redacted regions (multiline) still use a div; keep them in normal flow.
+div.redacted {
+  display: block;
+  margin: 0.5em 0;
+  line-height: 1.6;
+}
+
+.redacted-bar {
+  font-style: normal;
+  font-weight: normal;
+  display: inline;
+  margin: 0;
+  padding: 0.12em 0;
+  vertical-align: baseline;
+  // Light mode: light gray. Dark mode: black (see rules below).
+  background: #d0d0d0;
+  border-radius: 0.08em;
+  color: transparent;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+@media screen {
+  body.dark-mode .redacted-bar {
+    background: #000;
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body:not(.light-mode) .redacted-bar {
+    background: #000;
+  }
 }
 
 // Folder tree for nested ul's, surrounded by a div. 

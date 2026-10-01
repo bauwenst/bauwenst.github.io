@@ -12,13 +12,15 @@ baseurl: ""
 # url: https://bauwenst.github.io
 url: https://bauwens.dev
 
-# Absolute links to these hosts (plus site.url) become root-relative at build time,
+# Absolute links to these hosts (plus site.url's host) become root-relative at build time,
 # so that you can use full hyperlinks when writing your source files. See _plugins/internalize_urls.rb
 # Requires a full Jekyll build (local `bundle exec jekyll` or .github/workflows/deploy-pages.yml).
 # The stock "Deploy from a branch" Pages builder ignores custom plugins.
 internalize_urls:
   hosts:
-    - bauwenst.github.io
+    - bauwens.dev          # production (also auto-added from site.url; listed so it
+                           # still matches if you temporarily point url: at localhost)
+    - bauwenst.github.io   # former GitHub Pages host
 
 
 # General settings
@@ -280,6 +282,14 @@ hydejack:
 
   # Set to `true` to disable the dynamic Table of Contents on large screens.
   no_toc:              false
+
+  # How many ToC heading levels keep decimal numbering (Kramdown `#markdown-toc`).
+  # Nested levels below this stay indented but unnumbered.
+  #   unset / omit → every <ol> level numbered (browser / theme default)
+  #   0           → no numbers at any level
+  #   1           → only top-level sections (h2) numbered
+  #   2 or 3      → number that many levels, plain text below
+  toc_numbered_depth:  1
 
   # When set to `true`, will not extend the content in the "third column" on large screens.
   # Instead, all content will remains within the center column.

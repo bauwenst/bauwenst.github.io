@@ -8,12 +8,13 @@
 # Config (_config.yml):
 #   internalize_urls:
 #     hosts:
+#       - bauwens.dev
 #       - bauwenst.github.io   # former / alternate hosts
 #     # site.url's host is always included automatically
 #
-# Must run at :post_read (not only :pre_render): home/list pages build
-# post.excerpt before each post is rendered, so a pre_render-only rewrite
-# leaves absolute URLs in feed snippets.
+# Runs at :post_read (excerpts are built from content early) and again at
+# :pre_render (idempotent) so incremental `jekyll serve` rebuilds still rewrite
+# if a document was re-read from disk without a full site post_read.
 
 require "uri"
 
@@ -74,4 +75,10 @@ end
 
 Jekyll::Hooks.register :site, :post_read do |site|
   Jekyll::InternalizeUrls.process_site(site)
+end
+
+# Safety net for serve/incremental: re-read documents keep on-disk absolute URLs
+# until rewritten. No-op when post_read already rewrote them.
+Jekyll::Hooks.register [:pages, :documents], :pre_render do |doc|
+  Jekyll::InternalizeUrls.process(doc)
 end

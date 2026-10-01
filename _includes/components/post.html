@@ -70,7 +70,7 @@
         <!-- Narrow flex wrap: force taxonomy/wordcount onto the line below date+modified -->
         <span class="post-meta-break" aria-hidden="true"></span>
 
-        {% assign post_words = post.content | number_of_words %}
+        {% assign post_words = post.content | strip_redacted | number_of_words %}
         {% capture post_words_fmt %}
           {%- if post_words >= 10000 -%}
             {%- assign post_words_rest = post_words | modulo: 1000 -%}
