@@ -46,6 +46,12 @@ main li {
   line-height: 1.6;
 }
 
+// LaTeX-like list indent (theme default is only 1.25rem, markers sit flush)
+article ul,
+article ol {
+  padding-left: 2.25rem;
+}
+
 
 // Suffix links with icons depending on the link. Don't do it for sidebar elements, which have class "no-mark-external" exactly for this purpose.
 //
@@ -325,6 +331,20 @@ figure.center-figure img {  // The max width/height go onto the img tags because
 	max-height: min(70vh, 36rem);
 	width: auto;
 	height: auto;
+}
+
+// Captions sit under images/figures — theme uses figure { margin-bottom: 2rem }
+// and .figcaption { margin-top: -0.5rem }, which still leaves a large gap.
+figure:has(+ .figcaption) {
+  margin-bottom: 0.35rem;
+}
+
+.content p:has(> img):has(+ .figcaption) {
+  margin-bottom: 0.35rem;
+}
+
+.figcaption {
+  margin-top: 0.25rem; // theme default: -0.5rem (fought the large figure margin)
 }
 
 
@@ -859,6 +879,87 @@ button.nav-btn:focus-visible {
 }
 
 html.site-search-open {
+  overflow: hidden;
+}
+
+// Click-to-enlarge lightbox for article images
+.image-lightbox-trigger {
+  cursor: zoom-in;
+}
+
+.image-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 10001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  padding-top: calc(1.25rem + env(safe-area-inset-top, 0px));
+  padding-bottom: calc(1.25rem + env(safe-area-inset-bottom, 0px));
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.2s ease;
+}
+
+.image-lightbox[hidden] {
+  display: none !important;
+}
+
+.image-lightbox.is-open {
+  background: rgba(0, 0, 0, 0.78);
+}
+
+// Large fraction of the smaller viewport edge; image scales up/down inside.
+.image-lightbox-frame {
+  width: min(90vmin, calc(100vw - 2.5rem), calc(100vh - 2.5rem));
+  height: min(90vmin, calc(100vw - 2.5rem), calc(100vh - 2.5rem));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: scale(0.985);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.image-lightbox.is-open .image-lightbox-frame {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image-lightbox-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0.25rem;
+  background: #fff;
+}
+
+.image-lightbox-close {
+  position: absolute;
+  top: calc(0.65rem + env(safe-area-inset-top, 0px));
+  right: calc(0.75rem + env(safe-area-inset-right, 0px));
+  z-index: 1;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: none;
+  border-radius: 0.25rem;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.image-lightbox-close:hover,
+.image-lightbox-close:focus-visible {
+  background: rgba(0, 0, 0, 0.55);
+  outline: none;
+}
+
+html.image-lightbox-open {
   overflow: hidden;
 }
 

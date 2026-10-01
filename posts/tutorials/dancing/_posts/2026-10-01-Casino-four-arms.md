@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Quadripunctual theory (QT) and the Macarena method
-description: A Mathematical Model for Dancing with Four Arms, illustrated with diagrams and more than 100 videos.
-last_modified_at: 2026-09-29
+title: Quadripunctual theory & the Macarena method
+description: or _A Mathematical Model for Dancing with Four Arms_, illustrated with diagrams and more than 100 videos
+last_modified_at: 2026-10-01
 tags:
-  - salsa
   - casino
+  - salsa
 ---
-In [a previous article](https://bauwenst.github.io/posts/tutorials/dancing/2025-03-17-Casino-two-arms/), I introduced a mathematically grounded system for discretising positions of two pairs of connected arms. As I pointed out there, the theory did not include support for hammerlocks, crowns etc. because they are asymmetrical: they are done on one side of the body at a time, on one person at a time, and it is not obvious how all these positions relate to each other using mathematical operations. I have developed a better model that solves this: _quadripunctual theory (QT)_.
+In [a previous article](https://bauwenst.github.io/posts/tutorials/dancing/2025-03-17-Casino-two-arms/), I introduced a mathematically grounded system for discretising positions of two pairs of connected arms. As I pointed out there, the theory did not include support for common casino holds like hammerlocks, crowns etc. because they are asymmetrical: they are done on one side of the body at a time, on one person at a time, and it is not obvious how all these positions relate to each other using mathematical operations. I have developed a better model that solves this: _quadripunctual theory (QT)_.
 
 1. dummy
 {:toc}
