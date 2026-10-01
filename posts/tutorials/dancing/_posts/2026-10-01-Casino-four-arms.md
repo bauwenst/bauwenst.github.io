@@ -216,7 +216,7 @@ I took the terms _salgo_ and _bajo_ Gastón Carvallo, who demonstrates both move
 **II**-hammerlock ladder with bajo/salgo in blue.
 {:.figcaption}
 
-### On leaders: salte/bájate and moño
+#### On leaders: salte/bájate and moño
 It occasionally happens that leaders in **II+L,** or **II-L,** contort their own arm out of hammerlock, which we will call a _salte_ (literally "let yourself out"): for example, at 4:05 in [this video](https://www.instagram.com/reel/DY3-qi-NVk8/), I pass through a **II+L,'** before doing a salte and then a candado.
 
 However, it is much more common for a leader to do a _moño_ to free himself, which is when he bends forwards and lets his hammerlocked arm glide over his back. This is very distinct from a salte, because the arm leaves from the other hip and the elbow is _flexed_ rather than _extended_. The mathematical effect of moño is identical to that of salgo/salte, turning "**L,**" into "**2**". The most relevant examples:
@@ -317,7 +317,9 @@ Since all hammerlocks should be accessible in some way when led well, there are 
 
 $$
 2\cdot (2\cdot (3 + 4) + 2) + (2 + 5) = 39
-$$ hammerlock positions we have modelled above. (This is not counting decorations on top of hammerlocks, like coronas, cuernos and ganchos, which we cover below.)
+$$
+
+hammerlock positions we have modelled above. (This is not counting decorations on top of hammerlocks, like coronas, cuernos and ganchos, which we cover below.)
 
 ## A final note on equivariance
 We have already seen some forms of equivariance show up above, and indeed, applying equivariance will theoretically yield another set of the same diagrams, just with **F** and **L** exchanged. However, in practice there are some constraints on leading that make some transitions impossible, and conversely, there are some freedoms on leading that make some transitions much easier.
@@ -338,7 +340,7 @@ It is equally possible to get into **II-2** with an enchufla from **II** and aga
 <figure class="center-figure">
 <img class="lightbox-feathered" src="/cdn/img/svg/2026/qt/diagram-05.svg"/>
 </figure>
-**caII**-corona transitions.
+Right-side (caída) **II**-corona transitions.
 {:.figcaption}
 
 To see the use of a **II**-corona _on the left_, we need frontlocks.
@@ -346,7 +348,7 @@ To see the use of a **II**-corona _on the left_, we need frontlocks.
 # Frontlocks (+,F)
 A _frontlock_ is like a hammerlock except with the arm _in front of the body_ rather than behind. Because it is easier to accidentally escape for the follower than a hammerlock, people don't do frontlocks that often, except in the common case of _Kentucky_.
 
-## II-frontlock
+## II-frontlocks
 A **II**-frontlock interacts with the **II**-corona in more than one way, and we will thus combine them into one diagram. To get into a **II**-frontlock, do any turn from **II** that would produce a hammerlock, but with the low and high hand reversed. For example, a vacilala that ends in a **II**-_hammerlock_ has left hand high and right hand low (LHRL), so a vacilala that ends in a **II**-_frontlock_ has left hand low and right hand high (LLRH). The result is **II+,F** instead of **II+F,** like before. (And of course, by equivariance, the leader can frontlock himself by doing a giro from **II** into **II+,L** as shown by Leonardo Esmoris near the end of [this video](https://www.instagram.com/reel/Ddjjh5rqktT/).)
 
 From here, you can get into **II** again by unrolling the follower, which happens naturally without proper forward-pulling tension on the free arm. Alternatively, you can add a coronala _on top of_ the frontlock to get **II+',F** as seen [here](https://www.instagram.com/reel/DT5LLJGDb_R/) at 0:18. Finally, you can follow though with the clockwise turn by doing a salgo, to produce **II+2** as I do [here](https://www.instagram.com/reel/DY3-qi-NVk8/) at 2:00.
