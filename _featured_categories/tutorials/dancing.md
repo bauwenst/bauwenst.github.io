@@ -1,11 +1,9 @@
 ---
 title: Dancing
-description: >
-    Posts where I reverse-engineer dances like Cuban casino.
-
+description: |
+  Posts where I reverse-engineer dances like Cuban casino.
 type: category
 slug: dancing
-
 layout: list
-sitemap: false
+sitemap: true
 ---

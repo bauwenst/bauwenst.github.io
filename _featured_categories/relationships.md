@@ -4,5 +4,5 @@ description: Humans were made to procreate, so naturally, I think about that som
 type: category
 slug: relationships
 layout: list
-sitemap: false
+sitemap: true
 ---
